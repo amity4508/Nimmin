@@ -1,0 +1,97 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'Noto Sans', sans-serif;
+  font-family: 'Poppins', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Poppins&display=swap');
+
+.half-circle {
+  margin-top: 80px;
+  width: 450px;
+  height: 230px;
+  background-color: rgba(255, 255, 255, 0);
+  border-top-left-radius: 230px;
+  border-top-right-radius: 230px;
+  border: 2px solid rgba(134, 134, 134, 0.277);
+  border-bottom: 0;
+  rotate: -155deg;
+
+
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.btn-bg:hover {
+  background: rgba(0, 168, 107, 1);;color: white;}
+  .linear-gr-bg{
+    background: linear-gradient(to right, rgba(35, 85, 77, 1) , rgba(38, 178, 146, 1));
+  }
+  .outline2{
+    outline: 10px solid rgba(11, 215, 140, 1)
+  }
+  .bgcont{
+    background-color:rgba(4, 66, 59, 1);
+
+  }
+  .bgcont2{
+    background-color: rgba(255, 249, 249, 0.13);
+    clip-path: circle(46.2% at 21% 33%);
+  }
+
+  .contbgoutline{
+    clip-path: circle(35.4% at 50% 50%);
+    background-color: rgba(255, 249, 249, 0.13);
+  }
+  
+  .contbgoutline2{
+    clip-path: circle(28.4% at 50% 53%);
+    background-color:rgba(4, 66, 59, 1);
+  }
+
+  .radio1 label input[type=radio] {
+    accent-color: rgba(1, 28, 42, 1);
+  }
+  .textgr{
+    background-image: linear-gradient(to right, rgba(140, 221, 102, 1), rgba(61, 114, 43, 1));
+  }
+  .textgr2{
+    background-image: linear-gradient(to right, rgba(140, 221, 102, 1), rgba(28, 190, 141, 1));
+  }
+  
+
+
+@media screen and (max-width:767px) {
+
+  .half-circle {
+    margin-top: 80px;
+    width: 250px;
+    height: 130px;
+    background-color: rgba(255, 255, 255, 0);
+    border-top-left-radius: 130px;
+    border-top-right-radius: 130px;
+    border: 3px solid rgba(175, 175, 175, 0.438);
+    border-bottom: 0;
+    rotate: -155deg;
+
+
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  .outline2{
+    outline: none
+  
+  }
+}
+
+
+
+
