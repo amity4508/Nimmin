@@ -7,7 +7,7 @@ import logo2 from "../Assets/Images/mainImg/logo2.png";
 import logoCircle1 from "../Assets/Images/mainImg/Group 2circlelogo.png";
 
 const navLinks = [
-  { key: "home", to: "/", label: "Home" },
+  { key: "home", to: "/Nimmin", label: "Home" },
   { key: "about-us", to: "/about-us", label: "About Us" },
   { key: "offerings", to: "/offering", label: "Offering" },
   { key: "initiatives", to: "/initiatives", label: "Initiatives" },
