@@ -22,7 +22,7 @@ export const Homepage = () =>{
       </div>
 
       <div className=" mt-0 xl:px-24 md:px-24 sm:px-5 py-6"
-        style={{ backgroundImage: `url(${process.env.PUBLIC_URL}/images/bgslider.png)`,
+        style={{ backgroundImage: `url(${process.env.PUBLIC_URL}/bgslider.png)`,
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat",
         backgroundSize: "100% 100%",
@@ -35,7 +35,7 @@ export const Homepage = () =>{
       </div>
 
       <div className=" mt-0 xl:px-24 md:px-24 sm:px-5 py-6"
-        style={{ backgroundImage: `url(${process.env.PUBLIC_URL}/images/bgslider.png)`,
+        style={{ backgroundImage: `url(${process.env.PUBLIC_URL}/bgslider.png)`,
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat",
         backgroundSize: "100% 100%",
@@ -48,7 +48,7 @@ export const Homepage = () =>{
       </div>
 
       <div className=" mt-0 xl:px-24 md:px-24 sm:px-5 py-6"
-        style={{ backgroundImage: `url(${process.env.PUBLIC_URL}/images/bgslider.png)`,
+        style={{ backgroundImage: `url(${process.env.PUBLIC_URL}/bgslider.png)`,
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat",
         backgroundSize: "100% 100%",

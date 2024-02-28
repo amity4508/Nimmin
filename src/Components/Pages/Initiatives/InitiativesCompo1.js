@@ -13,7 +13,7 @@ export const Initiativescompo1 = () => {
         <div
           className=" container mt-0  md:px-24 sm:px-5 py-6"
           style={{
-            backgroundImage: `url(${process.env.PUBLIC_URL}/images/bgslider.png)`,
+            backgroundImage: `url(${process.env.PUBLIC_URL}/bgslider.png)`,
             backgroundPosition: "center",
             backgroundRepeat: "no-repeat",
             backgroundSize: "100% 100%",
