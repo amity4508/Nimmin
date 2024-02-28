@@ -14,7 +14,7 @@ export const UserRoute = () => {
      <BrowserRouter>
       <Header />
       <Routes>
-      <Route path='/' element={<Homepage/>} />
+      <Route path='Nimmin/' element={<Homepage/>} />
       <Route path='about-us' element={<AboutUs/>} />
       <Route path='offering' element={<Offerings/>} />
       <Route path='initiatives' element={<Initiatives/>} />
