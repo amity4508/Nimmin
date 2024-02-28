@@ -29,7 +29,7 @@ export const Header = () => {
       <div
         className="header xl:h-[95vh]  items-center justify-center"
         style={{
-          backgroundImage: `url(${process.env.PUBLIC_URL}${backgroundImage})`,
+          backgroundImage: `url(${backgroundImage})`,
           backgroundPosition: "center",
           backgroundRepeat: "no-repeat",
           backgroundSize: "100% 100%",

@@ -8,7 +8,7 @@ export const Initiativescompo2 = () => {
         <div
           className="mt-0   sm:px-5 xl:px-0 py-6"
           style={{
-            backgroundImage: `url(${process.env.PUBLIC_URL}/images/Vector (11).png)`,
+            backgroundImage: `url(${process.env.PUBLIC_URL}/Vector (11).png)`,
             backgroundPosition: "center",
             backgroundRepeat: "no-repeat",
             backgroundSize: "100% 100%",

@@ -1,4 +1,4 @@
-import React, { useRef, useState } from "react";
+import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/effect-fade";
@@ -444,7 +444,7 @@ export const CompainedSlider2 = ({ slides2 = slidesData2 }) => {
             }}
             className="mySwiper  absolute lg:top-[-160px] sm:top-[-250px] max-sm:top-[-250px] "
             style={{
-              backgroundImage: `url(${process.env.PUBLIC_URL}/images/Vector (11).png)`,
+              backgroundImage: `url(${process.env.PUBLIC_URL}/Vector (11).png)`,
               backgroundPosition: "center",
               backgroundRepeat: "no-repeat",
               backgroundSize: "100% 100%",

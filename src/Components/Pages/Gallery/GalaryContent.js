@@ -1,6 +1,5 @@
 import React from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
+
 import slide3 from "../../Assets/Images/mainImg/heroImg.png";
 
 export const GalleryContent = () => {

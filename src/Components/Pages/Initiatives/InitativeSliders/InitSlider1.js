@@ -1,17 +1,14 @@
-import React, { useRef, useState } from "react";
+import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/effect-fade";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
-import { Autoplay, EffectFade, Navigation, Pagination } from "swiper/modules";
+import { Autoplay, Navigation, Pagination } from "swiper/modules";
 import "swiper/swiper-bundle.css";
 import { slidesData2 } from "../../../Swipers/Sliders";
 
-import slide1 from "../../../../Components/Assets/Images/mainImg/__after.png";
 import slide2 from "../../../../Components/Assets/Images/mainImg/heroImg.png";
-import slide3 from "../../../../Components/Assets/Images/mainImg/mobilebg.jpg";
-import joinHands from "../../../../Components/Assets/Images/iconImg/Vector (6).png";
 // import bgint from "../../Components/Assets/Images/mainImg/Vector (11).png";
 
 export const InitSlider1 = ({ slides2 = slidesData2 }) => {

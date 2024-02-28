@@ -2,9 +2,6 @@ import React from "react";
 import { Initiativescompo1 } from "./InitiativesCompo1";
 import { Initiativescompo2 } from "./InitiativesCompo2";
 import { Initiativescompo3 } from "./InitiativesCompo3";
-import { InitiativeSlider4 } from "../../Swipers/Sliders";
-import { InitiativeSlide4 } from "../SliderData";
-import { InitSlider1 } from "./InitativeSliders/InitSlider1";
 import {
   InitiativeSlide1,
 } from "../SliderData";

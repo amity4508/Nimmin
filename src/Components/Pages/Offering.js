@@ -9,9 +9,7 @@ import offringImg3 from "../../Components/Assets/Images/mainImg/Group 19 (1).png
 import offringImg4 from "../../Components/Assets/Images/mainImg/Group 20.png"
 
 
-import cartIcon from "../../Components/Assets/Images/iconImg/Group 57.png"
-import giftIcon from "../../Components/Assets/Images/iconImg/Group 58.png"
-import donateIcon from "../../Components/Assets/Images/iconImg/Group 56.png"
+
 
 export const Offerings = () => {
   useEffect(() => {

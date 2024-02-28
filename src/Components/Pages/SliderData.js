@@ -7,7 +7,6 @@ import setting2 from "../../Components/Assets/Images/mainImg/Group 91 (1).png"
 import setting3 from "../../Components/Assets/Images/mainImg/Group 91 (2).png"
 import setting4 from "../../Components/Assets/Images/mainImg/Group 91 (3).png"
 import setting5 from "../../Components/Assets/Images/mainImg/Group 86.png"
-import { InitiativeSlider4 } from "../Swipers/Sliders";
 
 
 // Initiative
