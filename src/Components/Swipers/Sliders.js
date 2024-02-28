@@ -14,7 +14,7 @@ import joinHands from "../Assets/Images/iconImg/Vector (6).png";
 import bgint from "../../Components/Assets/Images/mainImg/Vector (11).png";
 export const slidesData = [
   {
-    image: slide3,
+    image: slide1,
     title:
       "Our missions is to create sustainable solutions for everyday life. ",
     description:
@@ -47,10 +47,10 @@ export const Slider1 = ({ slides = slidesData }) => {
           <Swiper
             spaceBetween={30}
             effect={"fade"}
-            navigation={true}
-            // pagination={{
-            //   clickable: true,
-            // }}
+            // navigation={true}
+            pagination={{
+              clickable: true,
+            }}
             centeredSlides={true}
             autoplay={{
               delay: 2500,
