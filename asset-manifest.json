@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Nimmin/static/css/main.7b8a8012.css",
-    "main.js": "/Nimmin/static/js/main.287e4dba.js",
+    "main.js": "/Nimmin/static/js/main.1ce7c66d.js",
     "static/js/592.9960add8.chunk.js": "/Nimmin/static/js/592.9960add8.chunk.js",
     "static/media/heroImg.png": "/Nimmin/static/media/heroImg.e2c772ae90627e680320.png",
     "static/media/__after.png": "/Nimmin/static/media/__after.470f20fd418d06c772e6.png",
@@ -21,11 +21,11 @@
     "static/media/Nimmin logo emblem with circle.png": "/Nimmin/static/media/Nimmin logo emblem with circle.1d8cb1fa988cc6bf430d.png",
     "index.html": "/Nimmin/index.html",
     "main.7b8a8012.css.map": "/Nimmin/static/css/main.7b8a8012.css.map",
-    "main.287e4dba.js.map": "/Nimmin/static/js/main.287e4dba.js.map",
+    "main.1ce7c66d.js.map": "/Nimmin/static/js/main.1ce7c66d.js.map",
     "592.9960add8.chunk.js.map": "/Nimmin/static/js/592.9960add8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7b8a8012.css",
-    "static/js/main.287e4dba.js"
+    "static/js/main.1ce7c66d.js"
   ]
 }
