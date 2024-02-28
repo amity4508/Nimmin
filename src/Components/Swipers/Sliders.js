@@ -7,10 +7,10 @@ import "swiper/css/pagination";
 import { Autoplay, EffectFade, Navigation, Pagination } from "swiper/modules";
 import "swiper/swiper-bundle.css";
 
-import slide1 from "../Assets/Images/mainImg/__after.png";
-import slide2 from "../Assets/Images/mainImg/heroImg.png";
-import slide3 from "../Assets/Images/mainImg/mobilebg.jpg";
-import joinHands from "../Assets/Images/iconImg/Vector (6).png";
+import slide1 from "../../Components/Assets/Images/mainImg/__after.png";
+import slide2 from "../../Components/Assets/Images/mainImg/heroImg.png";
+import slide3 from "../../Components/Assets/Images/mainImg/mobilebg.jpg";
+import joinHands from "../../Components/Assets/Images/iconImg/Vector (6).png";
 import bgint from "../../Components/Assets/Images/mainImg/Vector (11).png";
 export const slidesData = [
   {
@@ -47,7 +47,7 @@ export const Slider1 = ({ slides = slidesData }) => {
           <Swiper
             spaceBetween={30}
             effect={"fade"}
-            navigation={true}
+            // navigation={true}
             pagination={{
               clickable: true,
             }}
