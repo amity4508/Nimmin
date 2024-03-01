@@ -1,6 +1,6 @@
 import React from "react";
-import { CompainedSlider2 } from "../../Swipers/Sliders";
-import { CompainedSlide2 } from "../SliderData";
+import {  InitiativeSlider2 } from "../../Swipers/Sliders";
+import { InitiativesSlide2 } from "../SliderData";
 
 export const Initiativescompo2 = () => {
     return (
@@ -15,10 +15,11 @@ export const Initiativescompo2 = () => {
             backdropFilter: "80%",
           }}
         >
+          {/* Init for Small screen  max-sm */}
           <div className="initComp1">
             <div className="compained">
               <p className="text-white mt-6">Accompanied By:</p>
-              <CompainedSlider2 slides2={CompainedSlide2} />
+              <InitiativeSlider2 slides2={InitiativesSlide2} />
             </div>
           </div>
         </div>

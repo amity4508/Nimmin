@@ -11,7 +11,7 @@ export const Initiativescompo1 = () => {
     return (
       <>
         <div
-          className=" container mt-0  md:px-24 sm:px-5 py-6"
+          className=" mt-0  md:px-24 sm:px-5 py-6"
           style={{
             backgroundImage: `url(${process.env.PUBLIC_URL}/bgslider.png)`,
             backgroundPosition: "center",

@@ -150,7 +150,7 @@ export const CompainedSlide1 = [
 ];
 
 
-export const CompainedSlide2 = [
+export const InitiativesSlide2 = [
 
   {
       image: setting1,
@@ -169,6 +169,11 @@ export const CompainedSlide2 = [
     },
     {
       image: setting4,
+      title: 'Our missions ',
+      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ultrices, libero non convallis iaculis, neque ',
+    },
+    {
+      image: setting5,
       title: 'Our missions ',
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ultrices, libero non convallis iaculis, neque ',
     },
@@ -209,7 +214,7 @@ export const CompainedSlide3 = [
 
 // InitiativeSlider4-------------------------------------------
 
-export const InitiativeSlide4 = [
+export const InitSlide1 = [
 
   {
       image: ellipse1,
@@ -227,6 +232,117 @@ export const InitiativeSlide4 = [
     },
     {
       image: ellipse4,
+      title: 'Our missions ',
+      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ultrices, libero non convallis iaculis, neque ',
+    },
+    {
+      image: ellipse5,
+      title: 'Our missions ',
+      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ultrices, libero non convallis iaculis, neque ',
+    },
+    {
+      image: ellipse5,
+      title: 'Our missions ',
+      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ultrices, libero non convallis iaculis, neque ',
+    },
+
+
+   
+];
+export const InitSlide2 = [
+
+  {
+      image: ellipse1,
+      title: 'Our missions ',
+      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ultrices, libero non  convallis iaculis, neque ',
+    },
+    {
+      image: ellipse2,
+      title: 'Our missions ',
+      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ultrices, libero non convallis iaculis, neque ',
+    },  {
+      image: ellipse3,
+      title: 'Our missions ',
+      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ultrices, libero non convallis iaculis, neque ',
+    },
+    {
+      image: ellipse4,
+      title: 'Our missions ',
+      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ultrices, libero non convallis iaculis, neque ',
+    },
+    {
+      image: ellipse5,
+      title: 'Our missions ',
+      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ultrices, libero non convallis iaculis, neque ',
+    },
+    {
+      image: ellipse5,
+      title: 'Our missions ',
+      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ultrices, libero non convallis iaculis, neque ',
+    },
+
+
+   
+];
+export const InitSlide3 = [
+
+  {
+      image: ellipse1,
+      title: 'Our missions ',
+      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ultrices, libero non convallis iaculis, neque ',
+    },
+    {
+      image: ellipse2,
+      title: 'Our missions ',
+      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ultrices, libero non convallis iaculis, neque ',
+    },  {
+      image: ellipse3,
+      title: 'Our missions ',
+      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ultrices, libero non convallis iaculis, neque ',
+    },
+    {
+      image: ellipse4,
+      title: 'Our missions ',
+      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ultrices, libero non convallis iaculis, neque ',
+    },
+    {
+      image: ellipse5,
+      title: 'Our missions ',
+      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ultrices, libero non convallis iaculis, neque ',
+    },
+    {
+      image: ellipse5,
+      title: 'Our missions ',
+      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ultrices, libero non convallis iaculis, neque ',
+    },
+
+
+   
+];
+
+export const InitSlide4Data = [
+
+  {
+      image: ellipse1,
+      title: 'Our missions ',
+      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ultrices, libero non convallis iaculis, neque ',
+    },
+    {
+      image: ellipse2,
+      title: 'Our missions ',
+      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ultrices, libero non convallis iaculis, neque ',
+    },  {
+      image: ellipse3,
+      title: 'Our missions ',
+      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ultrices, libero non convallis iaculis, neque ',
+    },
+    {
+      image: ellipse4,
+      title: 'Our missions ',
+      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ultrices, libero non convallis iaculis, neque ',
+    },
+    {
+      image: ellipse5,
       title: 'Our missions ',
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ultrices, libero non convallis iaculis, neque ',
     },

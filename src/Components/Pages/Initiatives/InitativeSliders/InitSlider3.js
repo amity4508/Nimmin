@@ -78,13 +78,13 @@ export const InitSlider3 = ({ slides2 = slidesData2 }) => {
               {slides2.map((slide, index) => (
                 <SwiperSlide
                   key={index}
-                  className="rounded max-sm:rounded-xl py-6 min-h-[400px] max-h-28 bg-black  bg-opacity-30	"
+                  className="slidehover rounded max-sm:rounded-xl py-6 min-h-[400px] max-h-28 bg-black  bg-opacity-30	"
                 >
                   <div className="card container items-center justify-center">
                     <div className="items-center text-center text-white">
-                      <div className="m-auto items-center flex justify-center">
+                    <div className="m-auto items-center flex justify-center relative overflow-hidden ">
                         <img
-                          className="h-[200px] w-[200px] object-fill rounded-full mb-2"
+                          className="h-[200px] w-[200px] object-fill rounded-full mb-2 transition duration-300 hover:scale-150"
                           src={slide.image}
                           alt={`Slide ${index + 1}`}
                         />
@@ -95,9 +95,9 @@ export const InitSlider3 = ({ slides2 = slidesData2 }) => {
                         <h1 className="text-sm font-thin text-white mt-2">
                           {slide.description}
                         </h1>
-                        <p className="border-b font-semibold text-white w-[122px] m-auto mt-2 tracking-wider cursor-pointer">
+                        {/* <p className="border-b font-semibold text-white w-[122px] m-auto mt-2 tracking-wider cursor-pointer">
                           Read more >>
-                        </p>
+                        </p> */}
                       </div>
                     </div>
                   </div>
@@ -106,9 +106,9 @@ export const InitSlider3 = ({ slides2 = slidesData2 }) => {
             </Swiper>
             <div className="flex justify-center mt-5">
             <div>
-            <div className="button-next relative top-[-5px] text-2xl text-white left-12 bg-green-700 " ><i class="bi bi-chevron-right"></i>  </div>
+            <div className="button-next relative top-[-5px] text-base text-white left-12 bgSlideBtn " ><i class="bi bi-chevron-right"></i>  </div>
         
-        <div className="button-prev relative top-[-40px] right-12 text-2xl text-white bg-green-700 " >
+        <div className="button-prev relative top-[-40px] right-12 text-base text-white bgSlideBtn " >
          <i class="bi bi-chevron-left"></i>
          </div>
             </div>

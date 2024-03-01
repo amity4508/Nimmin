@@ -1,6 +1,6 @@
 import React from "react";
 import { InitSlider1 } from "./InitativeSliders/InitSlider1";
-import { InitiativeSlide4 } from "../SliderData";
+import { InitSlide1, InitSlide2, InitSlide3, InitiativeSlide4 } from "../SliderData";
 import joinHands3 from "../../Assets/Images/iconImg/Vector (11).png";
 import intiComp3img1 from "../../../Components/Assets/Images/mainImg/Group 83.png";
 import intiComp3Img2 from "../../../Components/Assets/Images/mainImg/Group 99.png";
@@ -9,24 +9,27 @@ import setting1 from "../../../Components/Assets/Images/mainImg/Group 91.png";
 import setting2 from "../../../Components/Assets/Images/mainImg/Group 91 (1).png";
 import setting3 from "../../../Components/Assets/Images/mainImg/Group 91 (2).png";
 import setting4 from "../../../Components/Assets/Images/mainImg/Group 91 (3).png";
+import { InitSlider2 } from "./InitativeSliders/InitSlider2";
+import { InitSlider3 } from "./InitativeSliders/InitSlider3";
 // import { InitiativeSlider4 } from "../../Swipers/Sliders";
 export const Initiativescompo3 = () => {
     return (
       <>
-            <div>
-            <InitSlider1 slides2={InitiativeSlide4}/>
-              <InitSlider1 slides2={InitiativeSlide4}/>
+            <div className="lg:mt-28">
+            <InitSlider1 slides2={InitSlide1}/>
+              <InitSlider2 slides2={InitSlide2}/>
+
             </div>
 
-        <div className=" ini mt-0xl:px-0 py-6 xl:visible sm:invisible max-sm:invisible">
-          <div className="relative">
+        <div className=" ini mt-0 xl:px-0 py-6 xl:visible sm:invisible max-sm:invisible ">
+          <div className="relative xl:top-[-160px]">
             <div>
               <div className="flex xl:visible sm:invisible max-sm:invisible ">
                 <img className="w-[100%] h-full  " src={intiComp3img1} alt="" />
               </div>
   
               {/* sec1  */}
-              <div className="container px-20 flex justify-between absolute top-0 gap-16 max-sm:w-[0px] ">
+              <div className="container px-20 flex justify-between absolute top-0 gap-16 max-sm:w-[0px]  max-sm:h-[0px]">
                 <div className="w-2/6">
                   <img className="h-[170px]" src={intiComp3Img2} alt="" />
                 </div>
@@ -35,7 +38,7 @@ export const Initiativescompo3 = () => {
                   <button className="textgr text-base text-white rounded py-2 px-8 ">
                     Headline #0x{" "}
                   </button>
-                  <h1 className="text-sm text-gray-500 mt-2 text-justify">
+                  <h1 className="text-sm text-gray-500 mt-2 ">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     Mauris viverra tortor dolor, vel tempor lectus tempor ut.
                     Vivamus et ornare neque, id tincidunt ante.
@@ -46,7 +49,7 @@ export const Initiativescompo3 = () => {
                 </div>
   
                 <div className="w-2/6 justify-between relative top-[-40px] px-6">
-                  <h1 className="text-sm text-gray-500 text-justify">
+                  <h1 className="text-sm text-gray-500 ">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     Mauris viverra tortor dolor, vel tempor lectus tempor ut.
                     Vivamus et ornare neque, id tincidunt ante.
@@ -68,12 +71,12 @@ export const Initiativescompo3 = () => {
   
               {/* sec2  */}
   
-              <div className="container px-20 flex justify-between absolute top-[500px] gap-16 max-sm:w-[0px] ">
+              <div className="container px-20 flex justify-between absolute top-[500px] gap-16 max-sm:w-[0px] max-sm:h-[0px] ">
                 <div className="w-1/6 justify-between relative top-[-180px] right-[0px]">
                   <button className="textgr2 text-base text-white rounded py-2 px-8 ">
                     Headline #0x{" "}
                   </button>
-                  <h1 className="text-sm text-gray-500 mt-2 text-justify">
+                  <h1 className="text-sm text-gray-500 mt-2 ">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     Mauris viverra tortor dolor, vel tempor lectus tempor ut.
                     Vivamus et ornare neque, id tincidunt ante.
@@ -91,7 +94,7 @@ export const Initiativescompo3 = () => {
                   <button className="textgr2 text-base text-white rounded py-2 px-8 ">
                     Headline #0x{" "}
                   </button>
-                  <h1 className="text-sm text-gray-500 mt-2 text-justify">
+                  <h1 className="text-sm text-gray-500 mt-2 ">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     Mauris viverra tortor dolor, vel tempor lectus tempor ut.
                     Vivamus et ornare neque, id tincidunt ante.
@@ -100,9 +103,9 @@ export const Initiativescompo3 = () => {
               </div>
   
               {/* sec3  */}
-              <div className="container px-20 flex justify-between absolute top-[800px] gap-16 max-sm:w-[0px] ">
+              <div className="container px-20 flex justify-between absolute top-[800px] gap-16 max-sm:w-[0px]  max-sm:h-[0px]">
                 <div className="w-1/6 justify-between relative top-[-180px] right-[0]">
-                  <h1 className="text-sm text-gray-500 mt-2 text-justify">
+                  <h1 className="text-sm text-gray-500 mt-2 ">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     Mauris viverra tortor dolor, vel tempor lectus tempor ut.
                     Vivamus et ornare neque, id tincidunt ante.
@@ -116,7 +119,7 @@ export const Initiativescompo3 = () => {
                   <button className="textgr2 text-base text-white rounded py-2 px-8 ">
                     Headline #0x{" "}
                   </button>
-                  <h1 className="text-sm text-gray-500 mt-2 text-justify">
+                  <h1 className="text-sm text-gray-500 mt-2 ">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     Mauris viverra tortor dolor, vel tempor lectus tempor ut.
                     Vivamus et ornare neque, id tincidunt ante.
@@ -131,8 +134,6 @@ export const Initiativescompo3 = () => {
           </div>
         </div>
       
-
-  
   
       </>
     );
