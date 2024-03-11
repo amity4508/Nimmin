@@ -219,7 +219,7 @@ const Navbar = () => {
                   >
                     {link.label}
                   </Link>
-                  {menu === link.key ? <hr /> : <></>}
+                  {menu === link.key ? <hr className="red" style={{ borderColor: "#006F00",width:"100px", height:"4px" }} /> : <></>}
                 </li>
               ))}
             </div>
@@ -230,7 +230,7 @@ const Navbar = () => {
       {/* SidebarNav  */}
 
       <motion.div
-        className="SidebarNav fixed inset-y-0 right-0 w-64 bg-white p-4 mt-24 lg:hidden z-20 rounded-sm"
+        className="SidebarNav fixed inset-y-0 right-0 w-64 bg-white p-4 mt-24 lg:hidden z-20 rounded-sm shadow-md "
         initial={{ x: 300 }}
         animate={{ x: isSidebarOpen ? 0 : 300 }}
         transition={{ duration: 0.5 }}
@@ -249,10 +249,14 @@ const Navbar = () => {
               >
                 {link.label}
               </Link>
-              {menu === link.key ? <hr /> : <></>}
+              {menu === link.key ? <hr className="red" style={{ borderColor: "#006F00", width:"100px", height:"4px" }} /> : <></>}
             </li>
           ))}
         </ul>
+
+        <div className="absolute bottom-0 pb-10 text-md text-center">
+          <h1>All rights reserved to Nimmin owner </h1>
+        </div>
       </motion.div>
     </>
   );

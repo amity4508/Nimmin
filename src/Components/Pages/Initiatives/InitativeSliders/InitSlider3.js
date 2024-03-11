@@ -65,6 +65,7 @@ export const InitSlider3 = ({ slides2 = slidesData2 }) => {
                 320: {
                   slidesPerView: 1,
                 },
+                
                 667: {
                   slidesPerView: 2,
                 },

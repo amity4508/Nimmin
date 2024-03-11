@@ -1,8 +1,8 @@
 import React from "react";
 
-import  { Sliders2 } from "../Swipers/Sliders";
-import { Sliders3 } from "../Swipers/Sliders"; 
-import { slidesDataheader1 } from "./SliderData";
+import  { Sliders2 } from "../../Swipers/Sliders";
+import { Sliders3 } from "../../Swipers/Sliders"; 
+import { slidesDataheader1 } from "../SliderData";
 
 export const Homepage = () =>{
     return(
@@ -41,7 +41,7 @@ export const Homepage = () =>{
         backgroundSize: "100% 100%",
         }}>
          <div className="container mx-auto">
-         <div className="text-white text-xl text font-semibold tracking-widest border-b-2 border-yellow-500 w-[160px] max-sm:px-4 ">Header 1</div>
+         <div className="text-white text-xl text font-semibold tracking-widest border-b-2 border-yellow-500 w-[160px] max-sm:px-4 ">Header 2</div>
          <Sliders2 slides2={slidesDataheader1} />
 
          </div>
@@ -54,9 +54,8 @@ export const Homepage = () =>{
         backgroundSize: "100% 100%",
         }}>
          <div className="container mx-auto">
-         <div className="text-white text-xl text font-semibold tracking-widest border-b-2 border-yellow-500 w-[160px] max-sm:px-4 ">Header 1</div>
+         <div className="text-white text-xl text font-semibold tracking-widest border-b-2 border-yellow-500 w-[160px] max-sm:px-4 ">Header 3</div>
          <Sliders2 slides2={slidesDataheader1} />
-
          </div>
       </div>
         </>

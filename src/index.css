@@ -73,6 +73,7 @@
     background-color: rgba(219, 219, 219, 0.12)
     ;
   }
+
   /* img */
   /* .slidehover:hover img{
     transform: scale(1.2);
@@ -102,6 +103,9 @@
   .outline2{
     outline: none
   
+  }
+  .ini{
+    display:none;
   }
 
 }

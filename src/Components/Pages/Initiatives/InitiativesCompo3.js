@@ -10,18 +10,11 @@ import setting2 from "../../../Components/Assets/Images/mainImg/Group 91 (1).png
 import setting3 from "../../../Components/Assets/Images/mainImg/Group 91 (2).png";
 import setting4 from "../../../Components/Assets/Images/mainImg/Group 91 (3).png";
 import { InitSlider2 } from "./InitativeSliders/InitSlider2";
-import { InitSlider3 } from "./InitativeSliders/InitSlider3";
-// import { InitiativeSlider4 } from "../../Swipers/Sliders";
 export const Initiativescompo3 = () => {
     return (
       <>
-            <div className="lg:mt-28">
-            <InitSlider1 slides2={InitSlide1}/>
-              <InitSlider2 slides2={InitSlide2}/>
-
-            </div>
-
-        <div className=" ini mt-0 xl:px-0 py-6 xl:visible sm:invisible max-sm:invisible ">
+          
+        <div className=" ini mt-0 xl:px-0 py-6  max-sm:hidden sm:hidden xl:block ">
           <div className="relative xl:top-[-160px]">
             <div>
               <div className="flex xl:visible sm:invisible max-sm:invisible ">

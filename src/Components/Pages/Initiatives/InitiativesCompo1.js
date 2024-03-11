@@ -17,14 +17,13 @@ export const Initiativescompo1 = () => {
             backgroundPosition: "center",
             backgroundRepeat: "no-repeat",
             backgroundSize: "100% 100%",
-            backdropFilter: "80%",
           }}
         >
           <div className=" flex  lg:flex-row sm:flex-col ">
             <div className="initComp1Left relative lg:w-1/3 sm:w-full max-sm:w-full ">
               <div>
                 {" "}
-                <img className="lg:h-[450px] sm:w-[full] " src={initImg} alt="" />
+                <img className="lg:h-[300px] sm:w-[full] " src={initImg} alt="" />
               </div>
   
               <div className="flex justify-end absolute bottom-[60px] right-[30px]">

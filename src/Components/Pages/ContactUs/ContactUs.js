@@ -8,7 +8,7 @@ import shadeImg2 from "../../../Components/Assets/Images/mainImg/Vector (13).png
 export const ContactUs = () => {
   return (
     <>
-      <section className=" mx-auto mb-40 bg-gray-200  ">
+      <section className=" mx-auto bg-gray-200  ">
         <div>
           <img className="h-[70px]" src={shadeImg1} alt="" />
         </div>

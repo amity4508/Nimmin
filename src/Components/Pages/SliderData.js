@@ -47,7 +47,6 @@ export const slidesDataheader1 = [
       },
 ]; 
 
-
 export const AboutUsSlide1 = [
 
   {
@@ -149,7 +148,7 @@ export const CompainedSlide1 = [
     },
 ];
 
-
+// Initiative Slide 
 export const InitiativesSlide2 = [
 
   {

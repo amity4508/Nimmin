@@ -144,7 +144,7 @@ export const Sliders2 = ({ slides2 = slidesData2 }) => {
             {slides2.map((slide, index) => (
               <SwiperSlide
                 key={index}
-                className="rounded max-sm:rounded-xl py-6 min-h-[400px] max-h-28"
+                className="rounded max-sm:rounded-xl py-6 min-h-[400px] max-h-28  "
               >
                 <div className="card container items-center justify-center">
                   <div className="items-center text-center text-white">
@@ -179,15 +179,7 @@ export const Sliders2 = ({ slides2 = slidesData2 }) => {
 // AboutUs 3 Slide ---------------------------
 
 export const Sliders3 = ({ slides2 = slidesData2 }) => {
-  // const handleSlideChangeTransitionEnd = (swiper) => {
-  //   const slides = swiper.slides;
-  //   const activeIndex = swiper.activeIndex;
-  //   slides.forEach((slide) => {
-  //     slide.style.backgroundColor = 'rgba(0, 0, 0, 0.28)';
-  //   });
 
-  //   slides[activeIndex].style.backgroundColor = 'rgba(35, 85, 77, 1)';
-  // };
   return (
     <>
       <div className="container mx-auto justify-center py-[40px] max-sm:py-[90px] max-md:py-[90px] max-lg:py-[90px] px-8">

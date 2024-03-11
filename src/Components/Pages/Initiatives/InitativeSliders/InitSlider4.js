@@ -11,7 +11,7 @@ import { slidesData2 } from "../../../Swipers/Sliders";
 export const InitSlider4 = ({ slides2 = slidesData2 }) => {
     return (
       <>
-        <div className="container mx-auto justify-center py-[40px] max-sm:py-[90px] max-md:py-[90px] max-lg:py-[90px] px-8 xl:relative xl:mt-[-300px] max-sm:invisible sm:invisible xl:visible sm:h-[0]">
+        <div className="container mx-auto justify-center py-[40px] max-sm:py-[90px] max-md:py-[90px] max-lg:py-[90px] px-8 xl:relative xl:mt-[-300px]   sm:h-[0] max-sm:hidden sm:hidden md:hidden xl:block ">
           <div>
             <Swiper
               // slidesPerView={3}

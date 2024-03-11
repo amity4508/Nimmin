@@ -45,13 +45,13 @@ export const GalleryContent = () => {
     ];
   
     return (
-  <section className="container mx-auto">
+  <section className="container mx-auto px-5">
      <div className="py-5">
      <h1 className=" text-2xl   ">Header 1</h1>
             <p className="w-[100px] border-yellow-500 border-b-2 "></p>
      </div>
     
-        <div className=" grid grid-cols-1 max-sm:grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4  mx-auto mt-5 ">
+        <div className=" grid grid-cols-1 max-sm:grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4  mx-auto mt-5  ">
     
     {InitCard1Data.map((card) => (
       <div key={card.id} className="col-span-1 cursor-pointer">
@@ -61,7 +61,7 @@ export const GalleryContent = () => {
         <img
             src={card.imageSrc}
             alt="Card"
-            className=" max-sm:w-[100vw] mb-4 sm:w-[100%]  3-[200px] transition duration-300 hover:scale-150"
+            className=" max-sm:w-[100vw] mb-4 sm:w-[100%]  3-[200px] transition duration-300 hover:scale-150 rounded-md"
           />
         </div>
           <h1

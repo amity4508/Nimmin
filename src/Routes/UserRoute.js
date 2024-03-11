@@ -1,6 +1,7 @@
 
 import React from "react";
-import { Homepage } from "../Components/Pages/HomePage";
+// import { HomePage } from "../Components/Pages/HomePage";
+
 import { AboutUs } from "../Components/Pages/AboutUs"; 
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { Header } from "../Components/Header/Header";
@@ -8,6 +9,7 @@ import { Offerings } from "../Components/Pages/Offering";
 import { Initiatives } from "../Components/Pages/Initiatives/Initiatives";
 import { Gallery } from "../Components/Pages/Gallery/Gallery";
 import { ContactUs } from "../Components/Pages/ContactUs/ContactUs";
+import { Homepage } from "../Components/Pages/HomePage/HomePage";
 
 export const UserRoute = () => {
     return (
