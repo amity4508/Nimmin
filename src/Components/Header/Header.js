@@ -26,15 +26,20 @@ export const Header = () => {
 
   return (
     <>
-      <div
-        className="header xl:h-[95vh]  items-center justify-center"
-        style={{
-          backgroundImage: `url(${backgroundImage})`,
-          backgroundPosition: "center",
-          backgroundRepeat: "no-repeat",
-          backgroundSize: "100% 100%",
-        }}
-      >
+ <div
+  className="header xl:h-[95vh] items-center justify-center"
+  style={{
+    backgroundImage: `linear-gradient(to right, rgba(35, 85, 77, 0.9), rgba(35, 85, 77, 0.5)), url(${backgroundImage})`,
+    backgroundPosition: "center",
+    backgroundRepeat: "no-repeat",
+    backgroundSize: "100% 100%",
+    backgroundAttachment:"fixed"
+  }}
+
+>
+  {/* Your content goes here */}
+
+
         <div className="max-lg:hidden">
           <SocialMedia />
         </div>

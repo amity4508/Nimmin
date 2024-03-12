@@ -10,6 +10,7 @@ import { Initiatives } from "../Components/Pages/Initiatives/Initiatives";
 import { Gallery } from "../Components/Pages/Gallery/Gallery";
 import { ContactUs } from "../Components/Pages/ContactUs/ContactUs";
 import { Homepage } from "../Components/Pages/HomePage/HomePage";
+import Footer from "../Components/Pages/Footer/Footer";
 
 export const UserRoute = () => {
     return (
@@ -23,7 +24,10 @@ export const UserRoute = () => {
       <Route path='Gallery' element={<Gallery/>} />
       <Route path='contact' element={<ContactUs/>} />
       </Routes>
+      <Footer/>
+  
       </BrowserRouter>
+
     );
   };
   

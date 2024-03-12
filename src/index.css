@@ -70,14 +70,32 @@
     background-image: linear-gradient(to right, rgba(140, 221, 102, 1), rgba(28, 190, 141, 1));
   }
   .bgWhite{
-    background-color: rgba(219, 219, 219, 0.12)
-    ;
+    background-color: rgba(219, 219, 219, 0.12);
   }
 
   /* img */
   /* .slidehover:hover img{
     transform: scale(1.2);
   } */
+
+  /* hero img blur */
+
+  .heroImg img{
+    border-radius: 70px 5px 70px 5px;
+    
+  }
+  .slilder2:hover{
+    background-color: rgba(35, 85, 77, 1);
+    
+  }
+  .heading1{
+    font-size: 35px;
+    color: white;
+    font-weight: 600;
+    letter-spacing: 3px;
+
+  }
+
 
   
 

@@ -12,29 +12,48 @@ import slide2 from "../../Components/Assets/Images/mainImg/heroImg.png";
 import slide3 from "../../Components/Assets/Images/mainImg/mobilebg.jpg";
 import joinHands from "../../Components/Assets/Images/iconImg/Vector (6).png";
 import bgint from "../../Components/Assets/Images/mainImg/Vector (11).png";
+
+import hero1 from "../../Components/Assets/Images/mainImg/hero1.png"
+import hero2 from "../../Components/Assets/Images/mainImg/hero2.png"
+import hero3 from "../../Components/Assets/Images/mainImg/hero3.png"
+import hero4 from "../../Components/Assets/Images/mainImg/hero4.jpg"
+import hero5 from "../../Components/Assets/Images/mainImg/hero5.jpg"
+import hero6 from "../../Components/Assets/Images/mainImg/hero6.png"
+
+
+
 export const slidesData = [
   {
-    image: slide3,
+    image: hero1,
     title:
       "Our missions is to create sustainable solutions for everyday life. ",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ultrices, libero non convallis iaculis, neque ",
   },
   {
-    image: slide2,
+    image: hero2,
+    title:
+      "Our missions is to create sustainable solutions for everyday life. ",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ultrices, libero non convallis iaculis, neque ",
+  },
+  {
+    image: hero3,
+    title:
+      "Our missions is to create sustainable solutions for everyday life. ",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ultrices, libero non convallis iaculis, neque ",
+  },
+  {
+    image: hero4,
     title:
       "Our missions is to create sustainable solutions for everyday life. ",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ultrices, libero non convallis iaculis, neque ",
   },
 
-  {
-    image: slide3,
-    title:
-      "Our missions is to create sustainable solutions for everyday life. ",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ultrices, libero non convallis iaculis, neque ",
-  },
+
+ 
 ];
 
 // slider for header
@@ -61,10 +80,10 @@ export const Slider1 = ({ slides = slidesData }) => {
           >
             {slides.map((slide, index) => (
               <SwiperSlide key={index}>
-                <div className="card container items-center justify-center  ">
-                  <div className="relative">
+                <div className="card container items-center justify-center slide1 ">
+                  <div className="relative heroImg">
                     <img
-                      className="w-full h-[350px] max-sm:h-[82vh] object-fill rounded-md"
+                      className="w-full h-[350px] max-sm:h-[82vh] object-fill rounded-md    "
                       src={slide.image}
                       alt={`Slide ${index + 1}`}
                     />
@@ -150,7 +169,7 @@ export const Sliders2 = ({ slides2 = slidesData2 }) => {
                   <div className="items-center text-center text-white">
                     <div className="m-auto items-center flex justify-center">
                       <img
-                        className="h-[200px] w-[200px] object-fill rounded-full mb-2"
+                        className="h-[230px] w-[230px] object-fill rounded-full mb-2"
                         src={slide.image}
                         alt={`Slide ${index + 1}`}
                       />
@@ -161,9 +180,9 @@ export const Sliders2 = ({ slides2 = slidesData2 }) => {
                       <h1 className="text-sm font-thin text-white mt-2">
                         {slide.description}
                       </h1>
-                      <p className="border-b font-semibold text-white w-[122px] m-auto mt-2 tracking-wider cursor-pointer">
+                      {/* <p className="border-b font-semibold text-white w-[122px] m-auto mt-2 tracking-wider cursor-pointer">
                         Read more >>
-                      </p>
+                      </p> */}
                     </div>
                   </div>
                 </div>
@@ -216,13 +235,13 @@ export const Sliders3 = ({ slides2 = slidesData2 }) => {
             {slides2.map((slide, index) => (
               <SwiperSlide
                 key={index}
-                className="rounded max-sm:rounded-xl py-6 min-h-[400px] max-h-28 bg-black  bg-opacity-30	"
+                className="rounded max-sm:rounded-xl py-6 min-h-[400px] max-h-28 bg-black  bg-opacity-30 slilder2"
               >
                 <div className="card container items-center justify-center">
                   <div className="items-center text-center text-white">
                     <div className="m-auto items-center flex justify-center">
                       <img
-                        className="h-[200px] w-[200px] object-fill rounded-full mb-2"
+                        className="h-[230px] w-[230px] object-fill rounded-full mb-2"
                         src={slide.image}
                         alt={`Slide ${index + 1}`}
                       />
@@ -233,9 +252,9 @@ export const Sliders3 = ({ slides2 = slidesData2 }) => {
                       <h1 className="text-sm font-thin text-white mt-2">
                         {slide.description}
                       </h1>
-                      <p className="border-b font-semibold text-white w-[122px] m-auto mt-2 tracking-wider cursor-pointer">
+                      {/* <p className="border-b font-semibold text-white w-[122px] m-auto mt-2 tracking-wider cursor-pointer">
                         Read more >>
-                      </p>
+                      </p> */}
                     </div>
                   </div>
                 </div>
