@@ -23,13 +23,17 @@ export const Initiatives = () => {
       <div className=" relative max-sm:top-[-150px]">
         <InitSlider1 slides2={InitSlide1} />
         <InitSlider2 slides2={InitSlide2} />
+        <InitSlider2 slides2={InitSlide2} />
+
       </div>
       <div className="container mx-auto relative top-[-130px] max-sm:hidden">
         <Initiativescompo3 />
-      </div>
-      <div className="sm:hidden max-sm:hidden xl:block">
+        <div className="sm:hidden max-sm:hidden xl:block mt-36  ">
         <InitSlider4 slides2={InitSlide4Data} />
       </div>
+      </div>
+  
+      
     </div>
   );
 };

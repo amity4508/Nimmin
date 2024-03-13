@@ -65,8 +65,11 @@ export const Homepage = () =>{
             backgroundAttachment: "fixed", 
         }}>
          <div className="container mx-auto">
-         <div className="text-white text-xl text font-semibold tracking-widest border-b-2 border-yellow-500 w-[160px] max-sm:px-4 ">Header 2</div>
-         <Sliders2 slides2={slidesDataheaderLiquid1} />
+         <div className="py-5 " >
+            <h1 className=" text-2xl heading1  ">Liquid Potion</h1>
+             <p className="w-[50px] border-yellow-500 border-b-4 mt-2  "></p>
+            </div>     
+        <Sliders2 slides2={slidesDataheaderLiquid1} />
          <Sliders2 slides2={slidesDataheaderLiquid2} />
 
 
@@ -80,7 +83,11 @@ export const Homepage = () =>{
         backgroundSize: "100% 100%",
         }}>
          <div className="container mx-auto">
-         <div className="text-white text-xl text font-semibold tracking-widest border-b-2 border-yellow-500 w-[160px] max-sm:px-4 ">Header 3</div>
+         <div className="py-5 " >
+            <h1 className=" text-2xl heading1  ">Wormin</h1>
+             <p className="w-[50px] border-yellow-500 border-b-4 mt-2  "></p>
+            </div>
+
          <Sliders2 slides2={slidesDataheader1} />
          </div>
       </div>

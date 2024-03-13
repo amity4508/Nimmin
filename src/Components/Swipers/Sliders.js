@@ -51,9 +51,14 @@ export const slidesData = [
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ultrices, libero non convallis iaculis, neque ",
   },
+  {
+    image: hero6,
+    title:
+      "Our missions is to create sustainable solutions for everyday life. ",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ultrices, libero non convallis iaculis, neque ",
+  },
 
-
- 
 ];
 
 // slider for header

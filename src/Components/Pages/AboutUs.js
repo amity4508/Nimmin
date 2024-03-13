@@ -10,23 +10,33 @@ export const AboutUs = () => {
         <div
           className=" mt-0 xl:px-24 md:px-24 sm:px-5 py-6"
           style={{
-            backgroundImage: `url(${process.env.PUBLIC_URL}/bgslider.png)`,
+            backgroundImage: `linear-gradient(to bottom, rgba(35, 85, 77, 0.5), rgba(35, 85, 77, 0.3)), url(${process.env.PUBLIC_URL}/bgImg9.png)`,
             backgroundPosition: "center",
             backgroundRepeat: "no-repeat",
             backgroundSize: "100% 100%",
-          }}
-        >
+            backgroundAttachment: "fixed", 
+        }}>
+        
           <div className="container mx-auto">
-            <div className="text-white text-xl text font-semibold tracking-widest border-b-2 border-yellow-500 w-[160px] max-sm:px-4 ">
-              Header 1
-            </div>
+          <div className="py-5 " >
+            <h1 className=" text-2xl heading1  ">Liquid Potion</h1>
+             <p className="w-[50px] border-yellow-500 border-b-4 mt-2  "></p>
+            </div>  
             <Sliders3 slides2={AboutUsSlide1} />
           </div>
         </div>
 
         <div
           className=" mt-0 xl:px-24 md:px-24 sm:px-5 py-8 relative"
-          style={{backgroundImage:"linear-gradient(to right, rgba(35, 85, 77, 1) , rgba(38, 178, 146, 1))",}}>
+          // style={{backgroundImage:"linear-gradient(to right, rgba(35, 85, 77, 1) , rgba(38, 178, 146, 1))",}}>
+    
+          style={{
+            backgroundImage: `linear-gradient(to bottom, rgba(35, 85, 77, 0.5), rgba(35, 85, 77, 0.3)), url(${process.env.PUBLIC_URL}/bgImg5.png)`,
+            backgroundPosition: "center",
+            backgroundRepeat: "no-repeat",
+            backgroundSize: "100% 100%",
+            backgroundAttachment: "fixed", 
+        }}>
           <div className="container mx-auto">
             <div className=" absolute left-0 bottom-[0px]">
               <div class="half-circle	 rotate-[210deg]  mb-[80px]"></div>
@@ -38,7 +48,14 @@ export const AboutUs = () => {
         </div>
 
         {/* compo 3  */}
-        <div className=" mt-0 xl:px-24 md:px-24 sm:px-5 py-8 bg-white relative ">
+        <div className=" mt-0 xl:px-24 md:px-24 sm:px-5 py-8 bg-white relative "
+           style={{
+            backgroundImage: `linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url(${process.env.PUBLIC_URL}/bgImg8.png)`,
+            backgroundPosition: "center",
+            backgroundRepeat: "no-repeat",
+            backgroundSize: "100% 100%",
+            backgroundAttachment: "fixed", 
+        }}>
           <div className="container  mx-auto">
             <div>
               <AboutCompo3 />
@@ -54,15 +71,14 @@ export const AboutCompo2 = () => {
   return (
     <>
       <div className="container mx-auto  ">
-        <div>
-          <h1 className="text-white text-xl text font-semibold tracking-widest border-b-2 border-yellow-500 w-[160px] max-sm:px-4 ">
-            Header 1
-          </h1>
-        </div>
+      <div className="py-5 " >
+            <h1 className=" text-2xl heading1  ">About US</h1>
+             <p className="w-[50px] border-yellow-500 border-b-4 mt-2  "></p>
+            </div>  
 
         <div className="aboutComp2 flex max-sm:flex-col items-center gap-5  ">
           <div className="w-4/6 max-sm:w-full max-sm:px-5 text-white  max-sm:order-2 ">
-            <h1>
+            <h1 className="">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
               viverra tortor dolor, vel tempor lectus tempor ut. Vivamus et
               ornare neque, id tincidunt ante. Suspendisse eget bibendum massa.
@@ -110,7 +126,7 @@ export const AboutCompo3 = () => {
             <div className=" absolute right-[28px] xl:top-[0px] ">
               <div class="half-circle	 max-sm:rotate-[130deg] "></div>
             </div>
-            <h1>
+            <h1 className="text-white">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
               viverra tortor dolor, vel tempor lectus tempor ut. Vivamus et
               ornare neque, id tincidunt ante. Suspendisse eget bibendum massa.

@@ -11,19 +11,20 @@ export const Initiativescompo1 = () => {
     return (
       <>
         <div
-          className=" mt-0  md:px-24 sm:px-5 py-6"
+          className=" mt-0  md:px-24 sm:px-5 py-12"
           style={{
-            backgroundImage: `url(${process.env.PUBLIC_URL}/bgslider.png)`,
+            backgroundImage: `linear-gradient(to bottom, rgba(8, 41, 35, 0.8), rgba(38, 175, 124, 0.8)), url(${process.env.PUBLIC_URL}/bgImg11.png)`,
             backgroundPosition: "center",
             backgroundRepeat: "no-repeat",
             backgroundSize: "100% 100%",
-          }}
+            backgroundAttachment: "fixed", 
+        }}
         >
-          <div className=" flex  lg:flex-row sm:flex-col ">
+         <div className=" flex  lg:flex-row sm:flex-col ">
             <div className="initComp1Left relative lg:w-1/3 sm:w-full max-sm:w-full ">
               <div>
                 {" "}
-                <img className="lg:h-[300px] sm:w-[full] " src={initImg} alt="" />
+                <img className="lg:h-[450px] sm:w-[full] " src={initImg} alt="" />
               </div>
   
               <div className="flex justify-end absolute bottom-[60px] right-[30px]">
@@ -64,6 +65,7 @@ export const Initiativescompo1 = () => {
               </div>
             </div>
           </div>
+
         </div>
       </>
     );
