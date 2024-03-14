@@ -2,7 +2,7 @@
 import React from "react";
 // import { HomePage } from "../Components/Pages/HomePage";
 
-import { AboutUs } from "../Components/Pages/AboutUs"; 
+import { AboutUs } from "../Components/Pages/About/AboutUs";
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { Header } from "../Components/Header/Header";
 import { Offerings } from "../Components/Pages/Offering";

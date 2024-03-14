@@ -78,7 +78,7 @@ export const Slider1 = ({ slides = slidesData }) => {
             centeredSlides={true}
             autoplay={{
               delay: 2500,
-              disableOnInteraction: false,
+              disableOnInteraction: true,
             }}
             modules={[Autoplay, EffectFade, Navigation, Pagination]}
             className="mySwiper "
@@ -315,11 +315,11 @@ export const Sliders4 = ({ slides2 = slidesData2 }) => {
                 key={index}
                 className="rounded max-sm:rounded-xl py-6 min-h-[400px] max-h-28   bg-opacity-30	"
               >
-                <div className="card container items-center justify-center">
-                  <div className="items-center text-center text-white">
-                    <div className="m-auto items-center flex justify-center">
-                      <img
-                        className="h-[300px] w-[300px] object-fill rounded-full mb-2"
+                <div className="card container items-center justify-center ">
+                  <div className="items-center text-center text-white ">
+                    <div className="m-auto items-center flex justify-center overflow-hidden ">
+                    <img
+                        className="h-[300px] w-[300px] hover:scale-110  object-fill rounded-full mb-2 overflow-hidden  ease-in duration-200	"
                         src={slide.image}
                         alt={`Slide ${index + 1}`}
                       />

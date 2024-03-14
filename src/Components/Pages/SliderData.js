@@ -111,14 +111,13 @@ import broomType4_6 from "../../Components/Assets/Images/NimminProduct/broomType
 import broomType4_7 from "../../Components/Assets/Images/NimminProduct/broomType4-7.png";
 
 // Liquid type1 product img
-import liquidType1_1 from "../../Components/Assets/Images/NimminProduct/liquidType1_1.png";
-import liquidType1_2 from "../../Components/Assets/Images/NimminProduct/liquidType1_2.png";
-import liquidType1_3 from "../../Components/Assets/Images/NimminProduct/liquidType1_3.png";
-import liquidType1_4 from "../../Components/Assets/Images/NimminProduct/liquidType1_4.png";
-import liquidType1_5 from "../../Components/Assets/Images/NimminProduct/liquidType1_5.png";
-import liquidType1_6 from "../../Components/Assets/Images/NimminProduct/liquidType1_6.png";
-import liquidType1_7 from "../../Components/Assets/Images/NimminProduct/liquidType1_7.png";
-import liquidType1_8 from "../../Components/Assets/Images/NimminProduct/liquidType1_8.png";
+import liquidType1_1 from "../../Components/Assets/Images/NimminProduct/liquidType3.1.png";
+import liquidType1_2 from "../../Components/Assets/Images/NimminProduct/liquidType3.2.png";
+import liquidType1_3 from "../../Components/Assets/Images/NimminProduct/liquidType3.3.png";
+import liquidType1_4 from "../../Components/Assets/Images/NimminProduct/liquidType3.4.png";
+import liquidType1_5 from "../../Components/Assets/Images/NimminProduct/liquidType3.5.png";
+import liquidType1_6 from "../../Components/Assets/Images/NimminProduct/liquidType3.6.png";
+import liquidType1_7 from "../../Components/Assets/Images/NimminProduct/liquidType3.7.png";
 
 // Liquid type2 product img
 import liquidType2_1 from "../../Components/Assets/Images/NimminProduct/liquidType2_1.png";
@@ -488,11 +487,7 @@ export const slidesDataheaderLiquid1 = [
     title: "Slide 3 Title",
     description: "Slide 3 Description",
   },
-  {
-    image: liquidType1_8,
-    title: "Slide 3 Title",
-    description: "Slide 3 Description",
-  },
+
 ];
 
 // header3 datatLiquid-1
