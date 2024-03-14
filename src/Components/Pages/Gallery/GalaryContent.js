@@ -1,8 +1,5 @@
 import React from "react";
-import { InitCard1Data } from "./GalleryData";
-
-import slide3 from "../../Assets/Images/mainImg/heroImg.png";
- 
+import { InitCard1Data } from "./GalleryData"; 
 export const GalleryContent = () => {
     const handleButtonClick = () => {
       // Your button click logic here

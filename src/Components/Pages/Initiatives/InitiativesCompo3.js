@@ -1,6 +1,4 @@
 import React from "react";
-import { InitSlider1 } from "./InitativeSliders/InitSlider1";
-import { InitSlide1, InitSlide2, InitSlide3, InitiativeSlide4 } from "../SliderData";
 import joinHands3 from "../../Assets/Images/iconImg/Vector (11).png";
 import intiComp3img1 from "../../../Components/Assets/Images/mainImg/Group 83.png";
 import intiComp3Img2 from "../../../Components/Assets/Images/mainImg/Group 99.png";
@@ -9,7 +7,6 @@ import setting1 from "../../../Components/Assets/Images/mainImg/Group 91.png";
 import setting2 from "../../../Components/Assets/Images/mainImg/Group 91 (1).png";
 import setting3 from "../../../Components/Assets/Images/mainImg/Group 91 (2).png";
 import setting4 from "../../../Components/Assets/Images/mainImg/Group 91 (3).png";
-import { InitSlider2 } from "./InitativeSliders/InitSlider2";
 export const Initiativescompo3 = () => {
     return (
       <>

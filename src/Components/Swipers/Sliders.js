@@ -7,9 +7,6 @@ import "swiper/css/pagination";
 import { Autoplay, EffectFade, Navigation, Pagination } from "swiper/modules";
 import "swiper/swiper-bundle.css";
 
-import slide1 from "../../Components/Assets/Images/mainImg/__after.png";
-import slide2 from "../../Components/Assets/Images/mainImg/heroImg.png";
-import slide3 from "../../Components/Assets/Images/mainImg/mobilebg.jpg";
 import joinHands from "../../Components/Assets/Images/iconImg/Vector (6).png";
 import bgint from "../../Components/Assets/Images/mainImg/Vector (11).png";
 
@@ -17,7 +14,6 @@ import hero1 from "../../Components/Assets/Images/mainImg/hero1.png"
 import hero2 from "../../Components/Assets/Images/mainImg/hero2.png"
 import hero3 from "../../Components/Assets/Images/mainImg/hero3.png"
 import hero4 from "../../Components/Assets/Images/mainImg/hero4.jpg"
-import hero5 from "../../Components/Assets/Images/mainImg/hero5.jpg"
 import hero6 from "../../Components/Assets/Images/mainImg/hero6.png"
 
 

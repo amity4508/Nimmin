@@ -8,12 +8,7 @@ import init6 from "../../../Components/Assets/Images/mainImg/init6.png";
  // Initiative slider  last 
  import init2_1 from "../../../Components/Assets/Images/mainImg/init2_1.png";
  import init2_2 from "../../../Components/Assets/Images/mainImg/init2_2.png";
- import init2_3 from "../../../Components/Assets/Images/mainImg/init2_3.png";
- import init2_4 from "../../../Components/Assets/Images/mainImg/init2_4.png";
- import init2_5 from "../../../Components/Assets/Images/mainImg/init2_5.png";
- import init2_6 from "../../../Components/Assets/Images/mainImg/init2_6.png";
- import init2_7 from "../../../Components/Assets/Images/mainImg/init2_7.png";
- import init2_8 from "../../../Components/Assets/Images/mainImg/init2_8.png";
+
 
 export const InitCard1Data = [
      

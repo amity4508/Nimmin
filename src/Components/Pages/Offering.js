@@ -3,10 +3,6 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import slide3 from "../Assets/Images/mainImg/mobilebg.jpg";
 import { OfferingsCompo1 } from "../Cards/card1";
-import offringImg from "../../Components/Assets/Images/mainImg/Group 19.png"
-import offringImg2 from "../../Components/Assets/Images/mainImg/image 43.png"
-import offringImg3 from "../../Components/Assets/Images/mainImg/Group 19 (1).png"
-import offringImg4 from "../../Components/Assets/Images/mainImg/Group 20.png"
 import product1 from "../../Components/Assets/Images/mainImg/hero1.png"
 import product1left from "../../Components/Assets/Images/mainImg/offerProd1.png"
 import product2left from "../../Components/Assets/Images/NimminProduct/broomType1-8.png"

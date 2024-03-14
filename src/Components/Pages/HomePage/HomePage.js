@@ -78,14 +78,16 @@ export const Homepage = () =>{
       </div>
 
       <div className=" mt-0 xl:px-24 md:px-24 sm:px-5 py-6"
-        style={{ backgroundImage: `url(${process.env.PUBLIC_URL}/bgslider.png)`,
-        backgroundPosition: "center",
-        backgroundRepeat: "no-repeat",
-        backgroundSize: "100% 100%",
-        }}>
+            style={{
+                backgroundImage: `linear-gradient(to bottom, rgba(8, 41, 35, 0.7), rgba(38, 175, 124, 0.3)), url(${process.env.PUBLIC_URL}/bgImg5.png)`,
+                backgroundPosition: "center",
+                backgroundRepeat: "no-repeat",
+                backgroundSize: "100% 100%",
+                backgroundAttachment: "fixed", 
+            }}>
          <div className="container mx-auto">
          <div className="py-5 " >
-            <h1 className=" text-2xl heading1  ">Wormin</h1>
+            <h1 className=" text-2xl heading1 ">Wormin</h1>
              <p className="w-[50px] border-yellow-500 border-b-4 mt-2  "></p>
             </div>
 

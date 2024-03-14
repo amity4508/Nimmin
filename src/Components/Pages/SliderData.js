@@ -78,7 +78,6 @@ import broomType1_5 from "../../Components/Assets/Images/NimminProduct/broomType
 import broomType1_6 from "../../Components/Assets/Images/NimminProduct/broomType1-6.png";
 import broomType1_7 from "../../Components/Assets/Images/NimminProduct/broomType1-7.png";
 import broomType1_8 from "../../Components/Assets/Images/NimminProduct/broomType1-8.png";
-import broomType1_9 from "../../Components/Assets/Images/NimminProduct/broomType1-9.png";
 
 // brom product img type2
 
@@ -102,7 +101,6 @@ import broomType3_9 from "../../Components/Assets/Images/NimminProduct/broomType
 
 // brom type4 product img
 
-import broomType4_1 from "../../Components/Assets/Images/NimminProduct/broomType4-1.png";
 import broomType4_2 from "../../Components/Assets/Images/NimminProduct/broomType4-2.png";
 import broomType4_3 from "../../Components/Assets/Images/NimminProduct/broomType4-3.png";
 import broomType4_4 from "../../Components/Assets/Images/NimminProduct/broomType4-4.png";

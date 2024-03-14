@@ -44,9 +44,8 @@ export const ContactUs = () => {
         <div className="contbgoutline  h-[170px] w-[170] relative  top-[40px] md:left-[105px] lg:top-[-60px] lg:left-[85px] sm:left-0 max-sm:left-0">
           <div className="contbgoutline2 z-50 h-[160px] w-[160] "></div>
         </div>
+      </div>  
       </div>
-        
-          </div>
 
           <div className="container w-full max-sm:w-full lg:w-2/3">
             <div className=" sm:w m-auto p-6 bg-white">
