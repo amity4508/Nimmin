@@ -1,6 +1,5 @@
 {
   "name": "nimin-web",
-  "homepage": "https://amity4508.github.io/Nimmin",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
