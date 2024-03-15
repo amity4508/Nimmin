@@ -62,7 +62,7 @@ export const slidesData = [
 export const Slider1 = ({ slides = slidesData }) => {
   return (
     <>
-      <div className="container mx-auto justify-center py-[40px] max-sm:py-[90px] max-md:py-[90px] max-lg:py-[90px]">
+      <div className="container mx-auto justify-center py-[40px] max-sm:py-[90px] max-md:py-[90px] max-lg:py-[90px] ">
         <div>
           <Swiper
             spaceBetween={30}
@@ -81,7 +81,7 @@ export const Slider1 = ({ slides = slidesData }) => {
           >
             {slides.map((slide, index) => (
               <SwiperSlide key={index}>
-                <div className="card container items-center justify-center slide1 ">
+                <div className="card container items-center justify-center slide1  max-sm:mt-[35px] sm:mt-[55px] lg:mt-[0px]">
                   <div className="relative heroImg">
                     <img
                       className="w-full h-[350px] max-sm:h-[82vh] object-fill rounded-md    "
@@ -128,7 +128,7 @@ export const Sliders2 = ({ slides2 = slidesData2 }) => {
   };
   return (
     <>
-      <div className="container mx-auto justify-center py-[40px] max-sm:py-[90px] max-md:py-[90px] max-lg:py-[90px] px-8">
+      <div className="container mx-auto justify-center py-[40px] max-sm:py-[90px] max-md:py-[90px] max-lg:py-[90px] max-sm:px-8">
         <div className="">
           <Swiper
             // slidesPerView={3}
@@ -202,7 +202,7 @@ export const Sliders3 = ({ slides2 = slidesData2 }) => {
 
   return (
     <>
-      <div className="container mx-auto justify-center py-[40px] max-sm:py-[90px] max-md:py-[90px] max-lg:py-[90px] px-8">
+      <div className="container mx-auto justify-center py-[40px] max-sm:py-[90px] max-md:py-[90px] max-lg:py-[90px] max-sm:px-8">
         <div>
           <Swiper
             // slidesPerView={3}
@@ -271,7 +271,7 @@ export const Sliders3 = ({ slides2 = slidesData2 }) => {
 export const Sliders4 = ({ slides2 = slidesData2 }) => {
   return (
     <>
-      <div className="container mx-auto justify-center py-[40px] max-sm:py-[90px] max-md:py-[90px] max-lg:py-[90px] px-8">
+      <div className="container mx-auto justify-center py-[40px] max-sm:py-[90px] max-md:py-[90px] max-lg:py-[90px] max-sm:px-8">
         <div>
           <Swiper
             // slidesPerView={3}
@@ -353,7 +353,7 @@ export const Sliders4 = ({ slides2 = slidesData2 }) => {
 export const CompainedSlide = ({ slides2 = slidesData2 }) => {
   return (
     <>
-      <div className="container mx-auto justify-center py-[40px] max-sm:py-[90px] max-md:py-[90px] max-lg:py-[90px] px-8">
+      <div className="container mx-auto justify-center py-[40px] max-sm:py-[90px] max-md:py-[90px] max-lg:py-[90px] max-sm:px-8">
         <div>
           <Swiper
             // slidesPerView={3}
@@ -417,7 +417,7 @@ export const CompainedSlide = ({ slides2 = slidesData2 }) => {
 export const InitiativeSlider2 = ({ slides2 = slidesData2 }) => {
   return (
     <>
-      <div className="justify-center py-[40px] max-sm:py-[90px] max-md:py-[90px] max-lg:py-[90px] max-sm:px-0 sm:px-8 relative ">
+      <div className="justify-center py-[40px] max-sm:py-[90px] max-md:py-[90px] max-lg:py-[90px] max-sm:px-0 sm:max-sm:px-8 relative ">
         <div>
        
           <div className="flex lg:visible sm:invisible max-sm:invisible">
@@ -537,7 +537,7 @@ export const InitiativeSlider2 = ({ slides2 = slidesData2 }) => {
 export const InitiativeSlider4 = ({ slides2 = slidesData2 }) => {
   return (
     <>
-      <div className="container mx-auto justify-center py-[40px] max-sm:py-[90px] max-md:py-[90px] max-lg:py-[90px] px-8">
+      <div className="container mx-auto justify-center py-[40px] max-sm:py-[90px] max-md:py-[90px] max-lg:py-[90px] max-sm:px-8">
         <div>
           <Swiper
             // slidesPerView={3}

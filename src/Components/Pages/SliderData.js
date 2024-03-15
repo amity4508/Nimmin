@@ -131,49 +131,57 @@ import liquidType2_8 from "../../Components/Assets/Images/NimminProduct/liquidTy
 export const slidesDataheader1 = [
   {
     image: vormiType1_1,
-    title: "Our missions ",
+    title: "Vermicompost ",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ultrices, libero non convallis iaculis, neque ",
+      "Nimmin Organic Vermicompost Fertilizer for plants and home gardening 2 Kg - Plant based vermi compost manure - 100% Organic Fertilizer Enriched with all essential nutrients - 2 Pack (1Kg Each)",
   },
   {
     image: vormiType1_2,
-    title: "Slide 2 Title",
-    description: "Slide 2 Description",
+    title: "Vermicompost ",
+    description:
+      "Nimmin Organic Vermicompost Fertilizer for plants and home gardening 2 Kg - Plant based vermi compost manure - 100% Organic Fertilizer Enriched with all essential nutrients - 2 Pack (1Kg Each)",
   },
   {
     image: vormiType1_3,
-    title: "Slide 3 Title",
-    description: "Slide 3 Description",
+    title: "Vermicompost ",
+    description:
+      "Nimmin Organic Vermicompost Fertilizer for plants and home gardening 2 Kg - Plant based vermi compost manure - 100% Organic Fertilizer Enriched with all essential nutrients - 2 Pack (1Kg Each)",
   },
   {
     image: vormiType1_4,
-    title: "Slide 2 Title",
-    description: "Slide 2 Description",
+    title: "Vermicompost ",
+    description:
+      "Nimmin Organic Vermicompost Fertilizer for plants and home gardening 2 Kg - Plant based vermi compost manure - 100% Organic Fertilizer Enriched with all essential nutrients - 2 Pack (1Kg Each)",
   },
   {
     image: vormiType1_5,
-    title: "Slide 3 Title",
-    description: "Slide 3 Description",
+    title: "Vermicompost ",
+    description:
+      "Nimmin Organic Vermicompost Fertilizer for plants and home gardening 2 Kg - Plant based vermi compost manure - 100% Organic Fertilizer Enriched with all essential nutrients - 2 Pack (1Kg Each)",
   },
   {
     image: vormiType1_6,
-    title: "Slide 3 Title",
-    description: "Slide 3 Description",
+    title: "Vermicompost ",
+    description:
+      "Nimmin Organic Vermicompost Fertilizer for plants and home gardening 2 Kg - Plant based vermi compost manure - 100% Organic Fertilizer Enriched with all essential nutrients - 2 Pack (1Kg Each)",
   },
   {
     image: vormiType1_7,
-    title: "Slide 3 Title",
-    description: "Slide 3 Description",
+    title: "Vermicompost ",
+    description:
+      "Nimmin Organic Vermicompost Fertilizer for plants and home gardening 2 Kg - Plant based vermi compost manure - 100% Organic Fertilizer Enriched with all essential nutrients - 2 Pack (1Kg Each)",
   },
   {
     image: vormiType1_8,
-    title: "Slide 3 Title",
-    description: "Slide 3 Description",
+    title: "Vermicompost ",
+    description:
+      "Nimmin Organic Vermicompost Fertilizer for plants and home gardening 2 Kg - Plant based vermi compost manure - 100% Organic Fertilizer Enriched with all essential nutrients - 2 Pack (1Kg Each)",
   },
   {
     image: vormiType1_9,
-    title: "Slide 3 Title",
-    description: "Slide 3 Description",
+    title: "Vermicompost ",
+    description:
+      "Nimmin Organic Vermicompost Fertilizer for plants and home gardening 2 Kg - Plant based vermi compost manure - 100% Organic Fertilizer Enriched with all essential nutrients - 2 Pack (1Kg Each)",
   },
 ];
 

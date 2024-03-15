@@ -10,12 +10,6 @@ import  product2 from "../../Components/Assets/Images/NimminProduct/broom5.png"
 import product3left from "../../Components/Assets/Images/NimminProduct/Liquid Potion3.jpeg"
 import  product3 from "../../Components/Assets/Images/mainImg/hero3.png"
 
-
-
-
-
-
-
 export const Offerings = () => {
   useEffect(() => {
     console.log("Component mounted, scrolling to top");

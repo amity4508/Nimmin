@@ -219,13 +219,16 @@ const Navbar = () => {
                   >
                     {link.label}
                   </Link>
-                  {menu === link.key ? <hr className="red" style={{ borderColor: "#006F00",width:"100px", height:"4px" }} /> : <></>}
+                  {menu === link.key ? <hr className="red" style={{ borderColor:"yellow",width:"80px", height:"8px", }}  /> : <></>}
                 </li>
               ))}
             </div>
           </div>
         </motion.div>
       </nav>
+
+
+      
 
       {/* SidebarNav  */}
 
@@ -249,7 +252,7 @@ const Navbar = () => {
               >
                 {link.label}
               </Link>
-              {menu === link.key ? <hr className="red" style={{ borderColor: "#006F00", width:"100px", height:"4px" }} /> : <></>}
+              {menu === link.key ? <hr className="red" style={{ borderColor: "green", width:"90px", height:"8px" }} /> : <></>}
             </li>
           ))}
         </ul>
