@@ -416,8 +416,104 @@ export const CompainedSlide = ({ slides2 = slidesData2 }) => {
 export const InitiativeSlider2 = ({ slides2 = slidesData2 }) => {
   return (
     <>
-      <div className=" container mx-auto justify-center py-[40px] max-sm:py-[90px] max-md:py-[90px] max-lg:py-[90px] max-sm:px-0 sm:max-sm:px-8 relative sm:mb-[256px] xl:mb-[0px]">
-        <img className=" h-[400px] w-full rounded" src={vermiImg} alt="" />
+     <div className="justify-center  max-sm:px-0  sm:hidden bg-gray-300">
+        <div>
+          <Swiper
+             spaceBetween={30}
+             loop={true}
+             loopFillGroupWithBlank={true}
+             centeredSlides={true}
+             autoplay={{
+               delay: 2200,
+               disableOnInteraction: true,
+             }}
+             // navigation={true}
+             navigation={{
+                 nextEl: ".button-next",
+                 prevEl: ".button-prev",
+               }}
+
+             pagination={{
+               clickable: true,
+               type: 'custom', 
+               renderCustom: (swiper, current, total) => {
+                 const progressWidth = (current / total) * 100; 
+
+                 return `
+                 <div class="   z-50 relative top-[-100px] sm:invisible ">
+                 <div class="swiper-pagination-fraction" style="color: dark-gray; font-weight:500;">${current} / ${total}</div>
+                 <div class="swiper-pagination-progressbar" style="background: black; width: ${progressWidth}%;"> </div>
+               </div>
+                 `;
+               },
+             }}
+            // navigation={true}
+
+            modules={[Autoplay, Pagination, Navigation]}
+            breakpoints={{
+              500: {
+                slidesPerView: 1,
+              },
+              642: {
+                slidesPerView: 2,
+              },
+              767: {
+                slidesPerView: 3,
+              },
+              1023: {
+                slidesPerView: 5,
+              },
+            }}
+            className="mySwiper  absolute  max-sm:top-[20px] ">
+            {slides2.map((slide, index) => (
+              <SwiperSlide
+                key={index}
+                className="rounded max-sm:rounded-xl  bg-opacity-0"
+              >
+                  <div className="flex justify-center relative top-[-30px] ">
+                  <div className=" w-[100vw] max-sm:h-[260px] h-[160px] halfcircle">
+                  </div>
+                  </div>
+                <div className="card container relative max-sm:top-[-120px] sm:top-[-180px]">
+                  <div className=" text-center text-gray-700">
+
+                    <div className=" flex justify-center ">
+                      <img
+                        className="h-[115px] mt-5 w-[115px] max-sm:h-[165px] max-sm:w-[165px] object-fill rounded-full mb-2"
+                        src={slide.image}
+                        alt={`Slide ${index + 1}`}
+                      />
+                    </div>
+
+                    <div className="px-2 top-[90px] lg:mt-[50px]">
+                      <h1 className="text-xl text-gray-700">{slide.title}</h1>
+                      <h1 className="text-sm font-thin text-gray-700 mt-2">
+                        {slide.description}
+                      </h1>
+                      {/* <p className="border-b font-semibold text-white w-[122px] m-auto mt-2 tracking-wider cursor-pointer">
+                        Read more >>
+                      </p> */}
+                    </div>
+                  </div>
+                </div>
+              </SwiperSlide>
+            ))}
+          </Swiper>
+          <div className="flex justify-center relative max-sm:top-[-410px] sm:invisible z-50">
+            <h1></h1>
+            <div>
+            <div className="button-next  bgSlideBtn relative top-[-5px] text-base text-white left-12 " ><i class="bi bi-chevron-right"></i>  </div>
+        <div className="button-prev bgSlideBtn relative top-[-40px] right-12 text-base text-white  " >
+         <i class="bi bi-chevron-left"></i>
+         </div>
+            </div>
+         </div>
+
+        </div>
+      </div>
+
+      <div className=" container mx-auto justify-center   max-lg:py-[90px] max-sm:px-0  relative sm:mb-[296px] xl:mb-[60px] xl:mt-[60px] max-sm:hidden">
+        <img className=" h-[500px] w-full rounded" src={vermiImg} alt="" />
       </div>
     </>
   );

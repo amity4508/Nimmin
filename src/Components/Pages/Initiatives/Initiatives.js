@@ -17,24 +17,65 @@ export const Initiatives = () => {
     <div>
       <div className="container mx-auto">
         <Sliders4 slides2={InitiativeSlide1} />
-        <Initiativescompo1 />
       </div>
-      <Initiativescompo2 />
-      <div className=" relative max-sm:top-[-150px]">
-        <InitSlider1 slides2={InitSlide1} />
-        <InitSlider2 slides2={InitSlide2} />
-        <InitSlider2 slides2={InitSlide2} />
 
+      <Initiativescompo1 />
+      <Initiativescompo2 />
+      {/*  for small screen slider  Initiative */}
+      <div className=" relative max-sm:top-[280px] xl:hidden">
+        <div
+          className=""
+          style={{
+            backgroundImage: `linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.3)), url(${process.env.PUBLIC_URL}/bgImg5.png)`,
+            backgroundPosition: "center",
+            backgroundRepeat: "no-repeat",
+            backgroundSize: "100% 100%",
+            backgroundAttachment: "fixed",
+          }}
+        >
+          <InitSlider1 slides2={InitSlide1} />
+        </div>
+        {/* ----------------------------------------------------------- */}
+
+        <div className=""
+          style={{
+            backgroundImage: `linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.3)), url(${process.env.PUBLIC_URL}/bgImg5.png)`,
+            backgroundPosition: "center",
+            backgroundRepeat: "no-repeat",
+            backgroundSize: "100% 100%",
+            backgroundAttachment: "fixed",
+          }}
+        >
+          <div className="pb-5 px-10">
+            <h1 className="text-2xl heading1">Housekeeping Brush Fiber</h1>
+            <p className="w-[50px] border-yellow-500 border-b-4 mt-2"></p>
+          </div>
+          <InitSlider2 slides2={InitSlide2} />
+        </div>
+
+        <div
+          className=""
+          style={{
+            backgroundImage: `linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.3)), url(${process.env.PUBLIC_URL}/bgImg8.png)`,
+            backgroundPosition: "center",
+            backgroundRepeat: "no-repeat",
+            backgroundSize: "100% 100%",
+            backgroundAttachment: "fixed",
+          }}
+        >
+          <div className="py-5 px-10">
+            <h1 className="text-2xl heading1">Housekeeping Brush Fiber</h1>
+            <p className="w-[50px] border-yellow-500 border-b-4 mt-2"></p>
+          </div>
+          <InitSlider2 slides2={InitSlide2} />
+        </div>
       </div>
       <div className="container mx-auto relative top-[-130px] max-sm:hidden">
         <Initiativescompo3 />
-       
       </div>
       <div className="sm:hidden max-sm:hidden xl:block mt-[400px]  ">
         <InitSlider4 slides2={InitSlide4Data} />
       </div>
-  
-      
     </div>
   );
 };

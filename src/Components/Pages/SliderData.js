@@ -642,13 +642,13 @@ export const InitiativesSlide2 = [
     image: setting1,
 
     description:
-      `To pioneer sustainable practices that fosters global change -  `,
+      `To pioneer sustainable practices that fosters global To pioneer sustainable practices that fosters global change -  change -To pioneer sustainable practices that fosters global change -  To pioneer sustainable practices that fosters global change -  `,
   },
   {
     image: setting2,
 
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ultrices, libero non convallis iaculis, neque ",
+      " Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ultrices, libero non convallis iaculis, neque ",
   },
   {
     image: setting3,

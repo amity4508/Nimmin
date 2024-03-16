@@ -14,23 +14,20 @@ import slide2 from "../../../../Components/Assets/Images/mainImg/heroImg.png";
 export const InitSlider1 = ({ slides2 = slidesData2 }) => {
     return (
       <>
-        <section className=" sm:relative  max-sm:relative lg:top-[-200px] sm:top-[-340px] max-sm:top-[-340px] ">
-          <div className="">
-          <img className="w-full max-sm:h-[650px] h-[750px] xl:invisible xl:h-0  z-0" src={slide2} alt="" />
-          </div>
-        <div className="container mx-auto justify-center py-[40px] max-sm:py-[90px] max-md:py-[90px] max-lg:py-[90px] px-8 xl:invisible  sm:absolute max-lg:absolute top-0 top-[-70px] " >
-        <div className="py-5">
-     <h1 className=" text-2xl   ">Header 1</h1>
-            <p className="w-[100px] border-yellow-500 border-b-2 "></p>
-     </div>
-
-        <div className="flex justify-center mb-3 " >
-          
-        <button className="textgr text-base text-white rounded py-2 px-8 ">
-                    Headline #0x{" "}
-                  </button>
+        <section className="relative top-[-250px] pb-[80px] xl:hidden "
+         style={{
+          backgroundImage: `linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.3)), url(${process.env.PUBLIC_URL}/bgImg8.png)`,
+          backgroundPosition: "center",
+          backgroundRepeat: "no-repeat",
+          backgroundSize: "100% 100%",
+          backgroundAttachment: "fixed", 
+          }}>
+        
+        <div className="py-5 px-10">
+            <h1 className="text-2xl heading1">Housekeeping Brush Fiber</h1>
+            <p className="w-[50px] border-yellow-500 border-b-4 mt-2"></p>
         </div>
-          <div>
+          <div className="container mx-auto max-sm:px-10">
             <Swiper
             spaceBetween={5}
             loop={true}
@@ -42,9 +39,9 @@ export const InitSlider1 = ({ slides2 = slidesData2 }) => {
             }}
             // navigation={true}
             navigation={{
-                nextEl: ".button-next",
-                prevEl: ".button-prev",
-              }}
+              nextEl: ".button-next",
+              prevEl: ".button-prev",
+            }}
            
             pagination={{
               clickable: true,
@@ -112,7 +109,6 @@ export const InitSlider1 = ({ slides2 = slidesData2 }) => {
             </div>
          </div>
           </div>
-        </div>
         </section>
 
       </>
