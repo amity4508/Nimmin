@@ -6,17 +6,16 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import { Autoplay, EffectFade, Navigation, Pagination } from "swiper/modules";
 import "swiper/swiper-bundle.css";
+import vermiImg from "../../Components/Assets/Images/NimminProduct/vermibgImg.png"
 
 import joinHands from "../../Components/Assets/Images/iconImg/Vector (6).png";
 import bgint from "../../Components/Assets/Images/mainImg/Vector (11).png";
 
-import hero1 from "../../Components/Assets/Images/mainImg/hero1.png"
-import hero2 from "../../Components/Assets/Images/mainImg/hero2.png"
-import hero3 from "../../Components/Assets/Images/mainImg/hero3.png"
-import hero4 from "../../Components/Assets/Images/mainImg/hero4.jpg"
-import hero6 from "../../Components/Assets/Images/mainImg/hero6.png"
-
-
+import hero1 from "../../Components/Assets/Images/mainImg/hero1.png";
+import hero2 from "../../Components/Assets/Images/mainImg/hero2.png";
+import hero3 from "../../Components/Assets/Images/mainImg/hero3.png";
+import hero4 from "../../Components/Assets/Images/mainImg/hero4.jpg";
+import hero6 from "../../Components/Assets/Images/mainImg/hero6.png";
 
 export const slidesData = [
   {
@@ -54,7 +53,6 @@ export const slidesData = [
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ultrices, libero non convallis iaculis, neque ",
   },
-
 ];
 
 // slider for header
@@ -81,7 +79,7 @@ export const Slider1 = ({ slides = slidesData }) => {
           >
             {slides.map((slide, index) => (
               <SwiperSlide key={index}>
-                <div className="card container items-center justify-center slide1  max-sm:mt-[35px] sm:mt-[55px] lg:mt-[0px]">
+                <div className="card container items-center justify-center slide1  max-sm:mt-[35px] sm:mt-[55px] lg:mt-[80px]">
                   <div className="relative heroImg">
                     <img
                       className="w-full h-[350px] max-sm:h-[82vh] object-fill rounded-md    "
@@ -124,7 +122,7 @@ export const Sliders2 = ({ slides2 = slidesData2 }) => {
       slide.style.backgroundColor = "rgba(0, 0, 0, 0.28)";
     });
 
-    slides[activeIndex].style.backgroundColor = "rgba(35, 85, 77, 1)";
+    slides[activeIndex].style.backgroundColor = "rgba(64, 146, 50, 1)";
   };
   return (
     <>
@@ -199,7 +197,6 @@ export const Sliders2 = ({ slides2 = slidesData2 }) => {
 // AboutUs 3 Slide ---------------------------
 
 export const Sliders3 = ({ slides2 = slidesData2 }) => {
-
   return (
     <>
       <div className="container mx-auto justify-center py-[40px] max-sm:py-[90px] max-md:py-[90px] max-lg:py-[90px] max-sm:px-8">
@@ -236,7 +233,7 @@ export const Sliders3 = ({ slides2 = slidesData2 }) => {
             {slides2.map((slide, index) => (
               <SwiperSlide
                 key={index}
-                className="rounded max-sm:rounded-xl py-6 min-h-[400px] max-h-28 bg-black  bg-opacity-30 slilder2"
+                className="rounded max-sm:rounded-xl py-6 min-h-[400px] max-h-28 bg-black  bg-opacity-30 bghoverCard"
               >
                 <div className="card container items-center justify-center">
                   <div className="items-center text-center text-white">
@@ -314,7 +311,7 @@ export const Sliders4 = ({ slides2 = slidesData2 }) => {
                 <div className="card container items-center justify-center ">
                   <div className="items-center text-center text-white ">
                     <div className="m-auto items-center flex justify-center overflow-hidden ">
-                    <img
+                      <img
                         className="h-[300px] w-[300px] hover:scale-110  object-fill rounded-full mb-2 overflow-hidden  ease-in duration-200	"
                         src={slide.image}
                         alt={`Slide ${index + 1}`}
@@ -414,125 +411,19 @@ export const CompainedSlide = ({ slides2 = slidesData2 }) => {
   );
 };
 
+//    -----  Initative img 
+
 export const InitiativeSlider2 = ({ slides2 = slidesData2 }) => {
   return (
     <>
-      <div className="justify-center py-[40px] max-sm:py-[90px] max-md:py-[90px] max-lg:py-[90px] max-sm:px-0 sm:max-sm:px-8 relative ">
-        <div>
-       
-          <div className="flex lg:visible sm:invisible max-sm:invisible">
-            <img
-              className="w-[100%] xl:h-[230px] lg:h-[300]  "
-              src={bgint}
-              alt=""
-              />
-          </div>
-          <Swiper
-             spaceBetween={30}
-             loop={true}
-             loopFillGroupWithBlank={true}
-             centeredSlides={true}
-             autoplay={{
-               delay: 2200,
-               disableOnInteraction: true,
-             }}
-             // navigation={true}
-             navigation={{
-                 nextEl: ".button-next",
-                 prevEl: ".button-prev",
-               }}
-            
-             pagination={{
-               clickable: true,
-               type: 'custom', 
-               renderCustom: (swiper, current, total) => {
-                 const progressWidth = (current / total) * 100; 
-                 
-                 return `
-                 <div class="   z-50 relative top-[-100px] sm:invisible ">
-                 <div class="swiper-pagination-fraction" style="color: dark-gray; font-weight:500;">${current} / ${total}</div>
-                 <div class="swiper-pagination-progressbar" style="background: black; width: ${progressWidth}%;"> </div>
-               </div>
-                 `;
-               },
-             }}
-            // navigation={true}
-
-            modules={[Autoplay, Pagination, Navigation]}
-            breakpoints={{
-              500: {
-                slidesPerView: 1,
-              },
-              642: {
-                slidesPerView: 2,
-              },
-              767: {
-                slidesPerView: 3,
-              },
-              1023: {
-                slidesPerView: 5,
-              },
-            }}
-            className="mySwiper  absolute lg:top-[-160px] sm:top-[-250px] max-sm:top-[-280px] "
-            style={{
-              backgroundImage: `url(${process.env.PUBLIC_URL}/Vector (11).png)`,
-              backgroundPosition: "center",
-              backgroundRepeat: "no-repeat",
-              backgroundSize: "100% 100%",
-              backdropFilter: "80%",
-            }}
-            
-          >
-            
-            {slides2.map((slide, index) => (
-              <SwiperSlide
-                key={index}
-                className="rounded max-sm:rounded-xl  bg-opacity-0"
-              >
-                  <div className="flex justify-center relative top-[-30px] ">
-                  <div className=" w-[100vw] max-sm:h-[260px] h-[160px] halfcircle">
-                  </div>
-                  </div>
-                <div className="card container relative max-sm:top-[-160px] sm:top-[-180px]">
-                  <div className=" text-center text-gray-700">
-                 
-                    <div className=" flex justify-center ">
-                      <img
-                        className="h-[115px] mt-5 w-[115px] max-sm:h-[165px] max-sm:w-[165px] object-fill rounded-full mb-2"
-                        src={slide.image}
-                        alt={`Slide ${index + 1}`}
-                      />
-                    </div>
-
-                    <div className="px-2 top-[90px] lg:mt-[50px]">
-                      <h1 className="text-xl text-gray-700">{slide.title}</h1>
-                      <h1 className="text-sm font-thin text-gray-700 mt-2">
-                        {slide.description}
-                      </h1>
-                      {/* <p className="border-b font-semibold text-white w-[122px] m-auto mt-2 tracking-wider cursor-pointer">
-                        Read more >>
-                      </p> */}
-                    </div>
-                  </div>
-                </div>
-              </SwiperSlide>
-            ))}
-          </Swiper>
-          <div className="flex justify-center relative max-sm:top-[-410px] sm:invisible z-50">
-            <h1></h1>
-            <div>
-            <div className="button-next  bgSlideBtn relative top-[-5px] text-base text-white left-12 " ><i class="bi bi-chevron-right"></i>  </div>
-        <div className="button-prev bgSlideBtn relative top-[-40px] right-12 text-base text-white  " >
-         <i class="bi bi-chevron-left"></i>
-         </div>
-            </div>
-         </div>
-        
-        </div>
+      <div className=" container mx-auto justify-center py-[40px] max-sm:py-[90px] max-md:py-[90px] max-lg:py-[90px] max-sm:px-0 sm:max-sm:px-8 relative sm:mb-[256px] xl:mb-[0px]">
+        <img className=" h-[400px] w-full rounded" src={vermiImg} alt="" />
       </div>
     </>
   );
 };
+
+// Een initiative img 
 
 export const InitiativeSlider4 = ({ slides2 = slidesData2 }) => {
   return (

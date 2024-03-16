@@ -3,12 +3,13 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import slide3 from "../Assets/Images/mainImg/mobilebg.jpg";
 import { OfferingsCompo1 } from "../Cards/card1";
-import product1 from "../../Components/Assets/Images/mainImg/hero1.png"
-import product1left from "../../Components/Assets/Images/mainImg/offerProd1.png"
-import product2left from "../../Components/Assets/Images/NimminProduct/broomType1-8.png"
-import  product2 from "../../Components/Assets/Images/NimminProduct/broom5.png"
-import product3left from "../../Components/Assets/Images/NimminProduct/Liquid Potion3.jpeg"
-import  product3 from "../../Components/Assets/Images/mainImg/hero3.png"
+import product1 from "../../Components/Assets/Images/NimminProduct/VormiType2_10.png"
+import product1left from "../../Components/Assets/Images/NimminProduct/vermiType2.11.png"
+import product2left from "../../Components/Assets/Images/NimminProduct/broomType2-9.png"
+import  product2 from "../../Components/Assets/Images/NimminProduct/broomType2-7.png"
+import product3left from "../../Components/Assets/Images/NimminProduct/liquidType3.5.png"
+import  product3 from "../../Components/Assets/Images/NimminProduct/liquidType3.8.png"
+import  nimmin1 from "../../Components/Assets/Images/mainImg/main1.png"
 
 export const Offerings = () => {
   useEffect(() => {
@@ -19,13 +20,10 @@ export const Offerings = () => {
     <>
       <div className="mb-16">
         <OfferingsCompo1 />
-
         <OfferingCompo2 />
         <OfferingCompo3/>
         <OfferingCompo4/>
         <OfferingCompo5/>
-
-
       </div>
     </>
   );
@@ -59,7 +57,7 @@ export const OfferingCompo2 = () => {
                 <div className=" z-10 ">
                   <img
                     className=" max-sm:w-[250px] h-[400px] rounded-xl mx-auto "
-                    src={slide3}
+                    src={nimmin1}
                     alt=""
                   />
                 </div>
@@ -67,7 +65,7 @@ export const OfferingCompo2 = () => {
               <div className="w-full z-0 max-sm:w-full  max-sm:px-5 text-white  max-sm:order-2 ">
                 <div className="xl:mb-6 max-sm:mb-16 max-md:mb-16 max-lg:mb-16  lg:mt-10   ">
                   <h1 className="text-white text-xl text font-semibold tracking-widest  max-sm:px-4 lg:text-start max-sm:text-center max-md:text-center max-lg:text-center ">
-                    Header H2
+                    Nimmin Products
                   </h1>
                 </div>
 
@@ -95,7 +93,7 @@ export const OfferingCompo2 = () => {
                     id tincidunt ante. Suspendisse eget bibendum massa.
                   </h1>
                   <button className="flex items-center px-4 py-1 mt-5   bg-green-700 text-white rounded-full border-2  cursor-pointer btn-bg mx-auto  ">
-                    LoremIpsum
+                    Nimmin Views
                     <FontAwesomeIcon icon={faArrowRight} className="ml-2" />
                   </button>
                 </div>
@@ -147,7 +145,7 @@ export const OfferingCompo3 = () =>{
                  
           </div>
           <div className="py-2">
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae libero repellendus minima itaque, est debitis rem voluptate sunt maiores, voluptatibus facere voluptates fugit voluptatem deleniti magni. Nulla et vel nemo?</p>
+            <p>Nimmin Organic Vermicompost Fertilizer for plants and home gardening 2 Kg - Plant based vermi compost manure - 100% Organic Fertilizer Enriched with all essential nutrients. Growth Promoter - Encourages optimal plant growth by offering vital nutrients, Immunity Booster - Reduce privalance of agriculture illnesses </p>
             <h1 className="text-green-600 lg:text-end max-sm:text-start font-semibold" >Learn More >></h1>
           </div>
 
@@ -174,7 +172,7 @@ export const OfferingCompo4 = () =>{
         <div className="flex gap-0 items-center xl:justify-start lg:justify-center md:justify-center   max-md:flex-col ">
             <div className=" z-10  " ><img className="h-[300px] sm:w-[100%] md:max-w-[330px] rounded" src={product2} alt="" /></div>
             <div className=" text-gray-700 max-sm:py-3 md:w-[220px] md:h-[220px] rounded-full outline2  relative right-[30px]   flex md:items-center  max-sm:items-center [50px]"> 
-            <h2 className="pName max-sm:text-3xl sm:text-3xl max-sm:mt-3 sm:mt-3 md:mt-0 md:text-base z-10 ml-[35px] font-semibold"> Vermicompost </h2>
+            <h2 className="pName max-sm:text-3xl sm:text-3xl max-sm:mt-3 sm:mt-3 md:mt-0 md:text-base z-10 ml-[35px] font-semibold">Housekeeping Brush Fiber</h2>
             </div>
           </div>
 
@@ -198,7 +196,11 @@ export const OfferingCompo4 = () =>{
                  
           </div>
           <div className="py-2">
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae libero repellendus minima itaque, est debitis rem voluptate sunt maiores, voluptatibus facere voluptates fugit voluptatem deleniti magni. Nulla et vel nemo?</p>
+            <p>
+            Nimmin Housekeeping Brush Fiber Wet and Dry Multi use Brush - Flat and Strong Fiber for Best Result - Ergonomic Handle and Light Weight.
+            Works in Dry & Wet Conditions,
+            High Quality cleaning Brooms & Brushes.
+          </p>
             <h1 className="text-green-600 lg:text-end max-sm:text-start font-semibold" >Learn More >></h1>
           </div>
 
@@ -224,7 +226,7 @@ export const OfferingCompo5 = () =>{
           <div className="flex gap-0 items-center xl:justify-start lg:justify-center md:justify-center   max-md:flex-col ">
           <div className=" z-10  " ><img className="h-[300px] sm:w-[100%] md:max-w-[330px] rounded" src={product3} alt="" /></div>
             <div className=" text-gray-700 max-sm:py-3 md:w-[220px] md:h-[220px] rounded-full outline2  relative right-[30px]   flex md:items-center  max-sm:items-center [50px]"> 
-            <h2 className="pName max-sm:text-3xl sm:text-3xl max-sm:mt-3 sm:mt-3 md:mt-0  md:text-base z-10 ml-[30px] font-semibold "> Product Name </h2>
+            <h2 className="pName max-sm:text-3xl sm:text-3xl max-sm:mt-3 sm:mt-3 md:mt-0  md:text-base z-10 ml-[40px] font-semibold "> Liquid Poshan </h2>
             </div>
           </div>
 
@@ -248,7 +250,8 @@ export const OfferingCompo5 = () =>{
                  
           </div>
           <div className="py-2">
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae libero repellendus minima itaque, est debitis rem voluptate sunt maiores, voluptatibus facere voluptates fugit voluptatem deleniti magni. Nulla et vel nemo?</p>
+            <p>Lazy Gardener Liquid Poshan For Plant Food |Growth, Root Boost & Plant Tonic Combo Plant Care Kit for Plant indoor Outdoor Home Garden| Plant Food Fertilizer for Green, Flowering Plants
+            Perfect for all types of gardens, whether you have plants in pots or in the ground.</p>
             <h1 className="text-green-600 lg:text-end max-sm:text-start font-semibold" >Learn More >></h1>
           </div>
 

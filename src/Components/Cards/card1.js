@@ -1,21 +1,15 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
-import slide3 from "../Assets/Images/mainImg/mobilebg.jpg";
+
+import { card1Data } from "./CardData";
 
 export const OfferingsCompo1 = () => {
   const handleButtonClick = () => {
     // Your button click logic here
     console.log("Button Clicked!");
   };
-  const card1Data = [
-    { key: 1, imageSrc: slide3, buttonText: "LoremIpsum" },
-    { key: 2, imageSrc: slide3, buttonText: "LoremIpsum" },
-    { key: 2, imageSrc: slide3, buttonText: "LoremIpsum" },
-    { key: 2, imageSrc: slide3, buttonText: "LoremIpsum" },
-    { key: 2, imageSrc: slide3, buttonText: "LoremIpsum" },
-    { key: 2, imageSrc: slide3, buttonText: "LoremIpsum" },
-  ];
+
 
   return (
     <div className="container grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6 gap-4 p-4 mx-auto">

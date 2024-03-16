@@ -12,7 +12,7 @@ export const Initiativescompo3 = () => {
       <>
           
         <div className=" ini mt-0 xl:px-0 py-6  max-sm:hidden sm:hidden xl:block ">
-          <div className="relative xl:top-[-160px]">
+          <div className="xl:relative xl:top-[260px] sm:top-[400px]">
             <div>
               <div className="flex xl:visible sm:invisible max-sm:invisible ">
                 <img className="w-[100%] h-full  " src={intiComp3img1} alt="" />
@@ -24,14 +24,12 @@ export const Initiativescompo3 = () => {
                   <img className="h-[170px]" src={intiComp3Img2} alt="" />
                 </div>
   
-                <div className="w-1/6 justify-between relative top-[-180px] right-[150px]">
+                <div className="w-1/6 justify-between relative xl:top-[-180px] right-[150px]">
                   <button className="textgr text-base text-white rounded py-2 px-8 ">
                     Headline #0x{" "}
                   </button>
                   <h1 className="text-sm text-gray-500 mt-2 ">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Mauris viverra tortor dolor, vel tempor lectus tempor ut.
-                    Vivamus et ornare neque, id tincidunt ante.
+                     High quality soil enrichment organic matter for all your vegetation needs
                   </h1>
                   <div className="relative top-[80px] sm:left-[0px] max-sm:-left-[0px] xl:left-[230px]">
                     <img className="h-[140px]" src={setting1} alt="" />
@@ -40,9 +38,7 @@ export const Initiativescompo3 = () => {
   
                 <div className="w-2/6 justify-between relative top-[-40px] px-6">
                   <h1 className="text-sm text-gray-500 ">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Mauris viverra tortor dolor, vel tempor lectus tempor ut.
-                    Vivamus et ornare neque, id tincidunt ante.
+                    Soil Enhancer-: Enhances Soil quality, Structure, and texture.
                   </h1>
                   <div className="flex justify-end cursor-pointer">
                     <div className="flex items-center w-[100px] border border-green-600  flex-col rounded-full py-1 px-2">
@@ -67,9 +63,7 @@ export const Initiativescompo3 = () => {
                     Headline #0x{" "}
                   </button>
                   <h1 className="text-sm text-gray-500 mt-2 ">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Mauris viverra tortor dolor, vel tempor lectus tempor ut.
-                    Vivamus et ornare neque, id tincidunt ante.
+                   Natural Catalyst-: Improves the aeration and water-holding capacity
                   </h1>
                 </div>
   
@@ -85,9 +79,7 @@ export const Initiativescompo3 = () => {
                     Headline #0x{" "}
                   </button>
                   <h1 className="text-sm text-gray-500 mt-2 ">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Mauris viverra tortor dolor, vel tempor lectus tempor ut.
-                    Vivamus et ornare neque, id tincidunt ante.
+                    Growth Promoters-: Encourages optimal plant growth by offering vital nutrients.
                   </h1>
                 </div>
               </div>
@@ -96,9 +88,7 @@ export const Initiativescompo3 = () => {
               <div className="container px-20 flex justify-between absolute top-[800px] gap-16 max-sm:w-[0px]  max-sm:h-[0px]">
                 <div className="w-1/6 justify-between relative top-[-180px] right-[0]">
                   <h1 className="text-sm text-gray-500 mt-2 ">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Mauris viverra tortor dolor, vel tempor lectus tempor ut.
-                    Vivamus et ornare neque, id tincidunt ante.
+                    Yield Multiplier -Adis in plant output and seed germination.
                   </h1>
                   <div className="relative top-[30px] sm:left-[0px] max-sm:-left-[0px] xl:left-[430px]">
                     <img className="h-[140px]" src={setting4} alt="" />

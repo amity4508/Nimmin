@@ -1,3 +1,4 @@
+
 import React, { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
@@ -59,12 +60,24 @@ const Navbar = () => {
 
   return (
     <>
+    {/* Navbar1-- */}
       {/* <nav  className={`navbar ${scrolling ? 'scrolling' : ''}`} style={{ position: 'fixed', top: 0, width: '100%', zIndex: 10, marginTop: window.innerWidth >= 768 ? '50px' : '0', backgroundColor: scrolling && window.innerWidth < 1024 ? 'yellow' : 'transparent' }}> */}
 
       {/* this only for small screen */}
 
       {/* <nav className={`navbar ${scrolling ? 'scrolling' : ''}`} style={{ position: window.innerWidth < 1024 ? 'fixed' : 'relative', top: 0, width: '100%', zIndex: 10, backgroundColor: scrolling && window.innerWidth < 1024 ? 'white' : 'transparent' }}> */}
-      <nav
+    <div 
+        className={`navbar ${scrolling ? "hidden" : ""} mb-4 xl:py-5`}
+        style={{
+          position: "fixed",
+          top: 0,
+          width: "100%",
+          zIndex: 10,
+          backgroundColor: "transparent",
+        }}
+    
+    >
+    <nav
         className={`navbar ${scrolling ? "scrolling" : ""} ${
           window.innerWidth < 1024 ? "border-b" : ""
         }`}
@@ -82,7 +95,7 @@ const Navbar = () => {
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.5 }}
         >
-          <div className="container  mx-auto flex items-center justify-between ">
+          <div className="container  mx-auto flex items-center gap-20 xl:justify-start sm:justify-between max-sm:justify-between">
             <div className="logo navLeft">
               {/* Logo1  */}
               <div className="text-white font-bold text-6xl mb-4 max-lg:hidden">
@@ -148,7 +161,7 @@ const Navbar = () => {
             </div>
 
             {/* NavRight  */}
-            <div className="hidden lg:flex space-x-4 text-white text-center font-medium list-none ">
+            {/* <div className="hidden lg:flex space-x-4 text-white text-center font-medium list-none ">
               <li className="bg-green-700 py-1 rounded w-[114px] cursor-pointer ">
                 {" "}
                 <Link
@@ -169,7 +182,7 @@ const Navbar = () => {
                   Login
                 </Link>
               </li>
-            </div>
+            </div> */}
 
             {/* Hamburgur Icon */}
             {/* Hamburgur Icon */}
@@ -219,15 +232,58 @@ const Navbar = () => {
                   >
                     {link.label}
                   </Link>
-                  {menu === link.key ? <hr className="red" style={{ borderColor:"yellow",width:"80px", height:"8px", }}  /> : <></>}
+                  {menu === link.key ? <hr className="red" style={{ borderColor:"yellow",width:"55px", height:"8px", }}  /> : <></>}
                 </li>
               ))}
             </div>
           </div>
         </motion.div>
       </nav>
+    </div>
 
+      {/* Navbar2  ---------------------------- */}
+    
+    
+    < motion.nav
+        className={`navbar lg:py-5  ${scrolling ? "" : "hidden"}`}
+        style={{
+          position: "fixed",
+          top: 0,
+          width: "100%",
+          zIndex:"99",
+          backgroundColor: "white",
+        }}>
+        <div
+        
+        >
+          {/* BottomNav --------------------- */}
+          <div className="container mx-auto flex  justify-between	">
+          <div className="text-white font-bold text-6xl mb-4 max-lg:hidden ">
+                <img
+                  className="max-lg:h-10 max-xl:h-12 max-2xl:h-8 "
+                  src={logo2}
+                  alt=""
+                />
+              </div>
 
+            <div className="hidden lg:flex space-x-4 text-black list-none text-xl">
+              {navLinks.map((link, index) => (
+                <li className=" hover:text-green-900" key={index} onClick={() => setMenu(link.key)}>
+                  <Link
+                    style={{ textDecoration: "none" }}
+                    to={link.to}
+                    onClick={closeSidebar}
+                  >
+                    {link.label}
+                  </Link>
+                  {menu === link.key ? <hr className="red" style={{ borderColor:"yellow",width:"55px", height:"8px", }}  /> : <></>}
+                </li>
+              ))}
+            </div>
+          </div>
+        </div>
+      </motion.nav>
+ 
       
 
       {/* SidebarNav  */}
@@ -252,7 +308,7 @@ const Navbar = () => {
               >
                 {link.label}
               </Link>
-              {menu === link.key ? <hr className="red" style={{ borderColor: "green", width:"90px", height:"8px" }} /> : <></>}
+              {menu === link.key ? <hr className="red" style={{ borderColor: "green", width:"60px", height:"8px" }} /> : <></>}
             </li>
           ))}
         </ul>
@@ -266,3 +322,4 @@ const Navbar = () => {
 };
 
 export default Navbar;
+

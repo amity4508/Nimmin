@@ -43,16 +43,9 @@ export const Initiativescompo1 = () => {
                   With our commitment to environmental stewardship, we harness
                   discarded banana byproduct to create innovative solution.
                 </p>
+                <br></br>
                 <p>
-                  <b>
-                    “To pioneer sustainable practices that fosters global
-                    change”
-                  </b>{" "}
-                  <br />
-                  We unleash the power where waste is no longer seen as burden.
-                  With a forefront of the eco friendly revolution, we aims to
-                  ignite a movement towards circular economy by utilizing
-                  agricultural waste as efficiently and responsibly.
+                We introduce ourselves as an organization where every person, product and process exists to accentuate sustainable living. In other words, we make products and services which are “Basic Needs”, “Healthier”, “Safer”, “Smarter”, “Desirable” and most of all “ Highly Sustainable” for future generations. 
                 </p>
               </div>
               <div className="compained">

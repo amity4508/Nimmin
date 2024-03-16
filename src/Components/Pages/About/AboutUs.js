@@ -1,7 +1,7 @@
 import React from "react";
 import { Sliders3 } from "../../Swipers/Sliders";
 import { AboutUsSlide1 } from "./AboutUsData";
-import about9 from "../../../Components/Assets/Images/mainImg/about9.png"
+import about9 from "../../../Components/Assets/Images/NimminProduct/VermiType2.13.png"
 import about10 from "../../../Components/Assets/Images/mainImg/about10.png"
 import broo5 from "../../../Components/Assets/Images/NimminProduct/broom5.png"
 import liquidType3_1 from "../../../Components/Assets/Images/NimminProduct/liquidType3.1.png"
@@ -120,9 +120,12 @@ export const AboutDetails = () => {
 
         <div className="aboutComp2 flex max-sm:flex-col items-center gap-5  ">
           <div className=" max-sm:w-full max-sm:px-5 text-white  max-sm:order-2 ">
-            <h1 className="xl:text-2xl max-sm:text-lg sm:text-xl">
+            <h1 className="xl:text-xl max-sm:text-lg sm:text-xl">
             Nimmin “believes in crafting sustainable solution” with priorities of greener and healthier planet. We bring a essence of transforming agricultural waste into valuable resource. With our commitment to environmental stewardship, we harness discarded banana byproduct to create innovative solution. 
+           
             </h1>
+            <br></br>
+            <h1 className="xl:text-xl max-sm:text-lg sm:text-xl"> We introduce ourselves as an organization where every person, product and process exists to accentuate sustainable living. In other words, we make products and services which are “Basic Needs”, “Healthier”, “Safer”, “Smarter”, “Desirable” and most of all “ Highly Sustainable” for future generations. </h1>
           </div>
           {/* <div className="w-3/6 max-sm:w-full max-sm:order-1 ">
             <div>

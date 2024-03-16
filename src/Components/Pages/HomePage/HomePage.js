@@ -139,7 +139,7 @@ export const Homepage = () =>{
         }}>
          <div className="container mx-auto">
          <div className="py-5 " >
-            <h1 className=" text-2xl heading1  ">Liquid Potion</h1>
+            <h1 className=" text-2xl heading1  ">Liquid Poshan</h1>
              <p className="w-[50px] border-yellow-500 border-b-4 mt-2  "></p>
             </div>     
         <Sliders2 slides2={slidesDataheaderLiquid1} />

@@ -287,48 +287,48 @@ export const slidesDataheaderVormi3 = [
   },
 ];
 
-// header2 datatType1- Brooms
+// header2 datatType1------------------------------- Brooms
 export const slidesDataheader2 = [
   {
     image: broomType1_1,
-    title: "Our missions ",
+    title: "Housekeeping Brush Fiber",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ultrices, libero non convallis iaculis, neque ",
+      "Nimmin Housekeeping Brush Fiber Wet and Dry Multi use Brush - Flat and Strong Fiber for Best Result - Ergonomic Handle and Light Weight ",
   },
   {
     image: broomType1_2,
-    title: "Slide 2 Title",
-    description: "Slide 2 Description",
+    title: "Housekeeping Brush Fiber",
+    description: "Nimmin Housekeeping Brush Fiber Wet and Dry Multi use Brush - Flat and Strong Fiber for Best Result - Ergonomic Handle and Light Weight",
   },
   {
     image: broomType1_3,
-    title: "Slide 3 Title",
-    description: "Slide 3 Description",
+    title: "Housekeeping Brush Fiber",
+    description: "Nimmin Housekeeping Brush Fiber Wet and Dry Multi use Brush - Flat and Strong Fiber for Best Result - Ergonomic Handle and Light Weight",
   },
   {
     image: broomType1_4,
     title: "Slide 2 Title",
-    description: "Slide 2 Description",
+    description: "Nimmin Housekeeping Brush Fiber Wet and Dry Multi use Brush - Flat and Strong Fiber for Best Result - Ergonomic Handle and Light Weight",
   },
   {
     image: broomType1_5,
-    title: "Slide 3 Title",
-    description: "Slide 3 Description",
+    title: "Housekeeping Brush Fiber",
+    description: "Nimmin Housekeeping Brush Fiber Wet and Dry Multi use Brush - Flat and Strong Fiber for Best Result - Ergonomic Handle and Light Weight",
   },
   {
     image: broomType1_6,
-    title: "Slide 3 Title",
-    description: "Slide 3 Description",
+    title: "Housekeeping Brush Fiber",
+    description: "Nimmin Housekeeping Brush Fiber Wet and Dry Multi use Brush - Flat and Strong Fiber for Best Result - Ergonomic Handle and Light Weight",
   },
   {
     image: broomType1_7,
-    title: "Slide 3 Title",
-    description: "Slide 3 Description",
+    title: "Housekeeping Brush Fiber",
+    description: "Nimmin Housekeeping Brush Fiber Wet and Dry Multi use Brush - Flat and Strong Fiber for Best Result - Ergonomic Handle and Light Weight",
   },
   {
     image: broomType1_8,
-    title: "Slide 3 Title",
-    description: "Slide 3 Description",
+    title: "Housekeeping Brush Fiber",
+    description: "Nimmin Housekeeping Brush Fiber Wet and Dry Multi use Brush - Flat and Strong Fiber for Best Result - Ergonomic Handle and Light Weight",
   },
 ];
 export const slidesDataheader3 = [
@@ -336,32 +336,32 @@ export const slidesDataheader3 = [
     image: broomType2_1,
     title: "Our missions ",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ultrices, libero non convallis iaculis, neque ",
+      "Nimmin Housekeeping Brush Fiber Wet and Dry Multi use Brush - Flat and Strong Fiber for Best Result - Ergonomic Handle and Light Weight ",
   },
   {
     image: broomType2_2,
     title: "Slide 2 Title",
-    description: "Slide 2 Description",
+    description: "Nimmin Housekeeping Brush Fiber Wet and Dry Multi use Brush - Flat and Strong Fiber for Best Result - Ergonomic Handle and Light Weight",
   },
   {
     image: broomType2_3,
-    title: "Slide 3 Title",
-    description: "Slide 3 Description",
+    title: "Housekeeping Brush Fiber",
+    description: "Nimmin Housekeeping Brush Fiber Wet and Dry Multi use Brush - Flat and Strong Fiber for Best Result - Ergonomic Handle and Light Weight",
   },
   {
     image: broomType2_4,
     title: "Slide 2 Title",
-    description: "Slide 2 Description",
+    description: "Nimmin Housekeeping Brush Fiber Wet and Dry Multi use Brush - Flat and Strong Fiber for Best Result - Ergonomic Handle and Light Weight",
   },
   {
     image: broomType2_5,
-    title: "Slide 3 Title",
-    description: "Slide 3 Description",
+    title: "Housekeeping Brush Fiber",
+    description: "Nimmin Housekeeping Brush Fiber Wet and Dry Multi use Brush - Flat and Strong Fiber for Best Result - Ergonomic Handle and Light Weight",
   },
   {
     image: broomType2_6,
-    title: "Slide 3 Title",
-    description: "Slide 3 Description",
+    title: "Housekeeping Brush Fiber",
+    description: "Nimmin Housekeeping Brush Fiber Wet and Dry Multi use Brush - Flat and Strong Fiber for Best Result - Ergonomic Handle and Light Weight",
   },
 ];
 
@@ -372,47 +372,47 @@ export const slidesDataheader4 = [
     image: broomType3_1,
     title: "Our missions ",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ultrices, libero non convallis iaculis, neque ",
+      "Nimmin Housekeeping Brush Fiber Wet and Dry Multi use Brush - Flat and Strong Fiber for Best Result - Ergonomic Handle and Light Weight ",
   },
   {
     image: broomType3_2,
     title: "Slide 2 Title",
-    description: "Slide 2 Description",
+    description: "Nimmin Housekeeping Brush Fiber Wet and Dry Multi use Brush - Flat and Strong Fiber for Best Result - Ergonomic Handle and Light Weight",
   },
   {
     image: broomType3_3,
-    title: "Slide 3 Title",
-    description: "Slide 3 Description",
+    title: "Housekeeping Brush Fiber",
+    description: "Nimmin Housekeeping Brush Fiber Wet and Dry Multi use Brush - Flat and Strong Fiber for Best Result - Ergonomic Handle and Light Weight",
   },
   {
     image: broomType3_4,
     title: "Slide 2 Title",
-    description: "Slide 2 Description",
+    description: "Nimmin Housekeeping Brush Fiber Wet and Dry Multi use Brush - Flat and Strong Fiber for Best Result - Ergonomic Handle and Light Weight",
   },
   {
     image: broomType3_5,
-    title: "Slide 3 Title",
-    description: "Slide 3 Description",
+    title: "Housekeeping Brush Fiber",
+    description: "Nimmin Housekeeping Brush Fiber Wet and Dry Multi use Brush - Flat and Strong Fiber for Best Result - Ergonomic Handle and Light Weight",
   },
   {
     image: broomType3_6,
-    title: "Slide 3 Title",
-    description: "Slide 3 Description",
+    title: "Housekeeping Brush Fiber",
+    description: "Nimmin Housekeeping Brush Fiber Wet and Dry Multi use Brush - Flat and Strong Fiber for Best Result - Ergonomic Handle and Light Weight",
   },
   {
     image: broomType3_7,
-    title: "Slide 3 Title",
-    description: "Slide 3 Description",
+    title: "Housekeeping Brush Fiber",
+    description: "Nimmin Housekeeping Brush Fiber Wet and Dry Multi use Brush - Flat and Strong Fiber for Best Result - Ergonomic Handle and Light Weight",
   },
   {
     image: broomType3_8,
-    title: "Slide 3 Title",
-    description: "Slide 3 Description",
+    title: "Housekeeping Brush Fiber",
+    description: "Nimmin Housekeeping Brush Fiber Wet and Dry Multi use Brush - Flat and Strong Fiber for Best Result - Ergonomic Handle and Light Weight",
   },
   {
     image: broomType3_9,
-    title: "Slide 3 Title",
-    description: "Slide 3 Description",
+    title: "Housekeeping Brush Fiber",
+    description: "Nimmin Housekeeping Brush Fiber Wet and Dry Multi use Brush - Flat and Strong Fiber for Best Result - Ergonomic Handle and Light Weight",
   },
 ];
 
@@ -421,37 +421,37 @@ export const slidesDataheader5 = [
     image: broomType3_1,
     title: "Our missions ",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ultrices, libero non convallis iaculis, neque ",
+      "Nimmin Housekeeping Brush Fiber Wet and Dry Multi use Brush - Flat and Strong Fiber for Best Result - Ergonomic Handle and Light Weight ",
   },
   {
     image: broomType4_2,
     title: "Slide 2 Title",
-    description: "Slide 2 Description",
+    description: "Nimmin Housekeeping Brush Fiber Wet and Dry Multi use Brush - Flat and Strong Fiber for Best Result - Ergonomic Handle and Light Weight",
   },
   {
     image: broomType4_3,
-    title: "Slide 3 Title",
-    description: "Slide 3 Description",
+    title: "Housekeeping Brush Fiber",
+    description: "Nimmin Housekeeping Brush Fiber Wet and Dry Multi use Brush - Flat and Strong Fiber for Best Result - Ergonomic Handle and Light Weight",
   },
   {
     image: broomType4_4,
     title: "Slide 2 Title",
-    description: "Slide 2 Description",
+    description: "Nimmin Housekeeping Brush Fiber Wet and Dry Multi use Brush - Flat and Strong Fiber for Best Result - Ergonomic Handle and Light Weight",
   },
   {
     image: broomType4_5,
-    title: "Slide 3 Title",
-    description: "Slide 3 Description",
+    title: "Housekeeping Brush Fiber",
+    description: "Nimmin Housekeeping Brush Fiber Wet and Dry Multi use Brush - Flat and Strong Fiber for Best Result - Ergonomic Handle and Light Weight",
   },
   {
     image: broomType4_6,
-    title: "Slide 3 Title",
-    description: "Slide 3 Description",
+    title: "Housekeeping Brush Fiber",
+    description: "Nimmin Housekeeping Brush Fiber Wet and Dry Multi use Brush - Flat and Strong Fiber for Best Result - Ergonomic Handle and Light Weight",
   },
   {
     image: broomType4_7,
-    title: "Slide 3 Title",
-    description: "Slide 3 Description",
+    title: "Housekeeping Brush Fiber",
+    description: "Nimmin Housekeeping Brush Fiber Wet and Dry Multi use Brush - Flat and Strong Fiber for Best Result - Ergonomic Handle and Light Weight",
   },
 ];
 
@@ -459,39 +459,39 @@ export const slidesDataheader5 = [
 export const slidesDataheaderLiquid1 = [
   {
     image: liquidType1_1,
-    title: "Our missions ",
+    title: "Liquid Poshan ",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ultrices, libero non convallis iaculis, neque ",
   },
   {
     image: liquidType1_2,
-    title: "Slide 2 Title",
-    description: "Slide 2 Description",
+    title: "Liquid Poshan",
+    description: "Lazy Gardener Liquid Poshan For Plant Food |Growth, Root Boost & Plant Tonic Combo Plant Care Kit for Plant indoor Outdoor Home Garden| Plant Food Fertilizer for Green, Flowering Plants",
   },
   {
     image: liquidType1_3,
     title: "Slide 3 Title",
-    description: "Slide 3 Description",
+    description: "Lazy Gardener Liquid Poshan For Plant Food |Growth, Root Boost & Plant Tonic Combo Plant Care Kit for Plant indoor Outdoor Home Garden| Plant Food Fertilizer for Green, Flowering Plants",
   },
   {
     image: liquidType1_4,
-    title: "Slide 2 Title",
-    description: "Slide 2 Description",
+    title: "Liquid Poshan",
+    description: "Lazy Gardener Liquid Poshan For Plant Food |Growth, Root Boost & Plant Tonic Combo Plant Care Kit for Plant indoor Outdoor Home Garden| Plant Food Fertilizer for Green, Flowering Plants",
   },
   {
     image: liquidType1_5,
-    title: "Slide 3 Title",
-    description: "Slide 3 Description",
+    title: "Liquid Poshan",
+    description: "Lazy Gardener Liquid Poshan For Plant Food |Growth, Root Boost & Plant Tonic Combo Plant Care Kit for Plant indoor Outdoor Home Garden| Plant Food Fertilizer for Green, Flowering Plants",
   },
   {
     image: liquidType1_6,
-    title: "Slide 3 Title",
-    description: "Slide 3 Description",
+    title: "Liquid Poshan",
+    description: "Lazy Gardener Liquid Poshan For Plant Food |Growth, Root Boost & Plant Tonic Combo Plant Care Kit for Plant indoor Outdoor Home Garden| Plant Food Fertilizer for Green, Flowering Plants",
   },
   {
     image: liquidType1_7,
-    title: "Slide 3 Title",
-    description: "Slide 3 Description",
+    title: "Liquid Poshan",
+    description: "Lazy Gardener Liquid Poshan For Plant Food |Growth, Root Boost & Plant Tonic Combo Plant Care Kit for Plant indoor Outdoor Home Garden| Plant Food Fertilizer for Green, Flowering Plants",
   },
 
 ];
@@ -500,44 +500,44 @@ export const slidesDataheaderLiquid1 = [
 export const slidesDataheaderLiquid2 = [
   {
     image: liquidType2_1,
-    title: "Our missions ",
+    title: "Liquid Poshan ",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ultrices, libero non convallis iaculis, neque ",
   },
   {
     image: liquidType2_2,
-    title: "Slide 2 Title",
-    description: "Slide 2 Description",
+    title: "Liquid Poshan",
+    description: "Lazy Gardener Liquid Poshan For Plant Food |Growth, Root Boost & Plant Tonic Combo Plant Care Kit for Plant indoor Outdoor Home Garden| Plant Food Fertilizer for Green, Flowering Plants",
   },
   {
     image: liquidType2_3,
-    title: "Slide 3 Title",
-    description: "Slide 3 Description",
+    title: "Liquid Poshan",
+    description: "Lazy Gardener Liquid Poshan For Plant Food |Growth, Root Boost & Plant Tonic Combo Plant Care Kit for Plant indoor Outdoor Home Garden| Plant Food Fertilizer for Green, Flowering Plants",
   },
   {
     image: liquidType2_4,
-    title: "Slide 2 Title",
-    description: "Slide 2 Description",
+    title: "Liquid Poshan",
+    description: "Lazy Gardener Liquid Poshan For Plant Food |Growth, Root Boost & Plant Tonic Combo Plant Care Kit for Plant indoor Outdoor Home Garden| Plant Food Fertilizer for Green, Flowering Plants",
   },
   {
     image: liquidType2_5,
-    title: "Slide 3 Title",
-    description: "Slide 3 Description",
+    title: "Liquid Poshan",
+    description: "Lazy Gardener Liquid Poshan For Plant Food |Growth, Root Boost & Plant Tonic Combo Plant Care Kit for Plant indoor Outdoor Home Garden| Plant Food Fertilizer for Green, Flowering Plants",
   },
   {
     image: liquidType2_6,
-    title: "Slide 3 Title",
-    description: "Slide 3 Description",
+    title: "Liquid Poshan",
+    description: "Lazy Gardener Liquid Poshan For Plant Food |Growth, Root Boost & Plant Tonic Combo Plant Care Kit for Plant indoor Outdoor Home Garden| Plant Food Fertilizer for Green, Flowering Plants",
   },
   {
     image: liquidType2_7,
-    title: "Slide 3 Title",
-    description: "Slide 3 Description",
+    title: "Liquid Poshan",
+    description: "Lazy Gardener Liquid Poshan For Plant Food |Growth, Root Boost & Plant Tonic Combo Plant Care Kit for Plant indoor Outdoor Home Garden| Plant Food Fertilizer for Green, Flowering Plants",
   },
   {
     image: liquidType2_8,
-    title: "Slide 3 Title",
-    description: "Slide 3 Description",
+    title: "Liquid Poshan",
+    description: "Lazy Gardener Liquid Poshan For Plant Food |Growth, Root Boost & Plant Tonic Combo Plant Care Kit for Plant indoor Outdoor Home Garden| Plant Food Fertilizer for Green, Flowering Plants",
   },
 ];
 
@@ -551,22 +551,22 @@ export const AboutUsSlide1 = [
   {
     image: slide2,
     title: "Slide 2 Title",
-    description: "Slide 2 Description",
+    description: "Lazy Gardener Liquid Poshan For Plant Food |Growth, Root Boost & Plant Tonic Combo Plant Care Kit for Plant indoor Outdoor Home Garden| Plant Food Fertilizer for Green, Flowering Plants",
   },
   {
     image: slide3,
     title: "Slide 3 Title",
-    description: "Slide 3 Description",
+    description: "Lazy Gardener Liquid Poshan For Plant Food |Growth, Root Boost & Plant Tonic Combo Plant Care Kit for Plant indoor Outdoor Home Garden| Plant Food Fertilizer for Green, Flowering Plants",
   },
   {
     image: slide2,
     title: "Slide 2 Title",
-    description: "Slide 2 Description",
+    description: "Lazy Gardener Liquid Poshan For Plant Food |Growth, Root Boost & Plant Tonic Combo Plant Care Kit for Plant indoor Outdoor Home Garden| Plant Food Fertilizer for Green, Flowering Plants",
   },
   {
     image: slide3,
     title: "Slide 3 Title",
-    description: "Slide 3 Description",
+    description: "Lazy Gardener Liquid Poshan For Plant Food |Growth, Root Boost & Plant Tonic Combo Plant Care Kit for Plant indoor Outdoor Home Garden| Plant Food Fertilizer for Green, Flowering Plants",
   },
 ];
 // initative slide 1 
@@ -608,31 +608,31 @@ export const InitiativeSlide1 = [
 
 export const CompainedSlide1 = [
   {
-    image: logo,
+    image: init1,
   },
   {
-    image: logo,
+    image: init2,
   },
   {
-    image: logo,
+    image: init3,
   },
   {
-    image: logo,
+    image: init4,
   },
   {
-    image: slide3,
+    image: init2_1,
   },
   {
-    image: slide3,
+    image: init2_5,
   },
   {
-    image: slide3,
+    image: init2_2,
   },
   {
-    image: slide3,
+    image: init2_3,
   },
   {
-    image: slide3,
+    image: init2_4,
   },
 ];
 
@@ -640,37 +640,37 @@ export const CompainedSlide1 = [
 export const InitiativesSlide2 = [
   {
     image: setting1,
-    title: "Our missions ",
+
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ultrices, libero non convallis iaculis, neque ",
+      `To pioneer sustainable practices that fosters global change -  `,
   },
   {
     image: setting2,
-    title: "Our missions ",
+
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ultrices, libero non convallis iaculis, neque ",
   },
   {
     image: setting3,
-    title: "Our missions ",
+
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ultrices, libero non convallis iaculis, neque ",
   },
   {
     image: setting4,
-    title: "Our missions ",
+
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ultrices, libero non convallis iaculis, neque ",
   },
   {
     image: setting5,
-    title: "Our missions ",
+
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ultrices, libero non convallis iaculis, neque ",
   },
   {
     image: setting5,
-    title: "Our missions ",
+
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ultrices, libero non convallis iaculis, neque ",
   },
