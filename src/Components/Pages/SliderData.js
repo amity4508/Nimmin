@@ -8,14 +8,10 @@ import setting3 from "../../Components/Assets/Images/mainImg/Group 91 (2).png";
 import setting4 from "../../Components/Assets/Images/mainImg/Group 91 (3).png";
 import setting5 from "../../Components/Assets/Images/mainImg/Group 86.png";
 // Initiative slider 1
-import ellipse1 from "../../Components/Assets/Images/mainImg/Ellipse 38 (1).png"
-import ellipse2 from "../../Components/Assets/Images/mainImg/Ellipse 38 (1).png"
-import ellipse3 from "../../Components/Assets/Images/mainImg/Ellipse 38 (1).png"
-import ellipse4 from "../../Components/Assets/Images/mainImg/Ellipse 38 (1).png"
-import ellipse5 from "../../Components/Assets/Images/mainImg/Ellipse 38 (1).png"
+
 
  // Initiative slider 1
-import init1 from "../../Components/Assets/Images/mainImg/init1.png";
+import init1  from "../../Components/Assets/Images/mainImg/init1.png";
 import init2 from "../../Components/Assets/Images/mainImg/init2.png";
 import init3 from "../../Components/Assets/Images/mainImg/init3.png";
 import init4 from "../../Components/Assets/Images/mainImg/init4.png";
@@ -572,7 +568,7 @@ export const AboutUsSlide1 = [
 // initative slide 1 
 export const InitiativeSlide1 = [
   {
-    image: init1,
+    image: init1 ,
     title: "Our missions ",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ultrices, libero non convallis iaculis, neque ",
@@ -608,7 +604,7 @@ export const InitiativeSlide1 = [
 
 export const CompainedSlide1 = [
   {
-    image: init1,
+    image: init1 ,
   },
   {
     image: init2,
@@ -712,37 +708,37 @@ export const CompainedSlide3 = [
 
 export const InitSlide1 = [
   {
-    image: ellipse1,
+    image: init1 ,
     title: "Our missions ",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ultrices, libero non convallis iaculis, neque ",
   },
   {
-    image: ellipse2,
+    image: init1 ,
     title: "Our missions ",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ultrices, libero non convallis iaculis, neque ",
   },
   {
-    image: ellipse3,
+    image: init1 ,
     title: "Our missions ",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ultrices, libero non convallis iaculis, neque ",
   },
   {
-    image: ellipse4,
+    image: init1 ,
     title: "Our missions ",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ultrices, libero non convallis iaculis, neque ",
   },
   {
-    image: ellipse5,
+    image: init1 ,
     title: "Our missions ",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ultrices, libero non convallis iaculis, neque ",
   },
   {
-    image: ellipse5,
+    image: init1 ,
     title: "Our missions ",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ultrices, libero non convallis iaculis, neque ",
@@ -750,37 +746,37 @@ export const InitSlide1 = [
 ];
 export const InitSlide2 = [
   {
-    image: ellipse1,
+    image: init1 ,
     title: "Our missions ",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ultrices, libero non  convallis iaculis, neque ",
   },
   {
-    image: ellipse2,
+    image: init1 ,
     title: "Our missions ",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ultrices, libero non convallis iaculis, neque ",
   },
   {
-    image: ellipse3,
+    image: init1 ,
     title: "Our missions ",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ultrices, libero non convallis iaculis, neque ",
   },
   {
-    image: ellipse4,
+    image: init1 ,
     title: "Our missions ",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ultrices, libero non convallis iaculis, neque ",
   },
   {
-    image: ellipse5,
+    image: init1 ,
     title: "Our missions ",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ultrices, libero non convallis iaculis, neque ",
   },
   {
-    image: ellipse5,
+    image: init1 ,
     title: "Our missions ",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ultrices, libero non convallis iaculis, neque ",
@@ -788,37 +784,37 @@ export const InitSlide2 = [
 ];
 export const InitSlide3 = [
   {
-    image: ellipse1,
+    image: init1 ,
     title: "Our missions ",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ultrices, libero non convallis iaculis, neque ",
   },
   {
-    image: ellipse2,
+    image: init1 ,
     title: "Our missions ",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ultrices, libero non convallis iaculis, neque ",
   },
   {
-    image: ellipse3,
+    image: init1 ,
     title: "Our missions ",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ultrices, libero non convallis iaculis, neque ",
   },
   {
-    image: ellipse4,
+    image: init1 ,
     title: "Our missions ",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ultrices, libero non convallis iaculis, neque ",
   },
   {
-    image: ellipse5,
+    image: init1 ,
     title: "Our missions ",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ultrices, libero non convallis iaculis, neque ",
   },
   {
-    image: ellipse5,
+    image: init1 ,
     title: "Our missions ",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ultrices, libero non convallis iaculis, neque ",
