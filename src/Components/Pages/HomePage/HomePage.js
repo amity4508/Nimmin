@@ -7,6 +7,7 @@ import { slidesDataheader1, slidesDataheader2, slidesDataheader3, slidesDatahead
 export const Homepage = () =>{
     return(
         <>
+        {/* vermiCompost  */}
   <div className="mt-0 xl:px-24 md:px-24 sm:px-5 py-6"
      style={{
         backgroundImage: `linear-gradient(to bottom, rgba(8, 41, 35, 0.8), rgba(38, 175, 124, 0.8)), url(${process.env.PUBLIC_URL}/bgImg2.png)`,
@@ -15,10 +16,8 @@ export const Homepage = () =>{
         backgroundSize: "100% 100%",
         backgroundAttachment:"fixed",
      }}>
-
-    {/* Your content goes here */}
          <div className="container mx-auto">
-         <div className="py-5 " >
+         <div className="py-5 px-5 " >
             <h1 className=" text-2xl heading1  ">Vermicompost</h1>
              <p className="w-[50px] border-yellow-500 border-b-4 mt-2  "></p>
             </div>
@@ -53,14 +52,7 @@ export const Homepage = () =>{
 
     {/* Your content goes here */}
          <div className="container mx-auto">
-         <div className="py-5 " >
-            <h1 className=" text-2xl heading1  ">Vermicompost</h1>
-             <p className="w-[50px] border-yellow-500 border-b-4 mt-2  "></p>
-            </div>
-   
          <Sliders3 slides2={slidesDataheaderVormi3} />
-
-
          </div>
       </div>
 
@@ -75,11 +67,11 @@ export const Homepage = () =>{
         backgroundAttachment: "fixed", 
         }}>
     <div className="container mx-auto">
-        <div className="py-5">
+        <div className="py-5 px-5">
             <h1 className="text-2xl heading1">Housekeeping Brush Fiber</h1>
             <p className="w-[50px] border-yellow-500 border-b-4 mt-2"></p>
         </div>
-        <Sliders2 slides2={slidesDataheader2} />
+        <Sliders2 slides2={slidesDataheader2}/>
       
     </div>
       </div>
@@ -138,7 +130,7 @@ export const Homepage = () =>{
             backgroundAttachment: "fixed", 
         }}>
          <div className="container mx-auto">
-         <div className="py-5 " >
+         <div className="py-5 px-5 " >
             <h1 className=" text-2xl heading1  ">Liquid Poshan</h1>
              <p className="w-[50px] border-yellow-500 border-b-4 mt-2  "></p>
             </div>     
@@ -156,7 +148,7 @@ export const Homepage = () =>{
             backgroundAttachment: "fixed", 
         }}>
          <div className="container mx-auto">
-         <div className="py-5 " >
+         <div className="py-5 px-5 " >
             <h1 className=" text-2xl heading1  ">Liquid Potion</h1>
              <p className="w-[50px] border-yellow-500 border-b-4 mt-2  "></p>
             </div>     
@@ -175,7 +167,7 @@ export const Homepage = () =>{
                 backgroundAttachment: "fixed", 
             }}>
          <div className="container mx-auto">
-         <div className="py-5 " >
+         <div className="py-5 px-5 " >
             <h1 className=" text-2xl heading1 ">Wormin</h1>
              <p className="w-[50px] border-yellow-500 border-b-4 mt-2  "></p>
             </div>

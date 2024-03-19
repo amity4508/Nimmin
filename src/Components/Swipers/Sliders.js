@@ -6,52 +6,33 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import { Autoplay, EffectFade, Navigation, Pagination } from "swiper/modules";
 import "swiper/swiper-bundle.css";
-import vermiImg from "../../Components/Assets/Images/NimminProduct/vermibgImg.png"
-
+import vermiImg from "../../Components/Assets/Images/NimminProduct/vermibgImg.png";
 import joinHands from "../../Components/Assets/Images/iconImg/Vector (6).png";
-import bgint from "../../Components/Assets/Images/mainImg/Vector (11).png";
-
 import hero1 from "../../Components/Assets/Images/mainImg/hero1.png";
-import hero2 from "../../Components/Assets/Images/mainImg/hero2.png";
 import hero3 from "../../Components/Assets/Images/mainImg/hero3.png";
-import hero4 from "../../Components/Assets/Images/mainImg/hero4.jpg";
-import hero6 from "../../Components/Assets/Images/mainImg/hero6.png";
-
+import hero4 from "../../Components/Assets/Images/mainImg/hero4.png";
 export const slidesData = [
   {
     image: hero1,
     title:
-      "Our missions is to create sustainable solutions for everyday life. ",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ultrices, libero non convallis iaculis, neque ",
-  },
-  {
-    image: hero2,
-    title:
-      "Our missions is to create sustainable solutions for everyday life. ",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ultrices, libero non convallis iaculis, neque ",
+      "Plant based vermi compost manure,  100% Organic Fertilizer Enriched with all essential nutrients",
+    description: `Prepared using organic waste and dung in a specific proportion.
+       Natural catalyst : Improves the Water holding capacity of soil that helps moister retention.`,
   },
   {
     image: hero3,
     title:
-      "Our missions is to create sustainable solutions for everyday life. ",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ultrices, libero non convallis iaculis, neque ",
+      "Lazy Gardener Liquid Poshan For Plant Food |Growth, Root Boost & Plant.",
+    description: `Contains a unique combination of three specialized liquids that work together to restore and maintain the soil ecosystem for your plants.
+    Perfect for all types of gardens, whether you have plants in pots or in the ground.`,
   },
   {
     image: hero4,
-    title:
-      "Our missions is to create sustainable solutions for everyday life. ",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ultrices, libero non convallis iaculis, neque ",
-  },
-  {
-    image: hero6,
-    title:
-      "Our missions is to create sustainable solutions for everyday life. ",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ultrices, libero non convallis iaculis, neque ",
+    title: "Nimmin Housekeeping Brush Fiber Wet and Dry Multi use Brush",
+    description: `Flat and Strong Fiber for Best Result - Ergonomic Handle and Light Weight 
+      High Quality cleaning Brooms & Brushes
+      All purpose dusting & cleaning Brushx
+      Cleans Oily and Greasy surfaces with ease`,
   },
 ];
 
@@ -74,23 +55,29 @@ export const Slider1 = ({ slides = slidesData }) => {
               delay: 2500,
               disableOnInteraction: true,
             }}
-            modules={[Autoplay, EffectFade, Navigation, Pagination]}
+            modules={[Autoplay, EffectFade, Pagination, Navigation]}
             className="mySwiper "
           >
             {slides.map((slide, index) => (
               <SwiperSlide key={index}>
-                <div className="card container items-center justify-center slide1  max-sm:mt-[35px] sm:mt-[55px] lg:mt-[80px]">
+                <div className="card container items-center justify-center slide1  max-sm:mt-[30px] sm:mt-[55px] lg:mt-[80px]">
                   <div className="relative heroImg">
                     <img
-                      className="w-full h-[350px] max-sm:h-[82vh] object-fill rounded-md    "
+                      className="w-full h-[420px] max-sm:h-[77vh] object-fill rounded-md max-sm:rounded-[10px] "
                       src={slide.image}
                       alt={`Slide ${index + 1}`}
                     />
-                    <div className="absolute px-10 top-[30%] xl:w-[40%] md:w-[60%]  object-center xl:left-[20%] md:left-[15%] sm:left-[10%] z-40">
-                      <h1 className="text-2xl text-white">{slide.title}</h1>
-                      <h1 className="text-sm font-thin text-white mt-5">
-                        {slide.description}
+                    <div className="absolute px-10 top-[30%] xl:w-[50%] md:w-[60%]  object-center xl:left-[10%] md:left-[15%] sm:left-[10%] z-40">
+                      <h1 className="text-3xl max-sm:text-2xl font-bold xl:tracking-wider max-sm:tracking-wide text-white">
+                        {slide.title}
                       </h1>
+                      <ul className="text-sm font-thin text-white mt-5 list-disc">
+                        {slide.description
+                          .split("\n")
+                          .map((line, lineIndex) => (
+                            <li key={lineIndex}>{line}</li>
+                          ))}
+                      </ul>
                     </div>
                   </div>
                 </div>
@@ -411,42 +398,41 @@ export const CompainedSlide = ({ slides2 = slidesData2 }) => {
   );
 };
 
-//    -----  Initative img 
+//    -----  Initative img
 
 export const InitiativeSlider2 = ({ slides2 = slidesData2 }) => {
   return (
     <>
-     <div className="justify-center  max-sm:px-0  sm:hidden bg-gray-300">
+      <div className="justify-center  max-sm:px-0  sm:hidden bg-gray-300">
         <div>
           <Swiper
-             spaceBetween={30}
-             loop={true}
-             loopFillGroupWithBlank={true}
-             centeredSlides={true}
-             autoplay={{
-               delay: 2200,
-               disableOnInteraction: true,
-             }}
-             // navigation={true}
-             navigation={{
-                 nextEl: ".button-next",
-                 prevEl: ".button-prev",
-               }}
+            spaceBetween={30}
+            loop={true}
+            loopFillGroupWithBlank={true}
+            centeredSlides={true}
+            autoplay={{
+              delay: 2200,
+              disableOnInteraction: true,
+            }}
+            // navigation={true}
+            navigation={{
+              nextEl: ".button-next",
+              prevEl: ".button-prev",
+            }}
+            pagination={{
+              clickable: true,
+              type: "custom",
+              renderCustom: (swiper, current, total) => {
+                const progressWidth = (current / total) * 100;
 
-             pagination={{
-               clickable: true,
-               type: 'custom', 
-               renderCustom: (swiper, current, total) => {
-                 const progressWidth = (current / total) * 100; 
-
-                 return `
-                 <div class="   z-50 relative top-[-100px] sm:invisible ">
-                 <div class="swiper-pagination-fraction" style="color: dark-gray; font-weight:500;">${current} / ${total}</div>
+                return `
+                 <div class="z-50 relative top-[-42px] sm:invisible ">
+                 <div class="swiper-pagination-fraction" style="color:green; font-weight:500;">${current} / ${total}</div>
                  <div class="swiper-pagination-progressbar" style="background: black; width: ${progressWidth}%;"> </div>
                </div>
                  `;
-               },
-             }}
+              },
+            }}
             // navigation={true}
 
             modules={[Autoplay, Pagination, Navigation]}
@@ -464,19 +450,18 @@ export const InitiativeSlider2 = ({ slides2 = slidesData2 }) => {
                 slidesPerView: 5,
               },
             }}
-            className="mySwiper  absolute  max-sm:top-[20px] ">
+            className="mySwiper  absolute  max-sm:top-[20px] "
+          >
             {slides2.map((slide, index) => (
               <SwiperSlide
                 key={index}
                 className="rounded max-sm:rounded-xl  bg-opacity-0"
               >
-                  <div className="flex justify-center relative top-[-30px] ">
-                  <div className=" w-[100vw] max-sm:h-[260px] h-[160px] halfcircle">
-                  </div>
-                  </div>
+                <div className="flex justify-center relative top-[-30px] ">
+                  <div className=" w-[100vw] max-sm:h-[260px] h-[160px] halfcircle"></div>
+                </div>
                 <div className="card container relative max-sm:top-[-120px] sm:top-[-180px]">
                   <div className=" text-center text-gray-700">
-
                     <div className=" flex justify-center ">
                       <img
                         className="h-[115px] mt-5 w-[115px] max-sm:h-[165px] max-sm:w-[165px] object-fill rounded-full mb-2"
@@ -488,7 +473,15 @@ export const InitiativeSlider2 = ({ slides2 = slidesData2 }) => {
                     <div className="px-2 top-[90px] lg:mt-[50px]">
                       <h1 className="text-xl text-gray-700">{slide.title}</h1>
                       <h1 className="text-sm font-thin text-gray-700 mt-2">
-                        {slide.description}
+                        <ul className="text-sm font-thin text-gray-700 mt-5 list-decimal px-5">
+                          {slide.description
+                            .split("\n")
+                            .map((line, lineIndex) => (
+                              <li className="mb-1" key={lineIndex}>
+                                {line}
+                              </li>
+                            ))}
+                        </ul>
                       </h1>
                       {/* <p className="border-b font-semibold text-white w-[122px] m-auto mt-2 tracking-wider cursor-pointer">
                         Read more >>
@@ -499,16 +492,17 @@ export const InitiativeSlider2 = ({ slides2 = slidesData2 }) => {
               </SwiperSlide>
             ))}
           </Swiper>
-          <div className="flex justify-center relative max-sm:top-[-410px] sm:invisible z-50">
+          <div className="flex justify-center relative max-sm:top-[-50px] sm:invisible z-50">
             <h1></h1>
             <div>
-            <div className="button-next  bgSlideBtn relative top-[-5px] text-base text-white left-12 " ><i class="bi bi-chevron-right"></i>  </div>
-        <div className="button-prev bgSlideBtn relative top-[-40px] right-12 text-base text-white  " >
-         <i class="bi bi-chevron-left"></i>
-         </div>
+              <div className="button-next  bgSlideBtn relative top-[-9px] text-base text-white left-12 ">
+                <i class="bi bi-chevron-right"></i>{" "}
+              </div>
+              <div className="button-prev bgSlideBtn relative top-[-40px] right-12 text-base text-white  ">
+                <i class="bi bi-chevron-left"></i>
+              </div>
             </div>
-         </div>
-
+          </div>
         </div>
       </div>
 
@@ -519,7 +513,7 @@ export const InitiativeSlider2 = ({ slides2 = slidesData2 }) => {
   );
 };
 
-// Een initiative img 
+// Een initiative img
 
 export const InitiativeSlider4 = ({ slides2 = slidesData2 }) => {
   return (

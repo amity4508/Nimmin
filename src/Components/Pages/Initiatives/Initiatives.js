@@ -6,6 +6,7 @@ import {
   InitSlide1,
   InitSlide2,
   InitSlide4Data,
+  InitSlideLiquid,
   InitiativeSlide1,
 } from "../SliderData";
 import { Sliders4 } from "../../Swipers/Sliders";
@@ -47,7 +48,7 @@ export const Initiatives = () => {
           }}
         >
           <div className="pb-5 px-10">
-            <h1 className="text-2xl heading1">Housekeeping Brush Fiber</h1>
+            <h1 className="text-2xl heading1">Vermicompost</h1>
             <p className="w-[50px] border-yellow-500 border-b-4 mt-2"></p>
           </div>
           <InitSlider2 slides2={InitSlide2} />
@@ -64,10 +65,10 @@ export const Initiatives = () => {
           }}
         >
           <div className="py-5 px-10">
-            <h1 className="text-2xl heading1">Housekeeping Brush Fiber</h1>
+            <h1 className="text-2xl heading1">Liquid Poshan</h1>
             <p className="w-[50px] border-yellow-500 border-b-4 mt-2"></p>
           </div>
-          <InitSlider2 slides2={InitSlide2} />
+          <InitSlider2 slides2={InitSlideLiquid} />
         </div>
       </div>
       <div className="container mx-auto relative top-[-130px] max-sm:hidden">

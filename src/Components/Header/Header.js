@@ -34,12 +34,8 @@ export const Header = () => {
     backgroundRepeat: "no-repeat",
     backgroundSize: "100% 100%",
     backgroundAttachment:"fixed"
-  }}
-
->
+  }}>
   {/* Your content goes here */}
-
-
         <div className="max-lg:hidden">
           <SocialMedia />
         </div>

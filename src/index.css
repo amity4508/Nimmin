@@ -82,6 +82,9 @@
 .bghoverCard:hover{
   background-color: rgba(161, 141, 36, 1);
 }
+.footerbg {    
+  background-color: rgba(100, 153, 61, 1);
+}
 
 
   /* img */
@@ -104,6 +107,7 @@
     color: white;
     font-weight: 600;
     letter-spacing: 3px;
+    line-height: 30px !important;
 
   }
 
@@ -139,12 +143,32 @@
 
 }
 
+
 @media screen and (max-width:642px) {
   .halfcircle{
     background: linear-gradient(rgba(15, 51, 36, 1), rgba(10, 134, 91, 1));
 border-radius: 0px 0px 280px 280px;
 outline: 16px double  #137249c7;
   }
+  .heroImg img{
+    border-radius: 12px ;
+    
+  }
+  .navbar{
+     z-index: 99 !important;
+  }
+  .heading1{
+    font-size: 25px;
+    color: white;
+    font-weight: 600;
+    letter-spacing: 3px;
+    line-height: 50px;
+
+  }
+  .prog{
+    z-index: 999 !important;
+  }
+ 
   
 
 }

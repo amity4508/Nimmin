@@ -50,7 +50,7 @@ export const InitSlider1 = ({ slides2 = slidesData2 }) => {
                 const progressWidth = (current / total) * 100; 
                 
                 return `
-                <div class="   z-50 relative top-2">
+                <div class=" relative top-[10px]">
                 <div class="swiper-pagination-fraction" style="color: #ffff;">${current} / ${total}</div>
                 <div class="swiper-pagination-progressbar" style="background: #00ff00; width: ${progressWidth}%;"> </div>
               </div>
@@ -101,7 +101,7 @@ export const InitSlider1 = ({ slides2 = slidesData2 }) => {
               ))}
             </Swiper>
             <div className="flex justify-center mt-10">
-            <div>
+            <div className="">
             <div className="button-next bgSlideBtn relative top-[-5px] text-base text-white left-14  " ><i class="bi bi-chevron-right"></i>  </div>
         <div className="button-prev bgSlideBtn relative top-[-37px] right-14 text-base text-white  " >
          <i class="bi bi-chevron-left"></i>

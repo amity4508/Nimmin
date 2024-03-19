@@ -109,11 +109,11 @@ const Navbar = () => {
               {/* Logo2  sm-screeen */}
               {!scrolling && window.innerWidth < 1024 && (
                 <div className="logo2 text-white font-bold text-6xl mb-4 lg:hidden ">
-                  <div className="container p-4 flex gap-4 items-center ">
+                  <div className="container pt-4 px-3  flex gap-4 items-center ">
                     <img className="h-12" src={logoCircle1} alt="" />
                     <div>
-                      <img className="h-6" src={logo1} alt="" />
-                      <p className="text-sm text-white mt-1">
+                      <img className="max-sm:h-5 h-6" src={logo1} alt="" />
+                      <p className="text-sm text-white mt-1 max-sm:w-[140px]">
                         Prakriti Nhi Prabriti Badlen!
                       </p>
                     </div>
@@ -127,11 +127,11 @@ const Navbar = () => {
                   scrolling ? "visible" : "hidden"
                 }`}
               >
-                <div className="container p-4 flex gap-4 items-center ">
+                <div className="container pt-4 px-3 flex gap-4 items-center ">
                   <img className="h-12" src={middLogo} alt="" />
                   <div>
-                    <img className="h-6" src={logo2} alt="" />
-                    <p className="text-sm text-gray-700 mt-1">
+                    <img className="max-sm:h-5 h-6" src={logo2} alt="" />
+                    <p className="text-sm text-gray-700 mt-1 max-sm:w-[140px]">
                       Prakriti Nhi Prabriti Badlen!
                     </p>
                   </div>
@@ -268,7 +268,7 @@ const Navbar = () => {
 
             <div className="hidden lg:flex space-x-4 text-black list-none text-xl">
               {navLinks.map((link, index) => (
-                <li className=" hover:text-green-900" key={index} onClick={() => setMenu(link.key)}>
+                <li className=" hover:text-yellow-500" key={index} onClick={() => setMenu(link.key)}>
                   <Link
                     style={{ textDecoration: "none" }}
                     to={link.to}

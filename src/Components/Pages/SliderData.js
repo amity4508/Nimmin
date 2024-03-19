@@ -1,7 +1,4 @@
-import slide1 from "../Assets/Images/mainImg/Group 19.png";
-import slide2 from "../Assets/Images/mainImg/heroImg.png";
-import slide3 from "../Assets/Images/mainImg/mobilebg.jpg";
-import logo from "../../Components/Assets/Images/mainImg/Nimmin logo emblem with circle.png";
+
 import setting1 from "../../Components/Assets/Images/mainImg/Group 91.png";
 import setting2 from "../../Components/Assets/Images/mainImg/Group 91 (1).png";
 import setting3 from "../../Components/Assets/Images/mainImg/Group 91 (2).png";
@@ -16,7 +13,6 @@ import init2 from "../../Components/Assets/Images/mainImg/init2.png";
 import init3 from "../../Components/Assets/Images/mainImg/init3.png";
 import init4 from "../../Components/Assets/Images/mainImg/init4.png";
 import init5 from "../../Components/Assets/Images/mainImg/init5.png";
-import init6 from "../../Components/Assets/Images/mainImg/init6.png";
  // Initiative slider  last 
  import init2_1 from "../../Components/Assets/Images/mainImg/init2_1.png";
  import init2_2 from "../../Components/Assets/Images/mainImg/init2_2.png";
@@ -24,14 +20,15 @@ import init6 from "../../Components/Assets/Images/mainImg/init6.png";
  import init2_4 from "../../Components/Assets/Images/mainImg/init2_4.png";
  import init2_5 from "../../Components/Assets/Images/mainImg/init2_5.png";
  import init2_6 from "../../Components/Assets/Images/mainImg/init2_6.png";
- import init2_7 from "../../Components/Assets/Images/mainImg/init2_7.png";
- import init2_8 from "../../Components/Assets/Images/mainImg/init2_8.png";
 
- 
+//  Vermi compose init
+import vemiInit1 from "../../Components/Assets/Images/NimminProduct/1.jpg"
+import vemiInit2 from "../../Components/Assets/Images/NimminProduct/2.jpg"
+import vemiInit3 from "../../Components/Assets/Images/NimminProduct/3.jpg"
+import vemiInit4 from "../../Components/Assets/Images/NimminProduct/4.jpg"
 
 
 // vormiDataType-1
-
 import vormiType1_1 from "../../Components/Assets/Images/NimminProduct/vormiType1_1.png";
 import vormiType1_2 from "../../Components/Assets/Images/NimminProduct/vormiType1_2.png";
 import vormiType1_3 from "../../Components/Assets/Images/NimminProduct/vormiType1_3.png";
@@ -42,7 +39,8 @@ import vormiType1_7 from "../../Components/Assets/Images/NimminProduct/vormiType
 import vormiType1_8 from "../../Components/Assets/Images/NimminProduct/vormiType1_8.png";
 import vormiType1_9 from "../../Components/Assets/Images/NimminProduct/vormiType1_9.png";
 
-// vormiDataType-3
+
+// vormiDataType-2
 import vormiType2_1 from "../../Components/Assets/Images/NimminProduct/vormiType2_1.png";
 import vormiType2_2 from "../../Components/Assets/Images/NimminProduct/vormiType2_2.png";
 import vormiType2_3 from "../../Components/Assets/Images/NimminProduct/vormiType2_3.png";
@@ -53,7 +51,7 @@ import vormiType2_7 from "../../Components/Assets/Images/NimminProduct/vormiType
 import vormiType2_8 from "../../Components/Assets/Images/NimminProduct/vormiType2_8.png";
 import vormiType2_9 from "../../Components/Assets/Images/NimminProduct/vormiType2_9.png";
 
-// vormiDataType-2
+// vormiDataType-
 import vormiType3_1 from "../../Components/Assets/Images/NimminProduct/vormiType3_1.png";
 import vormiType3_2 from "../../Components/Assets/Images/NimminProduct/vormiType3_2.png";
 import vormiType3_3 from "../../Components/Assets/Images/NimminProduct/vormiType3_3.png";
@@ -63,7 +61,8 @@ import vormiType3_6 from "../../Components/Assets/Images/NimminProduct/vormiType
 import vormiType3_7 from "../../Components/Assets/Images/NimminProduct/vormiType3_7.png";
 import vormiType3_8 from "../../Components/Assets/Images/NimminProduct/vormiType3_8.png";
 import vormiType3_9 from "../../Components/Assets/Images/NimminProduct/vormiType3_9.png";
-import vormiType3_10 from "../../Components/Assets/Images/NimminProduct/vormiType3_9.png";
+
+
 
 // Broom Product dataType-1 Img
 import broomType1_1 from "../../Components/Assets/Images/NimminProduct/broomType1-1.png";
@@ -77,12 +76,15 @@ import broomType1_8 from "../../Components/Assets/Images/NimminProduct/broomType
 
 // brom product img type2
 
-import broomType2_1 from "../../Components/Assets/Images/NimminProduct/broomType2-1.png";
-import broomType2_2 from "../../Components/Assets/Images/NimminProduct/broomType2-2.png";
 import broomType2_3 from "../../Components/Assets/Images/NimminProduct/broomType2-3.png";
 import broomType2_4 from "../../Components/Assets/Images/NimminProduct/broomType2-4.png";
 import broomType2_5 from "../../Components/Assets/Images/NimminProduct/broomType2-5.png";
 import broomType2_6 from "../../Components/Assets/Images/NimminProduct/broomType2-6.png";
+import broomType2_7 from "../../Components/Assets/Images/NimminProduct/broomType2-7.png";
+import broomType2_8 from "../../Components/Assets/Images/NimminProduct/broomType2-8.png";
+import broomType2_9 from "../../Components/Assets/Images/NimminProduct/broomType2-9.png";
+
+
 
 // brom type3 product img
 import broomType3_1 from "../../Components/Assets/Images/NimminProduct/broomType3-1.png";
@@ -129,159 +131,174 @@ export const slidesDataheader1 = [
     image: vormiType1_1,
     title: "Vermicompost ",
     description:
-      "Nimmin Organic Vermicompost Fertilizer for plants and home gardening 2 Kg - Plant based vermi compost manure - 100% Organic Fertilizer Enriched with all essential nutrients - 2 Pack (1Kg Each)",
+      "Nimmin Organic Vermicompost Fertilizer for plants and home gardening 2 Kg - Plant based vermi compost manure - 100% Organic Fertilizer Enriched with all essential nutrients ",
   },
   {
     image: vormiType1_2,
     title: "Vermicompost ",
     description:
-      "Nimmin Organic Vermicompost Fertilizer for plants and home gardening 2 Kg - Plant based vermi compost manure - 100% Organic Fertilizer Enriched with all essential nutrients - 2 Pack (1Kg Each)",
+      "Nimmin Organic Vermicompost Fertilizer for plants and home gardening 2 Kg - Plant based vermi compost manure - 100% Organic Fertilizer Enriched with all essential nutrients ",
   },
   {
     image: vormiType1_3,
     title: "Vermicompost ",
     description:
-      "Nimmin Organic Vermicompost Fertilizer for plants and home gardening 2 Kg - Plant based vermi compost manure - 100% Organic Fertilizer Enriched with all essential nutrients - 2 Pack (1Kg Each)",
+      "Nimmin Organic Vermicompost Fertilizer for plants and home gardening 2 Kg - Plant based vermi compost manure - 100% Organic Fertilizer Enriched with all essential nutrients ",
   },
   {
     image: vormiType1_4,
     title: "Vermicompost ",
     description:
-      "Nimmin Organic Vermicompost Fertilizer for plants and home gardening 2 Kg - Plant based vermi compost manure - 100% Organic Fertilizer Enriched with all essential nutrients - 2 Pack (1Kg Each)",
+      "Nimmin Organic Vermicompost Fertilizer for plants and home gardening 2 Kg - Plant based vermi compost manure - 100% Organic Fertilizer Enriched with all essential nutrients ",
   },
   {
     image: vormiType1_5,
     title: "Vermicompost ",
     description:
-      "Nimmin Organic Vermicompost Fertilizer for plants and home gardening 2 Kg - Plant based vermi compost manure - 100% Organic Fertilizer Enriched with all essential nutrients - 2 Pack (1Kg Each)",
+      "Nimmin Organic Vermicompost Fertilizer for plants and home gardening 2 Kg - Plant based vermi compost manure - 100% Organic Fertilizer Enriched with all essential nutrients ",
   },
   {
     image: vormiType1_6,
     title: "Vermicompost ",
     description:
-      "Nimmin Organic Vermicompost Fertilizer for plants and home gardening 2 Kg - Plant based vermi compost manure - 100% Organic Fertilizer Enriched with all essential nutrients - 2 Pack (1Kg Each)",
+      "Nimmin Organic Vermicompost Fertilizer for plants and home gardening 2 Kg - Plant based vermi compost manure - 100% Organic Fertilizer Enriched with all essential nutrients ",
   },
   {
     image: vormiType1_7,
     title: "Vermicompost ",
     description:
-      "Nimmin Organic Vermicompost Fertilizer for plants and home gardening 2 Kg - Plant based vermi compost manure - 100% Organic Fertilizer Enriched with all essential nutrients - 2 Pack (1Kg Each)",
+      "Nimmin Organic Vermicompost Fertilizer for plants and home gardening 2 Kg - Plant based vermi compost manure - 100% Organic Fertilizer Enriched with all essential nutrients ",
   },
   {
     image: vormiType1_8,
     title: "Vermicompost ",
     description:
-      "Nimmin Organic Vermicompost Fertilizer for plants and home gardening 2 Kg - Plant based vermi compost manure - 100% Organic Fertilizer Enriched with all essential nutrients - 2 Pack (1Kg Each)",
+      "Nimmin Organic Vermicompost Fertilizer for plants and home gardening 2 Kg - Plant based vermi compost manure - 100% Organic Fertilizer Enriched with all essential nutrients ",
   },
   {
     image: vormiType1_9,
     title: "Vermicompost ",
     description:
-      "Nimmin Organic Vermicompost Fertilizer for plants and home gardening 2 Kg - Plant based vermi compost manure - 100% Organic Fertilizer Enriched with all essential nutrients - 2 Pack (1Kg Each)",
+      "Nimmin Organic Vermicompost Fertilizer for plants and home gardening 2 Kg - Plant based vermi compost manure - 100% Organic Fertilizer Enriched with all essential nutrients ",
   },
 ];
 
+// varmi 2 
 export const slidesDataheaderVormi2 = [
   {
     image: vormiType2_1,
-    title: "Our missions ",
+    title: "Vermicompost ",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ultrices, libero non convallis iaculis, neque ",
+      "Nimmin Organic Vermicompost Fertilizer for plants and home gardening 2 Kg - Plant based vermi compost manure - 100% Organic Fertilizer Enriched with all essential nutrients ",
   },
   {
     image: vormiType2_2,
-    title: "Slide 2 Title",
-    description: "Slide 2 Description",
+    title: "Vermicompost ",
+    description:
+      "Nimmin Organic Vermicompost Fertilizer for plants and home gardening 2 Kg - Plant based vermi compost manure - 100% Organic Fertilizer Enriched with all essential nutrients ",
   },
   {
     image: vormiType2_3,
-    title: "Slide 3 Title",
-    description: "Slide 3 Description",
+    title: "Vermicompost ",
+    description:
+      "Nimmin Organic Vermicompost Fertilizer for plants and home gardening 2 Kg - Plant based vermi compost manure - 100% Organic Fertilizer Enriched with all essential nutrients ",
   },
   {
     image: vormiType2_4,
-    title: "Slide 2 Title",
-    description: "Slide 2 Description",
+    title: "Vermicompost ",
+    description:
+      "Nimmin Organic Vermicompost Fertilizer for plants and home gardening 2 Kg - Plant based vermi compost manure - 100% Organic Fertilizer Enriched with all essential nutrients ",
   },
   {
     image: vormiType2_5,
-    title: "Slide 3 Title",
-    description: "Slide 3 Description",
+    title: "Vermicompost ",
+    description:
+      "Nimmin Organic Vermicompost Fertilizer for plants and home gardening 2 Kg - Plant based vermi compost manure - 100% Organic Fertilizer Enriched with all essential nutrients ",
   },
   {
     image: vormiType2_6,
-    title: "Slide 3 Title",
-    description: "Slide 3 Description",
+    title: "Vermicompost ",
+    description:
+      "Nimmin Organic Vermicompost Fertilizer for plants and home gardening 2 Kg - Plant based vermi compost manure - 100% Organic Fertilizer Enriched with all essential nutrients ",
   },
   {
     image: vormiType2_7,
-    title: "Slide 3 Title",
-    description: "Slide 3 Description",
+    title: "Vermicompost ",
+    description:
+      "Nimmin Organic Vermicompost Fertilizer for plants and home gardening 2 Kg - Plant based vermi compost manure - 100% Organic Fertilizer Enriched with all essential nutrients ",
   },
   {
     image: vormiType2_8,
-    title: "Slide 3 Title",
-    description: "Slide 3 Description",
+    title: "Vermicompost ",
+    description:
+      "Nimmin Organic Vermicompost Fertilizer for plants and home gardening 2 Kg - Plant based vermi compost manure - 100% Organic Fertilizer Enriched with all essential nutrients ",
   },
   {
     image: vormiType2_9,
-    title: "Slide 3 Title",
-    description: "Slide 3 Description",
+    title: "Vermicompost ",
+    description:
+      "Nimmin Organic Vermicompost Fertilizer for plants and home gardening 2 Kg - Plant based vermi compost manure - 100% Organic Fertilizer Enriched with all essential nutrients ",
   },
 ];
+
+// vermiCompost no-3 
 export const slidesDataheaderVormi3 = [
   {
     image: vormiType3_1,
-    title: "Our missions ",
+    title: "Vermicompost ",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ultrices, libero non convallis iaculis, neque ",
+      "Nimmin Organic Vermicompost Fertilizer for plants and home gardening 2 Kg - Plant based vermi compost manure - 100% Organic Fertilizer Enriched with all essential nutrients ",
   },
   {
     image: vormiType3_2,
-    title: "Slide 2 Title",
-    description: "Slide 2 Description",
+    title: "Vermicompost ",
+    description:
+      "Nimmin Organic Vermicompost Fertilizer for plants and home gardening 2 Kg - Plant based vermi compost manure - 100% Organic Fertilizer Enriched with all essential nutrients ",
   },
   {
     image: vormiType3_3,
-    title: "Slide 3 Title",
-    description: "Slide 3 Description",
+    title: "Vermicompost ",
+    description:
+      "Nimmin Organic Vermicompost Fertilizer for plants and home gardening 2 Kg - Plant based vermi compost manure - 100% Organic Fertilizer Enriched with all essential nutrients ",
   },
   {
     image: vormiType3_4,
-    title: "Slide 2 Title",
-    description: "Slide 2 Description",
+    title: "Vermicompost ",
+    description:
+      "Nimmin Organic Vermicompost Fertilizer for plants and home gardening 2 Kg - Plant based vermi compost manure - 100% Organic Fertilizer Enriched with all essential nutrients ",
   },
   {
     image: vormiType3_5,
-    title: "Slide 3 Title",
-    description: "Slide 3 Description",
+    title: "Vermicompost ",
+    description:
+      "Nimmin Organic Vermicompost Fertilizer for plants and home gardening 2 Kg - Plant based vermi compost manure - 100% Organic Fertilizer Enriched with all essential nutrients ",
   },
   {
     image: vormiType3_6,
-    title: "Slide 3 Title",
-    description: "Slide 3 Description",
+    title: "Vermicompost ",
+    description:
+      "Nimmin Organic Vermicompost Fertilizer for plants and home gardening 2 Kg - Plant based vermi compost manure - 100% Organic Fertilizer Enriched with all essential nutrients ",
   },
   {
     image: vormiType3_7,
-    title: "Slide 3 Title",
-    description: "Slide 3 Description",
+    title: "Vermicompost ",
+    description:
+      "Nimmin Organic Vermicompost Fertilizer for plants and home gardening 2 Kg - Plant based vermi compost manure - 100% Organic Fertilizer Enriched with all essential nutrients ",
   },
   {
     image: vormiType3_8,
-    title: "Slide 3 Title",
-    description: "Slide 3 Description",
+    title: "Vermicompost ",
+    description:
+      "Nimmin Organic Vermicompost Fertilizer for plants and home gardening 2 Kg - Plant based vermi compost manure - 100% Organic Fertilizer Enriched with all essential nutrients ",
   },
   {
     image: vormiType3_9,
-    title: "Slide 3 Title",
-    description: "Slide 3 Description",
-  },
-  {
-    image: vormiType3_10,
-    title: "Slide 3 Title",
-    description: "Slide 3 Description",
+    title: "Vermicompost ",
+    description:
+      "Nimmin Organic Vermicompost Fertilizer for plants and home gardening 2 Kg - Plant based vermi compost manure - 100% Organic Fertilizer Enriched with all essential nutrients ",
   },
 ];
+
 
 // header2 datatType1------------------------------- Brooms
 export const slidesDataheader2 = [
@@ -328,17 +345,6 @@ export const slidesDataheader2 = [
   },
 ];
 export const slidesDataheader3 = [
-  {
-    image: broomType2_1,
-    title: "Our missions ",
-    description:
-      "Nimmin Housekeeping Brush Fiber Wet and Dry Multi use Brush - Flat and Strong Fiber for Best Result - Ergonomic Handle and Light Weight ",
-  },
-  {
-    image: broomType2_2,
-    title: "Slide 2 Title",
-    description: "Nimmin Housekeeping Brush Fiber Wet and Dry Multi use Brush - Flat and Strong Fiber for Best Result - Ergonomic Handle and Light Weight",
-  },
   {
     image: broomType2_3,
     title: "Housekeeping Brush Fiber",
@@ -537,35 +543,7 @@ export const slidesDataheaderLiquid2 = [
   },
 ];
 
-export const AboutUsSlide1 = [
-  {
-    image: slide1,
-    title: "Our missions ",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ultrices, libero non convallis iaculis, neque ",
-  },
-  {
-    image: slide2,
-    title: "Slide 2 Title",
-    description: "Lazy Gardener Liquid Poshan For Plant Food |Growth, Root Boost & Plant Tonic Combo Plant Care Kit for Plant indoor Outdoor Home Garden| Plant Food Fertilizer for Green, Flowering Plants",
-  },
-  {
-    image: slide3,
-    title: "Slide 3 Title",
-    description: "Lazy Gardener Liquid Poshan For Plant Food |Growth, Root Boost & Plant Tonic Combo Plant Care Kit for Plant indoor Outdoor Home Garden| Plant Food Fertilizer for Green, Flowering Plants",
-  },
-  {
-    image: slide2,
-    title: "Slide 2 Title",
-    description: "Lazy Gardener Liquid Poshan For Plant Food |Growth, Root Boost & Plant Tonic Combo Plant Care Kit for Plant indoor Outdoor Home Garden| Plant Food Fertilizer for Green, Flowering Plants",
-  },
-  {
-    image: slide3,
-    title: "Slide 3 Title",
-    description: "Lazy Gardener Liquid Poshan For Plant Food |Growth, Root Boost & Plant Tonic Combo Plant Care Kit for Plant indoor Outdoor Home Garden| Plant Food Fertilizer for Green, Flowering Plants",
-  },
-];
-// initative slide 1 
+
 export const InitiativeSlide1 = [
   {
     image: init1 ,
@@ -593,11 +571,8 @@ export const InitiativeSlide1 = [
     title: "Slide 3 Title",
     description: "Slide 3 Description",
   },
-  {
-    image: init6,
-    title: "Slide 3 Title",
-    description: "Slide 3 Description",
-  },
+
+  
 ];
 
 
@@ -635,41 +610,43 @@ export const CompainedSlide1 = [
 // Initiative Slide
 export const InitiativesSlide2 = [
   {
+    image: setting5,
+
+    description: `Chemicals Free & Universal
+     High Yield, More Profit 
+    Promotes Sustainable Living`,
+  },
+  {
     image: setting1,
 
     description:
-      `To pioneer sustainable practices that fosters global To pioneer sustainable practices that fosters global change -  change -To pioneer sustainable practices that fosters global change -  To pioneer sustainable practices that fosters global change -  `,
+      `Made using organic waste & dung mixed in a specific proportion in comparison to other vermicompost in market which is made only using dung.`,
   },
   {
     image: setting2,
 
     description:
-      " Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ultrices, libero non convallis iaculis, neque ",
+      " Packing have transparent strip to see the content before purchase and uses 40% less plastic unlike others which are made completely of plastic",
   },
   {
     image: setting3,
 
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ultrices, libero non convallis iaculis, neque ",
+      "More than doublethe organic content over others in market.",
   },
   {
     image: setting4,
 
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ultrices, libero non convallis iaculis, neque ",
+      "Presence of “Polyphenols” & “Antioxidant” boost immunity of the plants and help them to survive during harsh environmental conditions ",
   },
   {
     image: setting5,
 
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ultrices, libero non convallis iaculis, neque ",
+      "Highly graded, free flowing & identical granule size unlike other vermicompost in market which are mostly in powder form.",
   },
-  {
-    image: setting5,
 
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ultrices, libero non convallis iaculis, neque ",
-  },
 ];
 export const CompainedSlide3 = [
   {
@@ -708,172 +685,125 @@ export const CompainedSlide3 = [
 
 export const InitSlide1 = [
   {
-    image: init1 ,
-    title: "Our missions ",
+    image: broomType2_7 ,
+    title: "Housekeeping Brush Fiber",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ultrices, libero non convallis iaculis, neque ",
+      "Flat and Strong Fiber for Best Result - Ergonomic Handle and Light Weight. Works in Dry & Wet Conditions, ",
   },
   {
-    image: init1 ,
-    title: "Our missions ",
+    image: broomType2_8 ,
+    title: "Housekeeping Brush Fiber",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ultrices, libero non convallis iaculis, neque ",
+      "Flat and Strong Fiber for Best Result - Ergonomic Handle and Light Weight. High Quality cleaning Brooms & Brushes ",
   },
   {
-    image: init1 ,
-    title: "Our missions ",
+    image: broomType2_9 ,
+    title: "Housekeeping Brush Fiber",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ultrices, libero non convallis iaculis, neque ",
+      "Flat and Strong Fiber for Best Result - Ergonomic Handle and Light Weight. All purpose dusting & cleaning Brushx ",
   },
   {
-    image: init1 ,
-    title: "Our missions ",
+    image: broomType2_5 ,
+    title: "Housekeeping Brush Fiber",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ultrices, libero non convallis iaculis, neque ",
-  },
-  {
-    image: init1 ,
-    title: "Our missions ",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ultrices, libero non convallis iaculis, neque ",
-  },
-  {
-    image: init1 ,
-    title: "Our missions ",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ultrices, libero non convallis iaculis, neque ",
+      "Flat and Strong Fiber for Best Result - Ergonomic Handle and Light Weight. 100% Decomposable",
   },
 ];
 export const InitSlide2 = [
   {
-    image: init1 ,
-    title: "Our missions ",
+    image: vemiInit1 ,
+    title: "Vermicompost",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ultrices, libero non  convallis iaculis, neque ",
+      "Plant based vermi compost manure - 100% Organic Fertilizer Enriched with all essential nutrients. Vermicompost for plants home garden,",
   },
   {
-    image: init1 ,
-    title: "Our missions ",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ultrices, libero non convallis iaculis, neque ",
-  },
-  {
-    image: init1 ,
-    title: "Our missions ",
+    image: vemiInit2,
+    title: "Vermicompost",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ultrices, libero non convallis iaculis, neque ",
   },
   {
-    image: init1 ,
-    title: "Our missions ",
+    image: vemiInit3,
+    title: "Vermicompost",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ultrices, libero non convallis iaculis, neque ",
   },
   {
-    image: init1 ,
-    title: "Our missions ",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ultrices, libero non convallis iaculis, neque ",
-  },
-  {
-    image: init1 ,
-    title: "Our missions ",
+    image: vemiInit4,
+    title: "Vermicompost",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ultrices, libero non convallis iaculis, neque ",
   },
 ];
-export const InitSlide3 = [
+export const InitSlideLiquid = [
   {
-    image: init1 ,
-    title: "Our missions ",
+    image: liquidType1_1 ,
+    title: "Liquid Poshan ",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ultrices, libero non convallis iaculis, neque ",
+      "Contains a unique combination of three specialized liquids that work together to restore and maintain the soil ecosystem for your plants.",
   },
   {
-    image: init1 ,
-    title: "Our missions ",
+    image: liquidType1_4 ,
+    title: "Liquid Poshan ",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ultrices, libero non convallis iaculis, neque ",
+      "Each liquid is made from natural and eco-friendly ingredients, ensuring that it is safe for your plants and the environment.",
   },
   {
-    image: init1 ,
-    title: "Our missions ",
+    image: liquidType1_5 ,
+    title: "Liquid Poshan ",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ultrices, libero non convallis iaculis, neque ",
+      "Perfect for all types of gardens, whether you have plants in pots or in the ground.",
   },
   {
-    image: init1 ,
-    title: "Our missions ",
+    image: liquidType1_2 ,
+    title: "Liquid Poshan ",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ultrices, libero non convallis iaculis, neque ",
+      "Easy to use - simply mix the liquids as per the instructions and apply to your soil regularly.",
   },
   {
-    image: init1 ,
-    title: "Our missions ",
+    image: liquidType1_3 ,
+    title: "Liquid Poshan ",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ultrices, libero non convallis iaculis, neque ",
+      "The Plant Care Kit by Lazy Gardener is a revolutionary solution that helps you create a balanced ecosystem for your plants, just like in nature.",
   },
-  {
-    image: init1 ,
-    title: "Our missions ",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ultrices, libero non convallis iaculis, neque ",
-  },
+
 ];
 
 export const InitSlide4Data = [
   {
     image: init2_1,
-    title: "Our missions ",
+    title: "Environmental Benfits",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ultrices, libero non convallis iaculis, neque ",
+      "It helps conserving natural resources and protects the air, water & Land Ecosystem from hazardus chemicals and hence pollution ",
   },
   {
     image: init2_2,
-    title: "Our missions ",
+    title: "Environmental Benfits",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ultrices, libero non convallis iaculis, neque ",
+      "It does not produce GHG (Green House Gases) unlike chemical and industrial products of similar category. ",
   },
   {
     image: init2_3,
-    title: "Our missions ",
+    title: "Biological Benefits",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ultrices, libero non convallis iaculis, neque ",
+      "It provides complete nutrition with essenntial groth promoters for quick & healthy groth of the plants",
   },
   {
     image: init2_4,
-    title: "Our missions ",
+    title: "Bilogical Benfits",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ultrices, libero non convallis iaculis, neque ",
+      "Crops, Fruits & Vegetables grown using IWT have high nutritional value and  rich in oxidants.",
   },
   {
     image: init2_5,
-    title: "Our missions ",
+    title: "Physical & Chemical Benfits",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ultrices, libero non convallis iaculis, neque ",
+      "Regular use of IWT imports better soil quality, texture, porosity, water holding capacity,",
   },
   {
     image: init2_6,
-    title: "Our missions ",
+    title: "Physical & Chemical Benfits",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ultrices, libero non convallis iaculis, neque ",
-  },
-  {
-    image: init2_6,
-    title: "Our missions ",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ultrices, libero non convallis iaculis, neque ",
-  },
-  {
-    image: init2_7,
-    title: "Our missions ",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ultrices, libero non convallis iaculis, neque ",
-  },
-  {
-    image: init2_8,
-    title: "Our missions ",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ultrices, libero non convallis iaculis, neque ",
+      "It also improves PH, electrical conductivity and organic matter content for better crop yield.",
   },
 ];

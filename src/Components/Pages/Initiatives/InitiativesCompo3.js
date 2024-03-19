@@ -24,14 +24,14 @@ export const Initiativescompo3 = () => {
                   <img className="h-[170px]" src={intiComp3Img2} alt="" />
                 </div>
   
-                <div className="w-1/6 justify-between relative xl:top-[-180px] right-[150px]">
+                <div className="w-1/6 justify-between relative xl:top-[-130px] right-[150px]">
                   <button className="textgr text-base text-white rounded py-2 px-8 ">
                     Headline #0x{" "}
                   </button>
                   <h1 className="text-sm text-gray-500 mt-2 ">
                      High quality soil enrichment organic matter for all your vegetation needs
                   </h1>
-                  <div className="relative top-[80px] sm:left-[0px] max-sm:-left-[0px] xl:left-[230px]">
+                  <div className="relative top-[90px] sm:left-[0px] max-sm:-left-[0px] xl:left-[230px]">
                     <img className="h-[140px]" src={setting1} alt="" />
                   </div>
                 </div>
@@ -90,7 +90,7 @@ export const Initiativescompo3 = () => {
                   <h1 className="text-sm text-gray-500 mt-2 ">
                     Yield Multiplier -Adis in plant output and seed germination.
                   </h1>
-                  <div className="relative top-[30px] sm:left-[0px] max-sm:-left-[0px] xl:left-[430px]">
+                  <div className="relative top-[120px] sm:left-[0px] max-sm:-left-[0px] xl:left-[430px]">
                     <img className="h-[140px]" src={setting4} alt="" />
                   </div>
                 </div>
@@ -100,10 +100,9 @@ export const Initiativescompo3 = () => {
                     Headline #0x{" "}
                   </button>
                   <h1 className="text-sm text-gray-500 mt-2 ">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Mauris viverra tortor dolor, vel tempor lectus tempor ut.
-                    Vivamus et ornare neque, id tincidunt ante.
+                       Immunity Booster
                   </h1>
+                  <p className="text-sm text-gray-500 mt-2">Reduces prevalence of agricultureal illnessess</p>
                 </div>
   
                 <div className="w-2/6 relative top-[-200px] sm:left-[0px] max-sm:-left-[0px] xl:left-[120px] ">

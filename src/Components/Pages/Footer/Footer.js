@@ -1,57 +1,141 @@
-
-import React from 'react';
-import middLogo from "../../../Components/Assets/Images/mainImg/Nimmin logo emblem with circle.png";
-import linkDinIcon from "../../../Components/Assets/Images/iconImg/Frame 87.png"
+import React from "react";
+import middLogo from "../../../Components/Assets/Images/mainImg/Group 2circlelogo.png";
+import linkDinIcon from "../../../Components/Assets/Images/iconImg/Frame 87.png";
 import { Link } from "react-router-dom";
 
-import instaIcon from "../../../Components/Assets/Images/iconImg/Group 112.png"
-import whatsappIcon from "../../../Components/Assets/Images/iconImg/Group 113.png"
-import fbIcon from "../../../Components/Assets/Images/iconImg/Group 114.png"
-import TwitterIcon from "../../../Components/Assets/Images/iconImg/Group 115.png"
+import instaIcon from "../../../Components/Assets/Images/iconImg/Group 112.png";
+import whatsappIcon from "../../../Components/Assets/Images/iconImg/Group 113.png";
+import fbIcon from "../../../Components/Assets/Images/iconImg/Group 114.png";
+import TwitterIcon from "../../../Components/Assets/Images/iconImg/Group 115.png";
+import { FaInstagram, FaLinkedin, FaTwitter, FaWhatsapp } from "react-icons/fa";
+import { MdEmail, MdTextsms } from "react-icons/md";
 
 export const Footer = () => {
+  const WhatsAppIcon = ({ phoneNumber, message }) => {
+    const handleClick = () => {
+      const whatsappMessage = encodeURIComponent(message);
+      const whatsappURL = `https://wa.me/${phoneNumber}?text=${whatsappMessage}`;
+      window.open(whatsappURL, "_blank");
+    };
+
+    return (
+      <div
+        onClick={handleClick}
+        style={{ cursor: "pointer", marginRight: "10px" }}
+      >
+        <FaWhatsapp size={32} />
+      </div>
+    );
+  };
+
+  const EmailIcon = ({ emailAddress, subject, body }) => {
+    const handleClick = () => {
+      const emailSubject = encodeURIComponent(subject);
+      const emailBody = encodeURIComponent(body);
+      const emailURL = `mailto:${emailAddress}?subject=${emailSubject}&body=${emailBody}`;
+      window.open(emailURL);
+    };
+
+    return (
+      <div
+        onClick={handleClick}
+        style={{ cursor: "pointer", marginRight: "10px" }}
+      >
+        <MdEmail size={32} />
+      </div>
+    );
+  };
+
+  const SMSIcon = ({ phoneNumber, message }) => {
+    const handleClick = () => {
+      const smsMessage = encodeURIComponent(message);
+      const smsURL = `sms:${7267801140}?body=${smsMessage}`;
+      window.open(smsURL);
+    };
+
+    return (
+      <div onClick={handleClick} style={{ cursor: "pointer" }}>
+        <MdTextsms size={32} />
+      </div>
+    );
+  };
+
   return (
-    <footer className="bg-gray-800 text-white py-4">
+    <footer className="footerbg text-white py-4">
       <div className="container mt-4 mx-auto flex flex-col md:flex-row justify-between items-center px-4">
         <div className="flex flex-col md:flex-row items-center">
-        <img  src={middLogo} alt=""  className="h-12 mr-2" style={{width:"100%"}} />
+          <img
+            src={middLogo}
+            alt=""
+            className="h-14 mr-2"
+            style={{ width: "100%" }}
+          />
           {/* <div className="text-sm">NIMMIN</div> */}
-          
         </div>
         <nav className="flex flex-wrap justify-center md:justify-end mt-4 md:mt-0 ">
-          <Link to="#" className="mx-2 pl-4 hover:text-gray-300">Home</Link>
-          <Link to="/about-us" className="mx-2 hover:text-gray-300">About Us</Link>
-          <Link to="/offering" className="mx-2 hover:text-gray-300 ">Offering</Link>
-          <Link to="/initiatives" className="mx-2 hover:text-gray-300">Initiatives</Link>
-          <Link to="/contact" className="mx-2 hover:text-gray-300">Contact Us</Link>
+          <Link to="#" className="mx-2 pl-4 hover:text-gray-300">
+            Home
+          </Link>
+          <Link to="/about-us" className="mx-2 hover:text-gray-300">
+            About Us
+          </Link>
+          <Link to="/offering" className="mx-2 hover:text-gray-300 ">
+            Offering
+          </Link>
+          <Link to="/initiatives" className="mx-2 hover:text-gray-300">
+            Initiatives
+          </Link>
+          <Link to="/contact" className="mx-2 hover:text-gray-300">
+            Contact Us
+          </Link>
         </nav>
         <div className="flex mt-4 md:mt-0 ">
-          
-          <ul className="flex gap-5 justify-end ">
-        <li><Link to="/" >
-              <img src={instaIcon} alt="" />
-            </Link></li>
+          <ul className="flex gap-5 justify-end text-3xl">
+            <li>
+              <Link to="https://www.instagram.com/nimminorganic/">
+                <FaInstagram />
+              </Link>
+            </li>
+            <li>
+              <Link to="/">
+                <FaTwitter />
+              </Link>
+            </li>
+            <li>
+              <Link to="https://www.linkedin.com/in/nimmin-598686298?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
+                <FaLinkedin />
+              </Link>
+            </li>
 
-            <li><Link to="/" >
-              <img src={TwitterIcon} alt="" />
-            </Link></li>
-            <li><Link to="/" >
-              <img src={linkDinIcon} alt="" />
-            </Link></li>
-            <li><Link to="/" >
-              <img src={whatsappIcon} alt="" />
-            </Link></li>
-            <li><Link to="/" >
-              <img src={fbIcon} alt="" />
-            </Link></li>
-         
-     
-        </ul>
+            <li>
+              <Link to="/">
+                <img src={fbIcon} alt="" />
+              </Link>
+            </li>
+            <li>
+              <WhatsAppIcon
+                phoneNumber="+7267801140"
+                message="Your message for WhatsApp here"
+              />
+            </li>
+            <li className="text-blue-500">
+              <EmailIcon
+                emailAddress="example@example.com "
+                subject="Subject for email"
+                body="Body for email"
+              />
+            </li>
+            <li>
+              <SMSIcon
+                phoneNumber="+7267801140"
+                message="Your message for SMS here"
+              />
+            </li>
+          </ul>
         </div>
-        
       </div>
       <div className="container  my-4 text-center">
-        <p>&copy; 2024 Your Company. All rights reserved.</p>
+        <p>&copy; copyright and legal notice 2024</p>
       </div>
     </footer>
   );
