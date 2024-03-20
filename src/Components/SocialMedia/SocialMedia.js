@@ -13,18 +13,18 @@ export const SocialMedia = () => {
       <div className="container mx-auto pt-6 ">
         <ul className="flex gap-5 justify-end ">
           <li>
-            <Link to="/">
+            <Link to="https://www.instagram.com/nimminorganic/">
               <img src={instaIcon} alt="" />
             </Link>
           </li>
 
           <li>
-            <Link to="/">
+            <Link to="https://twitter.com/Nimmin221021">
               <img src={TwitterIcon} alt="" />
             </Link>
           </li>
           <li>
-            <Link to="/">
+            <Link to="https://www.linkedin.com/in/nimmin-598686298?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
               <img src={linkDinIcon} alt="" />
             </Link>
           </li>

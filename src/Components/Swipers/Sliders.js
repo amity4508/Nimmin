@@ -15,7 +15,7 @@ export const slidesData = [
   {
     image: hero1,
     title:
-      "Plant based vermi compost manure,  100% Organic Fertilizer Enriched with all essential nutrients",
+      "Plant based vermi compost manure,100% Organic Fertilizer Enriched with all essential nutrients",
     description: `Prepared using organic waste and dung in a specific proportion.
        Natural catalyst : Improves the Water holding capacity of soil that helps moister retention.`,
   },
@@ -113,7 +113,7 @@ export const Sliders2 = ({ slides2 = slidesData2 }) => {
   };
   return (
     <>
-      <div className="container mx-auto justify-center py-[10px] max-sm:py-[20px] max-md:py-[20px] max-lg:py-[30px] max-sm:px-8">
+      <div className="container mx-auto justify-center py-[10px] max-sm:py-[20px] max-md:py-[20px] max-lg:py-[30px]  max-sm:px-8">
         <div className="">
           <Swiper
             // slidesPerView={3}
@@ -186,7 +186,7 @@ export const Sliders2 = ({ slides2 = slidesData2 }) => {
 export const Sliders3 = ({ slides2 = slidesData2 }) => {
   return (
     <>
-      <div className="container mx-auto justify-center py-[10px] max-sm:py-[20px] max-md:py-[20px] max-lg:py-[30px] max-sm:px-8">
+      <div className="container mx-auto justify-center py-[10px] max-sm:py-[20px] max-md:py-[20px] max-lg:py-[30px]  max-sm:px-8">
         <div>
           <Swiper
             // slidesPerView={3}

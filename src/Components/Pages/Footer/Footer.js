@@ -49,7 +49,7 @@ export const Footer = () => {
   const SMSIcon = ({ phoneNumber, message }) => {
     const handleClick = () => {
       const smsMessage = encodeURIComponent(message);
-      const smsURL = `sms:${7267801140}?body=${smsMessage}`;
+      const smsURL = `sms:${8595903939}?body=${smsMessage}`;
       window.open(smsURL);
     };
 
@@ -61,15 +61,15 @@ export const Footer = () => {
   };
 
   return (
-    <footer className="footerbg footertext py-4">
+    <footer className="footerbg footertext  py-4">
       <div className="container mt-4 mx-auto flex flex-col md:flex-row justify-between items-center px-4">
         <div className="flex flex-col md:flex-row items-center">
-          <img
+           <Link to="/" >   <img
             src={middLogo}
             alt=""
             className="h-12 mr-2"
             style={{ width: "100%" }}
-          />
+          /></Link>
           {/* <div className="text-sm">NIMMIN</div> */}
         </div>
         <nav className="flex flex-wrap justify-center md:justify-end mt-4 md:mt-0  ">
@@ -90,44 +90,44 @@ export const Footer = () => {
           </Link>
         </nav>
         <div className="flex mt-4 md:mt-0 ">
-          <ul className="flex gap-5 justify-end text-3xl">
-            <li>
+          <ul className="flex gap-5 justify-end text-3xl ">
+            <li className="hover:text-blue-400">
               <Link to="https://www.instagram.com/nimminorganic/">
                 <FaInstagram />
               </Link>
             </li>
-            <li>
-              <Link to="/">
+            <li className="hover:text-blue-400">
+              <Link to="https://twitter.com/Nimmin221021">
                 <FaTwitter />
               </Link>
             </li>
-            <li>
+            <li className="hover:text-blue-400">
               <Link to="https://www.linkedin.com/in/nimmin-598686298?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
                 <FaLinkedin />
               </Link>
             </li>
 
-            {/* <li>
+            {/* <li className="hover:text-blue-400">
               <Link to="/">
                 <img src={fbIcon} alt="" />
               </Link>
             </li> */}
-            <li>
+            <li className="hover:text-blue-400">
               <WhatsAppIcon
-                phoneNumber="+7267801140"
+                phoneNumber="+8595903939"
                 message="Your message for WhatsApp here"
               />
             </li>
-            <li className="">
+            <li className="hover:text-blue-400">
               <EmailIcon
                 emailAddress="example@example.com "
                 subject="Subject for email"
                 body="Body for email"
               />
             </li>
-            <li>
+            <li className="hover:text-blue-400">
               <SMSIcon
-                phoneNumber="+7267801140"
+                phoneNumber="+8595903939"
                 message="Your message for SMS here"
               />
             </li>
@@ -140,5 +140,4 @@ export const Footer = () => {
     </footer>
   );
 };
-
 export default Footer;

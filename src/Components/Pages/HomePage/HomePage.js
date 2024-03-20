@@ -38,7 +38,7 @@ export const Homepage = () => {
       </div>
 
       <div
-        className="mt-0 xl:px-24 md:px-24 sm:px-5 "
+        className="mt-0 xl:px-24 md:px-24 sm:px-5 pb-6 "
         style={{
           backgroundImage: `linear-gradient(to bottom, rgba(8, 41, 35, 0.8), rgba(38, 175, 124, 0.8)), url(${process.env.PUBLIC_URL}/bgImg2.png)`,
           backgroundPosition: "center",
@@ -54,7 +54,7 @@ export const Homepage = () => {
       </div>
 
       <div
-        className="mt-0 xl:px-24 md:px-24 sm:px-5 "
+        className="mt-0 xl:px-24 md:px-24 sm:px-5 pb-6 "
         style={{
           backgroundImage: `linear-gradient(to bottom, rgba(8, 41, 35, 0.8), rgba(38, 175, 124, 0.8)), url(${process.env.PUBLIC_URL}/bgImg2.png)`,
           backgroundPosition: "center",
@@ -71,7 +71,7 @@ export const Homepage = () => {
 
       {/* Sliders2 ---- Brooms---------------------------------------*/}
       <div
-        className="mt-0 xl:px-24 md:px-24 sm:px-5 "
+        className="mt-0 xl:px-24 md:px-24 sm:px-5 pb-6 "
         style={{
           backgroundImage: `linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)), url(${process.env.PUBLIC_URL}/bgImg3.png)`,
           backgroundPosition: "center",
@@ -91,7 +91,7 @@ export const Homepage = () => {
       {/* broom2 */}
 
       <div
-        className="mt-0 xl:px-24 md:px-24 sm:px-5 "
+        className="mt-0 xl:px-24 md:px-24 sm:px-5 pb-6 "
         style={{
           backgroundImage: `linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)), url(${process.env.PUBLIC_URL}/bgImg3.png)`,
           backgroundPosition: "center",
@@ -107,7 +107,7 @@ export const Homepage = () => {
       {/* -- */}
 
       <div
-        className="mt-0 xl:px-24 md:px-24 sm:px-5 "
+        className="mt-0 xl:px-24 md:px-24 sm:px-5 pb-6 "
         style={{
           backgroundImage: `linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)), url(${process.env.PUBLIC_URL}/bgImg3.png)`,
           backgroundPosition: "center",
@@ -122,7 +122,7 @@ export const Homepage = () => {
       </div>
 
       <div
-        className="mt-0 xl:px-24 md:px-24 sm:px-5 "
+        className="mt-0 xl:px-24 md:px-24 sm:px-5 pb-6 "
         style={{
           backgroundImage: `linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)), url(${process.env.PUBLIC_URL}/bgImg3.png)`,
           backgroundPosition: "center",
@@ -139,7 +139,7 @@ export const Homepage = () => {
       {/* Slider header 3  Liquid -----------------Liquidf Poshan---------------------------------------------------*/}
 
       <div
-        className=" mt-0 xl:px-24 md:px-24 sm:px-5 "
+        className=" mt-0 xl:px-24 md:px-24 sm:px-5 pb-6 "
         style={{
           backgroundImage: `linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)), url(${process.env.PUBLIC_URL}/bgImg4.png)`,
           backgroundPosition: "center",
@@ -158,7 +158,7 @@ export const Homepage = () => {
       </div>
       {/* liquid 2 */}
       <div
-        className=" mt-0 xl:px-24 md:px-24 sm:px-5 "
+        className=" mt-0 xl:px-24 md:px-24 sm:px-5 pb-6 "
         style={{
           backgroundImage: `linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)), url(${process.env.PUBLIC_URL}/bgImg4.png)`,
           backgroundPosition: "center",
@@ -177,7 +177,7 @@ export const Homepage = () => {
       </div>
 
       <div
-        className=" mt-0 xl:px-24 md:px-24 sm:px-5 "
+        className=" mt-0 xl:px-24 md:px-24 sm:px-5 pb-6 "
         style={{
           backgroundImage: `linear-gradient(to bottom, rgba(8, 41, 35, 0.7), rgba(38, 175, 124, 0.3)), url(${process.env.PUBLIC_URL}/bgImg5.png)`,
           backgroundPosition: "center",
