@@ -642,11 +642,9 @@ export const InitiativesSlide2 = [
   },
   {
     image: setting5,
-
     description:
       "Highly graded, free flowing & identical granule size unlike other vermicompost in market which are mostly in powder form.",
   },
-
 ];
 export const CompainedSlide3 = [
   {

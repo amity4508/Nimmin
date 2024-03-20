@@ -1,7 +1,6 @@
 import React, { useEffect } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
-import slide3 from "../Assets/Images/mainImg/mobilebg.jpg";
 import { OfferingsCompo1 } from "../Cards/card1";
 import product1 from "../../Components/Assets/Images/NimminProduct/VormiType2_10.png";
 import product1left from "../../Components/Assets/Images/NimminProduct/vermiType2.11.png";

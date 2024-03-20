@@ -61,18 +61,18 @@ export const Footer = () => {
   };
 
   return (
-    <footer className="footerbg text-white py-4">
+    <footer className="footerbg footertext py-4">
       <div className="container mt-4 mx-auto flex flex-col md:flex-row justify-between items-center px-4">
         <div className="flex flex-col md:flex-row items-center">
           <img
             src={middLogo}
             alt=""
-            className="h-14 mr-2"
+            className="h-12 mr-2"
             style={{ width: "100%" }}
           />
           {/* <div className="text-sm">NIMMIN</div> */}
         </div>
-        <nav className="flex flex-wrap justify-center md:justify-end mt-4 md:mt-0 ">
+        <nav className="flex flex-wrap justify-center md:justify-end mt-4 md:mt-0  ">
           <Link to="#" className="mx-2 pl-4 hover:text-gray-300">
             Home
           </Link>
@@ -107,18 +107,18 @@ export const Footer = () => {
               </Link>
             </li>
 
-            <li>
+            {/* <li>
               <Link to="/">
                 <img src={fbIcon} alt="" />
               </Link>
-            </li>
+            </li> */}
             <li>
               <WhatsAppIcon
                 phoneNumber="+7267801140"
                 message="Your message for WhatsApp here"
               />
             </li>
-            <li className="text-blue-500">
+            <li className="">
               <EmailIcon
                 emailAddress="example@example.com "
                 subject="Subject for email"
@@ -134,7 +134,7 @@ export const Footer = () => {
           </ul>
         </div>
       </div>
-      <div className="container  my-4 text-center">
+      <div className="container mx-auto  my-4 text-center">
         <p>&copy; copyright and legal notice 2024</p>
       </div>
     </footer>

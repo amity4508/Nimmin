@@ -8,7 +8,7 @@ import liquidType3_1 from "../../../Components/Assets/Images/NimminProduct/liqui
 export const AboutUs = () => {
   return (
     <>
-      <section className="AboutUs mb-10">
+      <section className="AboutUs">
         {/* about AboutDetails  */}
         <div
           className=" mt-0 xl:px-24 md:px-24 sm:px-5 py-16 bg-white relative "

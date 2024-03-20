@@ -67,7 +67,7 @@ export const Slider1 = ({ slides = slidesData }) => {
                       src={slide.image}
                       alt={`Slide ${index + 1}`}
                     />
-                    <div className="absolute px-10 top-[30%] xl:w-[50%] md:w-[60%]  object-center xl:left-[10%] md:left-[15%] sm:left-[10%] z-40">
+                    <div className="absolute px-10   max-sm:top-[28%] top-[30%] xl:w-[50%] md:w-[60%]  object-center xl:left-[10%] md:left-[15%] sm:left-[10%] z-40">
                       <h1 className="text-3xl max-sm:text-2xl font-bold xl:tracking-wider max-sm:tracking-wide text-white">
                         {slide.title}
                       </h1>
@@ -113,7 +113,7 @@ export const Sliders2 = ({ slides2 = slidesData2 }) => {
   };
   return (
     <>
-      <div className="container mx-auto justify-center py-[40px] max-sm:py-[90px] max-md:py-[90px] max-lg:py-[90px] max-sm:px-8">
+      <div className="container mx-auto justify-center py-[10px] max-sm:py-[20px] max-md:py-[20px] max-lg:py-[30px] max-sm:px-8">
         <div className="">
           <Swiper
             // slidesPerView={3}
@@ -149,7 +149,7 @@ export const Sliders2 = ({ slides2 = slidesData2 }) => {
             {slides2.map((slide, index) => (
               <SwiperSlide
                 key={index}
-                className="rounded max-sm:rounded-xl py-6 min-h-[400px] max-h-28  "
+                className="rounded max-sm:rounded-xl py-6 min-h-[430px] max-h-28  "
               >
                 <div className="card container items-center justify-center">
                   <div className="items-center text-center text-white">
@@ -161,7 +161,7 @@ export const Sliders2 = ({ slides2 = slidesData2 }) => {
                       />
                     </div>
 
-                    <div className="px-10 top-[90px]">
+                    <div className="px-2 top-[90px]">
                       <h1 className="text-xl text-white">{slide.title}</h1>
                       <h1 className="text-sm font-thin text-white mt-2">
                         {slide.description}
@@ -186,7 +186,7 @@ export const Sliders2 = ({ slides2 = slidesData2 }) => {
 export const Sliders3 = ({ slides2 = slidesData2 }) => {
   return (
     <>
-      <div className="container mx-auto justify-center py-[40px] max-sm:py-[90px] max-md:py-[90px] max-lg:py-[90px] max-sm:px-8">
+      <div className="container mx-auto justify-center py-[10px] max-sm:py-[20px] max-md:py-[20px] max-lg:py-[30px] max-sm:px-8">
         <div>
           <Swiper
             // slidesPerView={3}
@@ -220,7 +220,7 @@ export const Sliders3 = ({ slides2 = slidesData2 }) => {
             {slides2.map((slide, index) => (
               <SwiperSlide
                 key={index}
-                className="rounded max-sm:rounded-xl py-6 min-h-[400px] max-h-28 bg-black  bg-opacity-30 bghoverCard"
+                className="rounded max-sm:rounded-xl py-6 min-h-[430px] max-h-28 bg-black  bg-opacity-30 bghoverCard"
               >
                 <div className="card container items-center justify-center">
                   <div className="items-center text-center text-white">
@@ -232,7 +232,7 @@ export const Sliders3 = ({ slides2 = slidesData2 }) => {
                       />
                     </div>
 
-                    <div className="px-10 top-[90px]">
+                    <div className="px-2 top-[90px]">
                       <h1 className="text-xl text-white">{slide.title}</h1>
                       <h1 className="text-sm font-thin text-white mt-2">
                         {slide.description}
@@ -293,7 +293,7 @@ export const Sliders4 = ({ slides2 = slidesData2 }) => {
             {slides2.map((slide, index) => (
               <SwiperSlide
                 key={index}
-                className="rounded max-sm:rounded-xl py-6 min-h-[400px] max-h-28   bg-opacity-30	"
+                className="rounded max-sm:rounded-xl py-6 min-h-[430px] max-h-28   bg-opacity-30	"
               >
                 <div className="card container items-center justify-center ">
                   <div className="items-center text-center text-white ">
@@ -380,7 +380,7 @@ export const CompainedSlide = ({ slides2 = slidesData2 }) => {
                       />
                     </div>
 
-                    <div className="px-10 top-[90px]">
+                    <div className="px-2 top-[90px]">
                       <h1 className="text-xl text-white">{slide.title}</h1>
                       <h1 className="text-sm font-thin text-white mt-2">
                         {slide.description}
@@ -551,7 +551,7 @@ export const InitiativeSlider4 = ({ slides2 = slidesData2 }) => {
             {slides2.map((slide, index) => (
               <SwiperSlide
                 key={index}
-                className="rounded max-sm:rounded-xl py-6 min-h-[400px] max-h-28   bg-opacity-30	"
+                className="rounded max-sm:rounded-xl py-6 min-h-[430px] max-h-28   bg-opacity-30	"
               >
                 <div className="card container items-center justify-center">
                   <div className="items-center text-center text-white">

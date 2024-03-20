@@ -1,5 +1,6 @@
 {
   "name": "nimin-web",
+  "homepage": "http://mybananaproduct.com",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
