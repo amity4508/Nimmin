@@ -1,7 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import linkDinIcon from "../Assets/Images/iconImg/Frame 87.png";
-
 import instaIcon from "../Assets/Images/iconImg/Group 112.png";
 import whatsappIcon from "../Assets/Images/iconImg/Group 113.png";
 import fbIcon from "../Assets/Images/iconImg/Group 114.png";
@@ -17,7 +16,6 @@ export const SocialMedia = () => {
               <img src={instaIcon} alt="" />
             </Link>
           </li>
-
           <li>
             <Link to="https://twitter.com/Nimmin221021">
               <img src={TwitterIcon} alt="" />
