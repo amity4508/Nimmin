@@ -67,7 +67,7 @@ const Navbar = () => {
 
       {/* <nav className={`navbar ${scrolling ? 'scrolling' : ''}`} style={{ position: window.innerWidth < 1024 ? 'fixed' : 'relative', top: 0, width: '100%', zIndex: 10, backgroundColor: scrolling && window.innerWidth < 1024 ? 'white' : 'transparent' }}> */}
     <div 
-        className={`navbar ${scrolling ? "hidden" : ""} mb-4 xl:py-5`}
+        className={`navbar ${scrolling ? "hidden" : ""} mb-4 xl:py-5 max-xl:py-10` }
         style={{
           position: "fixed",
           top: 0,
@@ -140,8 +140,8 @@ const Navbar = () => {
             </div>
 
             {/* Middle Nav  */}
-            <div className="hidden lg:flex gap-10 text-white list-none items-center justify-center">
-              <div>
+            <div className="hidden lg:flex gap-10 text-white list-none items-center justify-center ">
+              <div className="max-xl:hidden" >
                 <li>
                   <Link to="/">
                     <img className="h-24" src={middLogo} alt="" />
@@ -149,7 +149,7 @@ const Navbar = () => {
                 </li>
               </div>
 
-              <div className="flex flex-col text-start justify-center font-semibold">
+              <div className="flex flex-col text-start justify-center font-semibold max-xl:hidden ">
                 <h1 className="text-[23px] leading-7	">
                   <span className="text-green-900">Prakriti </span>Nahi
                 </h1>

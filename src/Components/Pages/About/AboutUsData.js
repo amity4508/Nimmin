@@ -10,7 +10,7 @@ export const AboutUsSlide1 = [
     image: about1,
     title: "Organic Waste(Solid & Liquid)",
     description:
-      "Agricultureal waste mixed with cow Dung in a specific proporiton to meet all nutritional requirement for the plant ",
+      "Agricultureal waste mixed with cow Dung in a specific proportion to meet all nutritional requirement for the plant ",
   },
 
   {

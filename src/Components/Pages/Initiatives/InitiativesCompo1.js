@@ -41,7 +41,7 @@ export const Initiativescompo1 = () => {
                   priorities of greener and healthier planet. We bring a essence
                   of transforming agricultural waste into valuable resource.
                   With our commitment to environmental stewardship, we harness
-                  discarded banana byproduct to create innovative solution.
+                  discarded banana by product to create innovative solution.
                 </p>
                 <br></br>
                 <p>

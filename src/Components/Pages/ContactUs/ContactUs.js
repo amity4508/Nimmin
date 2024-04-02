@@ -26,7 +26,7 @@ export const ContactUs = () => {
             {/* // */}
             <div className="container w-full max-sm:w-full lg:w-1/3 bgcont text-center px-16 rounded lg:h-[520px]  ">
               <div className="bgcont2 z-50 h-[160px] w-[160] relative right-[65px]"></div>
-              <div className="relative bottom-[90px]">
+              <div className="relative bottom-[90px] z-50 ">
                 <h1 className="text-2xl mb-2 font-bold">Contact Information</h1>
                 <p className="">Say something to start a live chat!</p>
                 <div className="mt-10 ">
@@ -38,14 +38,14 @@ export const ContactUs = () => {
                     <FontAwesomeIcon icon={faEnvelope} className="mr-2" />
                     demo@gmail.com
                   </p>
-                  <p className="text-sm mt-4">
+                  <p className="text-sm mt-4 z-50">
                     <FontAwesomeIcon icon={faMapMarker} className="mr-2" />
                     132 Dartmouth Street Boston, Massachusetts 02156 United
                     States
                   </p>
                 </div>
-                <div className="contbgoutline  h-[170px] w-[170] relative  top-[40px] md:left-[105px] lg:top-[-60px] lg:left-[85px] sm:left-0 max-sm:left-0">
-                  <div className="contbgoutline2 z-50 h-[160px] w-[160] "></div>
+                <div className="contbgoutline  h-[170px] w-[170] relative  top-[40px] md:left-[105px] lg:top-[-60px] xl:top-[-50px] lg:left-[85px] xl:left-[105px] sm:left-0 max-sm:left-0">
+                  <div className="contbgoutline2  h-[160px] w-[160] "></div>
                 </div>
               </div>
             </div>

@@ -27,7 +27,7 @@ export const Header = () => {
   return (
     <>
  <div
-  className="header xl:h-[95vh] items-center justify-center"
+  className="header xl:h-[95%] items-center justify-center"
   style={{
     backgroundImage: `linear-gradient(to right, rgba(35, 85, 77, 0.9), rgba(35, 85, 77, 0.5)), url(${backgroundImage})`,
     backgroundPosition: "center",
@@ -36,7 +36,7 @@ export const Header = () => {
     backgroundAttachment:"fixed"
   }}>
   {/* Your content goes here */}
-        <div className="max-lg:hidden">
+        <div className=" max-lg:hidden">
           <SocialMedia />
         </div>
         <div>

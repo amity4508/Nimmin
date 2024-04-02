@@ -126,7 +126,7 @@ export const AboutDetails = () => {
               of greener and healthier planet. We bring a essence of
               transforming agricultural waste into valuable resource. With our
               commitment to environmental stewardship, we harness discarded
-              banana byproduct to create innovative solution.
+              banana by product to create innovative solution.
             </h1>
             <br></br>
             <h1 className="xl:text-xl max-sm:text-lg sm:text-xl">
