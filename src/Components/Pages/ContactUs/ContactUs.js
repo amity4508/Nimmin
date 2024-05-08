@@ -32,7 +32,7 @@ export const ContactUs = () => {
                 <div className="mt-10 ">
                   <p className="text-sm mt-4">
                     <FontAwesomeIcon icon={faPhone} className="mr-2" />
-                    +1012 3456 789
+                    8595903939
                   </p>
                   <p className="text-sm mt-4">
                     <FontAwesomeIcon icon={faEnvelope} className="mr-2" />
@@ -40,8 +40,8 @@ export const ContactUs = () => {
                   </p>
                   <p className="text-sm mt-4 z-50">
                     <FontAwesomeIcon icon={faMapMarker} className="mr-2" />
-                    132 Dartmouth Street Boston, Massachusetts 02156 United
-                    States
+                    B-99, 5th Floor, Phase-I Panchsheel Park
+                    Malviya Nagar, Near Triveni Complex New Delhi - 110017
                   </p>
                 </div>
                 <div className="contbgoutline  h-[170px] w-[170] relative  top-[40px] md:left-[105px] lg:top-[-60px] xl:top-[-50px] lg:left-[85px] xl:left-[105px] sm:left-0 max-sm:left-0">

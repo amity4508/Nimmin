@@ -50,11 +50,10 @@ export const InitSlider1 = ({ slides2 = slidesData2 }) => {
                 const progressWidth = (current / total) * 100; 
                 
                 return `
-                <div class=" relative top-[10px]">
-                <div class="swiper-pagination-fraction" style="color: #ffff;">${current} / ${total}</div>
-                <div class="swiper-pagination-progressbar" style="background: #00ff00; width: ${progressWidth}%;"> </div>
-              </div>
-                `;
+                <div class=" relative top-[10px] py-50">
+                <div class="swiper-pagination-fraction" style="color: black;">${current} / ${total}</div>
+                <div class="swiper-pagination-progressbar" style="background: black; width: ${progressWidth}%;"> </div>
+              </div>`;
               },
             }}
             
