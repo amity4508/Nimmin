@@ -9,6 +9,7 @@ import fbIcon from "../../../Components/Assets/Images/iconImg/Group 114.png";
 import TwitterIcon from "../../../Components/Assets/Images/iconImg/Group 115.png";
 import { FaInstagram, FaLinkedin, FaTwitter, FaWhatsapp } from "react-icons/fa";
 import { MdEmail, MdTextsms } from "react-icons/md";
+import { SocialMedia } from "../../SocialMedia/SocialMedia";
 
 export const Footer = () => {
   const WhatsAppIcon = ({ phoneNumber, message }) => {
@@ -125,12 +126,12 @@ export const Footer = () => {
                 body="Body for email"
               />
             </li>
-            <li className="hover:text-blue-400">
+            {/* <li className="hover:text-blue-400">
               <SMSIcon
-                phoneNumber="+8595903939"
+                phoneNumber="+91 8595903939"
                 message="Your message for SMS here"
               />
-            </li>
+            </li> */}
           </ul>
         </div>
       </div>

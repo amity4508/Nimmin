@@ -7,6 +7,7 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import shadeImg1 from "../../../Components/Assets/Images/mainImg/Vector (12).png";
 import shadeImg2 from "../../../Components/Assets/Images/mainImg/Vector (13).png";
+import { Link } from "react-router-dom";
 
 export const ContactUs = () => {
   return (
@@ -30,14 +31,18 @@ export const ContactUs = () => {
                 <h1 className="text-2xl mb-2 font-bold">Contact Information</h1>
                 <p className="">Say something to start a live chat!</p>
                 <div className="mt-10 ">
-                  <p className="text-sm mt-4">
+                
+                  
+                 <p>
+                 <Link to="tel:8595903939"  className="text-sm mt-4">
                     <FontAwesomeIcon icon={faPhone} className="mr-2" />
                     8595903939
-                  </p>
-                  <p className="text-sm mt-4">
+                  </Link>
+                 </p>
+                  <Link to="mail:info@mybananaproduct.com " className="text-sm mt-4">
                     <FontAwesomeIcon icon={faEnvelope} className="mr-2" />
-                    demo@gmail.com
-                  </p>
+                    info@mybananaproduct.com
+                  </Link>
                   <p className="text-sm mt-4 z-50">
                     <FontAwesomeIcon icon={faMapMarker} className="mr-2" />
                     B-99, 5th Floor, Phase-I Panchsheel Park

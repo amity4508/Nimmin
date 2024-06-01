@@ -9,7 +9,7 @@ import TwitterIcon from "../Assets/Images/iconImg/Group 115.png";
 export const SocialMedia = () => {
   return (
     <>
-      <div className="container mx-auto pt-6 ">
+      <div className="container mx-auto pt-6  ">
         <ul className="flex gap-5 justify-end ">
           <li>
             <Link to="https://www.instagram.com/nimminorganic/">
@@ -27,12 +27,12 @@ export const SocialMedia = () => {
             </Link>
           </li>
           <li>
-            <Link to="/">
+            <Link to="https://wa.me/8595903939?text=Hello%20there!">
               <img src={whatsappIcon} alt="" />
             </Link>
           </li>
           <li>
-            <Link to="/">
+            <Link to="https://www.facebook.com/profile.php?id=61554869840940">
               <img src={fbIcon} alt="" />
             </Link>
           </li>

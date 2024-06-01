@@ -66,12 +66,14 @@ const Navbar = () => {
       {/* this only for small screen */}
 
       {/* <nav className={`navbar ${scrolling ? 'scrolling' : ''}`} style={{ position: window.innerWidth < 1024 ? 'fixed' : 'relative', top: 0, width: '100%', zIndex: 10, backgroundColor: scrolling && window.innerWidth < 1024 ? 'white' : 'transparent' }}> */}
-    <div 
-        className={`navbar ${scrolling ? "hidden" : ""} mb-4 xl:py-5 max-xl:py-10` }
+   <div className=" container mx-auto ">
+   <div 
+        className={`navbar  ${scrolling ? "hidden" : ""} mb-4 xl:py-5 max-xl:py-10` }
         style={{
           position: "fixed",
           top: 0,
-          width: "100%",
+          // width: "100%",
+          marginLeft:"0px",
           zIndex: 10,
           backgroundColor: "transparent",
         }}
@@ -241,6 +243,8 @@ const Navbar = () => {
       </nav>
     </div>
 
+   </div>
+
       {/* Navbar2  ---------------------------- */}
     
     
@@ -320,6 +324,5 @@ const Navbar = () => {
     </>
   );
 };
-
 export default Navbar;
 
